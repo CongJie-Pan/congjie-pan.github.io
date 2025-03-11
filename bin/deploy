@@ -57,7 +57,7 @@ echo "📤 正在部署到 GitHub Pages..."
 
 if [[ $1 == '--user' ]]; then
   # 個人 GitHub Pages 直接提交到 master 分支
-  echo "🔍 部署到個人 GitHub Pages: $GITHUB_USERNAME.github.io"
+  echo "🔍 部署到個人 GitHub Pages: congjie-pan.github.io"
   
   # 確保在 master 分支
   if [[ $(git rev-parse --abbrev-ref HEAD) != "master" ]]; then
@@ -111,4 +111,9 @@ else
 fi
 
 echo "✅ 部署完成！"
-echo "🌐 您的網站已發布到 https://$GITHUB_USERNAME.github.io/$([ "$1" != "--user" ] && echo "$GITHUB_REPONAME/")" 
+# 修改網址顯示方式，使其更明確
+if [[ $1 == '--user' ]]; then
+  echo "🌐 您的網站已發布到 https://congjie-pan.github.io/"
+else
+  echo "🌐 您的網站已發布到 https://$GITHUB_USERNAME.github.io/$GITHUB_REPONAME/"
+fi 

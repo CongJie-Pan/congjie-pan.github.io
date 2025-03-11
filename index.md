@@ -5,7 +5,7 @@ entries_layout: list
 posts_limit: 0
 ---
 
-I am a junior at Chung Yuan Christian University, researching <a href="/docs/基於RA-LLMs架構下的古漢語知識問答系統之構建.pdf" target="_blank"><strong>knowledge-based question answering system in Ancient Chinese</strong></a> under Professor [Chin-Hui Lai](https://chlai045.github.io/){:target="_blank"}.
+I am a junior at Chung Yuan Christian University, researching <a href="./docs/基於RA-LLMs架構下的古漢語知識問答系統之構建.pdf" target="_blank"><strong>knowledge-based question answering system in Ancient Chinese</strong></a> under Professor [Chin-Hui Lai](https://chlai045.github.io/){:target="_blank"}.
 
 My cross-disciplinary background in information management and Ancient Chinese stems from my experiences exploring Ancient Chinese through coursework, earning an top alternate spot in National Taiwan University's department of Chinese transfer exam, and tutoring Chinese in an academic support club at NTU. 
 
