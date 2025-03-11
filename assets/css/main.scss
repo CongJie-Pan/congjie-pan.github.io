@@ -6,3 +6,306 @@ sitemap: false
 @charset "utf-8";
 
 @import "so-simple";
+
+/* 響應式設計 */
+:root {
+  --content-width: min(90vw, 900px);
+  --padding-mobile: 0.5rem;
+  --padding-desktop: 2rem;
+  --base-font-size: 18px;        /* 基礎字體大小 */
+  --mobile-font-size: 16px;      /* 手機版字體大小 */
+  --small-screen-font-size: 15px; /* 超小螢幕字體大小 */
+}
+
+/* 調整內容寬度和置中 */
+.page-wrapper {
+  max-width: 100% !important;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.main-content {
+  width: var(--content-width) !important;
+  max-width: var(--content-width) !important;
+  padding: 0 var(--padding-desktop);
+  margin: 0 auto;
+}
+
+/* 確保內容區塊也置中 */
+.site-content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.page-content,
+.entry-content {
+  width: 100%;
+  max-width: var(--content-width);
+  margin: 0 auto;
+}
+
+/* 文字和間距設定 */
+.page-content p, 
+.page-content li,
+.entry-content p,
+.entry-content li {
+  line-height: 1.8;
+  margin-bottom: 1em;  /* 統一所有段落的底部間距 */
+  font-size: var(--base-font-size);
+  white-space: normal;   /* 確保文字正常換行 */
+  word-wrap: break-word; /* 確保長文字正確換行 */
+  overflow-wrap: break-word; /* 改善長字詞的換行 */
+  hyphens: auto; /* 允許單詞斷字 */
+}
+
+/* 特別處理帶有強調文字的段落，防止意外斷行 */
+.page-content p strong,
+.entry-content p strong {
+  display: inline;
+  white-space: normal;
+}
+
+/* 特別處理第一段文字 */
+/* 特別處理第一段文字
+.page-content p:first-of-type,
+.entry-content p:first-of-type {
+  margin-bottom: 0.3em;    
+}
+*/
+
+.page-content h2,
+.page-content h3,
+.entry-content h2,
+.entry-content h3 {
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+  font-size: clamp(1.4rem, 4vw, 1.8rem);  /* 增加標題大小 */
+}
+
+/* 列表項目設定 */
+// .page-content ul,
+// .entry-content ul {
+//   margin-bottom: 5px;
+//   padding-left: 1em;
+// }
+
+.page-content ul li,
+.entry-content ul li {
+  margin-bottom: 3px;
+}
+
+/* 增加大項間距 - 直接針對第一級列表項目 */
+.page-content > ul > li,
+.entry-content > ul > li {
+  margin-bottom: 25px; /* 增加主要項目之間的間距 */
+  padding-bottom: 10px; /* 添加內部底部間距 */
+}
+
+/* Logo 設定 */
+.site-logo {
+  width: min(80vw, 200px);
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.site-logo-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;  /* 確保圖像是圓形的 */
+  object-fit: cover;   /* 確保圖像不被拉伸 */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);  /* 添加較小的陰影效果 */
+}
+
+/* 手機版適配 */
+@media screen and (max-width: 768px) {
+  .main-content {
+    padding: 0 var(--padding-mobile);
+    margin-left: 0;
+    width: 100% !important;
+  }
+
+  .page-content,
+  .entry-content {
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .page-content p, 
+  .page-content li,
+  .entry-content p,
+  .entry-content li {
+    line-height: 1.6;    /* 調整手機版的行高 */
+    margin-bottom: 0.8em; /* 調整手機版的段落間距 */
+    font-size: var(--mobile-font-size);
+  }
+
+  .page-content h2,
+  .page-content h3,
+  .entry-content h2,
+  .entry-content h3 {
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
+  }
+
+  /* 調整列表縮進 */
+  .page-content ul,
+  .entry-content ul {
+    padding-left: 1.2em;
+    margin-left: 0;
+  }
+
+  /* 調整子列表的間距 */
+  .page-content ul ul,
+  .entry-content ul ul {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+  }
+}
+
+/* 超小螢幕適配 */
+@media screen and (max-width: 480px) {
+  :root {
+    --padding-mobile: 0.3rem;
+  }
+
+  .main-content {
+    padding: 0 var(--padding-mobile);
+  }
+
+  .page-content p, 
+  .page-content li,
+  .entry-content p,
+  .entry-content li {
+    font-size: var(--small-screen-font-size);
+  }
+}
+
+/* 專案連結樣式 - 創建獨立的類別 */
+.project-link {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 2px;
+  color: #2c3e50;
+  padding: 0.4em 0.5em;
+  display: inline-flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.3s;
+  background: none;
+  
+  &:hover {
+    background-color: #f0f0f0;
+    color: #1a252f;
+    transform: translateY(-2px);
+  }
+
+  i {
+    font-size: 1.2em;
+    margin-right: 1.5em;
+  }
+}
+
+/* 普通內文連結樣式 */
+.entry-content a:not(.project-link),
+.page-content a:not(.project-link) {
+  color: #000000; /* 改為黑色 */
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+  transition: color 0.2s;
+  
+  &:hover {
+    color: #333333; /* 懸停時深灰色 */
+    text-decoration-thickness: 2px;
+  }
+}
+
+/* 連結之間的分隔樣式 */
+.entry-content a + a::before,
+.page-content a + a::before {
+  content: none;  /* 移除自動生成的分隔線 */
+}
+
+/* 自定義分隔線樣式 */
+.link-divider {
+  display: inline-block;
+  width: 2px;
+  height: 1.2em;
+  background-color: #95a5a6;
+  //margin: 0 1em;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}
+
+/* 分隔線樣式 */
+.entry-content a + span,
+.page-content a + span {
+  color: #7f8c8d;
+  font-weight: bold;
+}
+
+/* 移除專案連結前的圓點並調整位置 */
+.entry-content ul li,
+.page-content ul li {
+  &:has(> a[href*="github"], > a[href*="drive.google"]) {
+    list-style: none;
+    margin-left: 0;  /* 移除左邊距 */
+  }
+}
+
+/* 確保連結在同一行並調整間距 */
+.entry-content p,
+.page-content p {
+  display: flex;
+  gap: 0.5em;
+  flex-wrap: wrap;
+  //margin-top: 0.5em;    /* 與上方內容的間距 */
+  margin-bottom: 1.5em; /* 與下方內容的間距 */
+  align-items: center;
+}
+
+/* 調整列表中的連結位置 */
+.entry-content ul li a,
+.page-content ul li a {
+  margin-left: 0;  /* 重置左邊距 */
+}
+
+/* 專案連結區塊樣式 */
+.entry-content ul li p,
+.page-content ul li p {
+  //margin-top: 0.5em;  /* 與上方內容的間距 */
+  //padding-left: 1em;  /* 左側縮進，與內文對齊 */
+}
+
+/* 確保長詞不會在中間斷行 */
+strong {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+/* 確保第一段文字不會有不必要的斷行 */
+.page-content > p:first-of-type,
+.entry-content > p:first-of-type {
+  display: inline-block;
+  width: 100%;
+}
+
+/* 增加頂部空間 */
+.masthead {
+  padding-top: 15px; /* 在頭像上方增加空間 */
+}
+
+/* 網站描述（中文姓名）樣式 */
+.site-description {
+  font-size: 1.2rem;  /* 更大的字體 */
+  font-style: normal; /* 不使用斜體 */
+  font-weight: 600;   /* 稍微加粗 */
+  letter-spacing: 0.05em; /* 增加字母間距 */
+  margin-top: 5px;    /* 增加與網站標題的間距 */
+}

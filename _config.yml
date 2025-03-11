@@ -17,11 +17,11 @@ theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
 locale: en-US
-title: "My Awesome Site"
-description: "It really is the best."
+title: "CongJie Pan"
+description: "潘驄杰"
 baseurl: # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: # path of site logo, e.g. "/images/logo.png"
+url: "https://congjie-pan.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+logo: "/images/logo.jpg" # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
 words_per_minute: # 200
@@ -102,6 +102,34 @@ author:
 
 # Footer Links
 footer_links:
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
+  - title: Email
+    url: mailto:smartjay1206@gmail.com
+    icon: fas fa-envelope
+    target: "_blank"
+  - title: GitHub
+    url: https://github.com/CongJie-Pan
+    icon: fab fa-github
+    target: "_blank"
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/%E9%A9%84%E6%9D%B0-%E6%BD%98-363a7823a/
+    icon: fab fa-linkedin
+    target: "_blank"
+  - title: Facebook
+    url: https://www.facebook.com/profile.php?id=100010854546067
+    icon: fab fa-facebook
+    target: "_blank"
+  - title: Instagram
+    url: https://www.instagram.com/congjie_pan/
+    icon: fab fa-instagram
+    target: "_blank"
+  - title: Medium
+    url: https://medium.com/@smartjay1206
+    icon: fab fa-medium
+    target: "_blank"
+  - title: De Dao 得到
+    url: https://m.igetget.com/native/mine/account#/user/detail?enId=A9mo2X7qLaD1zEDzYz98Q4J0GkY6be
+    icon: fas fa-book
+    target: "_blank"
+
+# Posts settings
+posts_limit: 0  # 設為 0 來限制顯示的文章數量
