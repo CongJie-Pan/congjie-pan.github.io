@@ -64,14 +64,21 @@ search_full_content: false # can have performance implications for large sites
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+# exclude these files to avoid errors when deploying on github pages.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - CHANGELOG.md
+  - docs
+  - example
+  - README-OLD.md
+  - README.md
 
 plugins:
   - jekyll-seo-tag
