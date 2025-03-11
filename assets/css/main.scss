@@ -1,5 +1,4 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 sitemap: false
 ---
 
@@ -9,28 +8,32 @@ sitemap: false
 
 /* 響應式設計 */
 :root {
-  --content-width: min(90vw, 900px);
-  --padding-mobile: 0.5rem;
-  --padding-desktop: 2rem;
-  --base-font-size: 18px;        /* 基礎字體大小 */
-  --mobile-font-size: 16px;      /* 手機版字體大小 */
-  --small-screen-font-size: 15px; /* 超小螢幕字體大小 */
+  --content-width: min(90vw, 850px);  /* 減少內容最大寬度，增加兩側空間 */
+  --padding-mobile: 1rem;             /* 增加手機版邊距 */
+  --padding-desktop: 3rem;            /* 增加桌面版邊距 */
+  --base-font-size: 18px;             /* 基礎字體大小 */
+  --mobile-font-size: 16px;           /* 手機版字體大小 */
+  --small-screen-font-size: 15px;     /* 超小螢幕字體大小 */
 }
 
 /* 調整內容寬度和置中 */
 .page-wrapper {
   max-width: 100% !important;
-  margin: 0 auto;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
   display: flex;
   justify-content: center;
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 .main-content {
-  width: var(--content-width) !important;
+  width: 100% !important;
   max-width: var(--content-width) !important;
   padding: 0 var(--padding-desktop);
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 /* 確保內容區塊也置中 */
@@ -38,6 +41,7 @@ sitemap: false
   display: flex;
   justify-content: center;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .page-content,
@@ -45,6 +49,8 @@ sitemap: false
   width: 100%;
   max-width: var(--content-width);
   margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0;
 }
 
 /* 文字和間距設定 */
@@ -122,16 +128,24 @@ sitemap: false
 
 /* 手機版適配 */
 @media screen and (max-width: 768px) {
+  :root {
+    --content-width: 100%; /* 手機版使用全寬 */
+  }
+  
   .main-content {
     padding: 0 var(--padding-mobile);
     margin-left: 0;
     width: 100% !important;
+    max-width: 100% !important;
   }
 
   .page-content,
   .entry-content {
     padding-left: 0;
+    padding-right: 0;
     margin-left: 0;
+    margin-right: 0;
+    width: 100%;
   }
 
   .page-content p, 
@@ -169,11 +183,13 @@ sitemap: false
 /* 超小螢幕適配 */
 @media screen and (max-width: 480px) {
   :root {
-    --padding-mobile: 0.3rem;
+    --padding-mobile: 0.8rem;  /* 增加超小螢幕的邊距 */
   }
 
   .main-content {
     padding: 0 var(--padding-mobile);
+    width: 100% !important;
+    max-width: 100% !important;
   }
 
   .page-content p, 
@@ -182,6 +198,17 @@ sitemap: false
   .entry-content li {
     font-size: var(--small-screen-font-size);
   }
+  
+  .page-content,
+  .entry-content {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* 確保所有容器元素使用border-box模型 */
+*, *:before, *:after {
+  box-sizing: border-box;
 }
 
 /* 專案連結樣式 - 創建獨立的類別 */
@@ -308,4 +335,10 @@ strong {
   font-weight: 600;   /* 稍微加粗 */
   letter-spacing: 0.05em; /* 增加字母間距 */
   margin-top: 5px;    /* 增加與網站標題的間距 */
+}
+
+/* 確保任何固定寬度元素不會導致溢出 */
+img, video, iframe, embed, object {
+  max-width: 100%;
+  height: auto;
 }
