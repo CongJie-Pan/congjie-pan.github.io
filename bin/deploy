@@ -1,0 +1,114 @@
+#!/bin/bash
+#
+# 用於將網站部署到 GitHub Pages 的腳本
+# 執行方式: bin/deploy [--user]
+#
+# [--user] 選項表示部署到個人 GitHub Pages
+# 不帶參數則預設部署到專案 GitHub Pages
+
+# 嚴格模式，避免錯誤
+set -e
+
+# 獲取腳本所在目錄的上一層目錄（即專案根目錄）
+SCRIPT_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT_PATH="$(dirname "$SCRIPT_PATH")"
+
+# 進入專案目錄
+cd "$REPO_ROOT_PATH"
+
+# 設定變數
+GITHUB_USERNAME=$(git config --get remote.origin.url | cut -d: -f2 | cut -d/ -f1)
+GITHUB_REPONAME=$(basename -s .git `git config --get remote.origin.url`)
+BRANCH="master"
+
+# 目標分支（取決於參數）
+if [[ $1 == '--user' ]]; then
+  DEPLOY_BRANCH="master"
+  echo "🚀 準備部署到個人 GitHub Pages ..."
+else
+  DEPLOY_BRANCH="gh-pages"
+  echo "🚀 準備部署到專案 GitHub Pages ..."
+fi
+
+# 確保當前分支是最新的
+echo "📌 更新本地代碼..."
+git pull origin $BRANCH || { echo "❌ 無法更新本地代碼，請檢查網絡連接或Git設定"; exit 1; }
+
+# 確認所有更改已經提交
+if [[ -n $(git status -s) ]]; then
+  echo "⚠️ 您有未提交的更改，請先提交後再部署"
+  echo "未提交的文件:"
+  git status -s
+  exit 1
+fi
+
+# 構建網站
+echo "🔨 構建網站..."
+bundle exec jekyll build || { echo "❌ 構建失敗！請檢查您的Jekyll設定"; exit 1; }
+
+# 確保 _site 目錄存在
+if [ ! -d "_site" ]; then
+  echo "❌ _site 目錄不存在，構建可能失敗"
+  exit 1
+fi
+
+# 部署到 GitHub Pages
+echo "📤 正在部署到 GitHub Pages..."
+
+if [[ $1 == '--user' ]]; then
+  # 個人 GitHub Pages 直接提交到 master 分支
+  echo "🔍 部署到個人 GitHub Pages: $GITHUB_USERNAME.github.io"
+  
+  # 確保在 master 分支
+  if [[ $(git rev-parse --abbrev-ref HEAD) != "master" ]]; then
+    echo "❌ 請先切換到 master 分支後再部署"
+    exit 1
+  fi
+  
+  # 提交所有更改
+  echo "📝 提交更改..."
+  git add .
+  git commit -m "Deploy site update: $(date)" || { echo "✅ 沒有更改需要提交"; }
+  
+  # 推送到遠端
+  echo "📤 推送到遠端..."
+  git push origin master || { echo "❌ 推送失敗，請檢查您的權限設定"; exit 1; }
+else
+  # 專案 GitHub Pages 使用 gh-pages 分支
+  echo "🔍 部署到專案 GitHub Pages: $GITHUB_USERNAME.github.io/$GITHUB_REPONAME"
+  
+  # 檢查是否有 gh-pages 分支
+  if ! git show-ref --verify --quiet refs/heads/gh-pages; then
+    echo "📝 創建 gh-pages 分支..."
+    git branch gh-pages
+  fi
+  
+  # 複製 _site 內容到臨時目錄
+  rm -rf /tmp/_site
+  cp -R _site /tmp/
+  
+  # 切換到 gh-pages 分支
+  git checkout gh-pages
+  
+  # 清空當前目錄（保留 .git 文件夾）
+  find . -maxdepth 1 ! -name .git -exec rm -rf {} \; 2>/dev/null || true
+  
+  # 複製 _site 內容到當前目錄
+  cp -R /tmp/_site/* .
+  
+  # 添加 .nojekyll 文件，防止 GitHub 嘗試重新構建
+  touch .nojekyll
+  
+  # 提交更改
+  git add .
+  git commit -m "Deploy site update: $(date)" || { echo "✅ 沒有更改需要提交"; }
+  
+  # 推送到遠端
+  git push origin gh-pages || { echo "❌ 推送失敗，請檢查您的權限設定"; exit 1; }
+  
+  # 切回開發分支
+  git checkout $BRANCH
+fi
+
+echo "✅ 部署完成！"
+echo "🌐 您的網站已發布到 https://$GITHUB_USERNAME.github.io/$([ "$1" != "--user" ] && echo "$GITHUB_REPONAME/")" 
