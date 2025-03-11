@@ -8,9 +8,9 @@ sitemap: false
 
 /* 響應式設計 */
 :root {
-  --content-width: min(90vw, 850px);  /* 減少內容最大寬度，增加兩側空間 */
-  --padding-mobile: 1rem;             /* 增加手機版邊距 */
-  --padding-desktop: 3rem;            /* 增加桌面版邊距 */
+  --content-width: min(90vw, 850px);  /* 減少內容寬度以增加邊距 */
+  --padding-mobile: 0.8rem;           /* 增加手機版邊距 */
+  --padding-desktop: 2.5rem;          /* 增加桌面版邊距 */
   --base-font-size: 18px;             /* 基礎字體大小 */
   --mobile-font-size: 16px;           /* 手機版字體大小 */
   --small-screen-font-size: 15px;     /* 超小螢幕字體大小 */
@@ -101,6 +101,11 @@ sitemap: false
 .page-content ul li,
 .entry-content ul li {
   margin-bottom: 3px;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  width: 100%;
+  display: list-item; /* 修改為 list-item 以恢復項目符號 */
 }
 
 /* 增加大項間距 - 直接針對第一級列表項目 */
@@ -108,6 +113,16 @@ sitemap: false
 .entry-content > ul > li {
   margin-bottom: 25px; /* 增加主要項目之間的間距 */
   padding-bottom: 10px; /* 添加內部底部間距 */
+}
+
+/* 特別處理 Activities 部分的文字換行 */
+.page-content > ul > li > p,
+.entry-content > ul > li > p {
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  width: 100%;
+  display: block;  /* 改為 block 以確保正確換行 */
 }
 
 /* Logo 設定 */
@@ -119,11 +134,12 @@ sitemap: false
 }
 
 .site-logo-img {
-  width: 160px;
-  height: 160px;
+  width: clamp(100px, 15vw, 160px);  /* 根據視窗寬度響應式調整，最小100px，最大160px */
+  height: clamp(100px, 15vw, 160px); /* 保持寬高一致，維持圓形 */
   border-radius: 50%;  /* 確保圖像是圓形的 */
   object-fit: cover;   /* 確保圖像不被拉伸 */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);  /* 添加較小的陰影效果 */
+  transition: all 0.3s ease; /* 平滑過渡效果 */
 }
 
 /* 手機版適配 */
@@ -183,9 +199,14 @@ sitemap: false
 /* 超小螢幕適配 */
 @media screen and (max-width: 480px) {
   :root {
-    --padding-mobile: 0.8rem;  /* 增加超小螢幕的邊距 */
+    --padding-mobile: 0.5rem;  /* 減小超小螢幕的邊距 */
   }
 
+  .site-logo-img {
+    width: 100px;  /* 超小螢幕固定大小 */
+    height: 100px;
+  }
+  
   .main-content {
     padding: 0 var(--padding-mobile);
     width: 100% !important;
@@ -277,13 +298,23 @@ sitemap: false
   font-weight: bold;
 }
 
-/* 移除專案連結前的圓點並調整位置 */
-.entry-content ul li,
-.page-content ul li {
-  &:has(> a[href*="github"], > a[href*="drive.google"]) {
-    list-style: none;
-    margin-left: 0;  /* 移除左邊距 */
-  }
+/* 專門處理 Activities 部分的粗體文字（特別是長文字） */
+.page-content ul li > strong,
+.entry-content ul li > strong {
+  display: inline;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  width: auto;
+}
+
+/* 移除專案連結前的圓點並調整位置 - 限制只對含有指定鏈接的項目 */
+.entry-content ul li:has(> a[href*="github"]),
+.entry-content ul li:has(> a[href*="drive.google"]),
+.page-content ul li:has(> a[href*="github"]),
+.page-content ul li:has(> a[href*="drive.google"]) {
+  list-style: none;
+  margin-left: 0;  /* 移除左邊距 */
 }
 
 /* 確保連結在同一行並調整間距 */
@@ -306,14 +337,36 @@ sitemap: false
 /* 專案連結區塊樣式 */
 .entry-content ul li p,
 .page-content ul li p {
-  //margin-top: 0.5em;  /* 與上方內容的間距 */
-  //padding-left: 1em;  /* 左側縮進，與內文對齊 */
+  display: block;
+  width: 100%;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* 確保 Activities 項目中的所有內容元素都可正確換行 */
+.entry-content ul li p *,
+.page-content ul li p * {
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* 確保 Activities 項目中的連結文字正確換行 */
+.entry-content ul li a,
+.page-content ul li a {
+  display: inline;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 /* 確保長詞不會在中間斷行 */
 strong {
-  display: inline-block;
-  white-space: nowrap;
+  display: inline;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 /* 確保第一段文字不會有不必要的斷行 */
@@ -341,4 +394,14 @@ strong {
 img, video, iframe, embed, object {
   max-width: 100%;
   height: auto;
+}
+
+/* 特別處理列表項目中的粗體文字 */
+.page-content ul li strong,
+.entry-content ul li strong {
+  display: inline;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  width: 100%;
 }
