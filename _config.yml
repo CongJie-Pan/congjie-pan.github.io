@@ -129,6 +129,9 @@ footer_links:
   - title: Instagram
     url: https://www.instagram.com/congjie_pan/
     icon: fab fa-instagram
+  - title: 生之道-主題Instagram
+    url: https://www.instagram.com/sheng_zhidao/
+    icon: fab fa-instagram
     target: "_blank"
   - title: Medium
     url: https://medium.com/@smartjay1206
