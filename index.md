@@ -19,12 +19,18 @@ Christian University
   - SEPTEMBER.2022 – PRESENT
 
 ## Experience
-- **Coding Ape School 猿創力程式教育, Instructor**
+- **Research Center for Digital Humanities at Peking University**
+  - MARCH.2025 - Present
+  - Project Volunteers and Interns
+
+- **Coding Ape School 猿創力程式教育**
   - SEPTEMBER.2022 – SEPTEMBER.2023
+  - Instructor
   - One year of teaching Scratch, Minecraft Education, and App Inventor to elementary school students. Also, developing in Minecraft Edu lesson plans.
 
-- **Remote Tutor, Summer Programming Tutor**
+- **Summer Programming Tutor**
   - JULY.2022 – AUGUST.2022
+  - Remote Tutor
   - Teaching basic block coding and inspiring children's programming creativity.
 
 ## Leading Completed Projects
