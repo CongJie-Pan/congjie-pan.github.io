@@ -1,3 +1,7 @@
+# So Simple Jekyll Theme
+
+[Editing Guide](EDITING_GUIDE.md) - Instructions on how to edit and publish changes to this website
+
 # [So Simple Jekyll Theme][1]
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat-square)](https://raw.githubusercontent.com/mmistakes/so-simple-theme/master/LICENSE)
