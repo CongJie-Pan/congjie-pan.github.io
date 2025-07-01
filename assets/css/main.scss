@@ -94,11 +94,11 @@ sitemap: false
 }
 
 /* 列表項目設定 */
-// .page-content ul,
-// .entry-content ul {
-//   margin-bottom: 5px;
-//   padding-left: 1em;
-// }
+/* .page-content ul,
+.entry-content ul {
+  margin-bottom: 5px;
+  padding-left: 1em;
+} */
 
 .page-content ul li,
 .entry-content ul li {
@@ -293,7 +293,7 @@ body {
   width: 2px;
   height: 1.2em;
   background-color: #95a5a6;
-  //margin: 0 1em;
+  /* margin: 0 1em; */
   vertical-align: middle;
   position: relative;
   top: -1px;
@@ -331,7 +331,7 @@ body {
   display: flex;
   gap: 0.5em;
   flex-wrap: wrap;
-  //margin-top: 0.5em;    /* 與上方內容的間距 */
+  /* margin-top: 0.5em; */    /* 與上方內容的間距 */
   margin-bottom: 1.5em; /* 與下方內容的間距 */
   align-items: center;
 }
@@ -412,4 +412,26 @@ img, video, iframe, embed, object {
   word-wrap: break-word;
   overflow-wrap: break-word;
   width: 100%;
+}
+
+/* Masthead 社交媒體圖標樣式 */
+.masthead-social-icons {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.masthead-social-icon {
+  display: inline-block;
+  padding: 0 0.4em;
+  color: #2c3e50;
+  transition: all 0.3s ease;
+}
+
+.masthead-social-icon:hover {
+  color: #3498db;
+  transform: translateY(-3px);
+}
+
+.masthead-social-icon i {
+  font-size: 1.8rem;
 }

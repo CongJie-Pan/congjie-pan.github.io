@@ -13,6 +13,19 @@
         <div class="site-title animated fadeIn"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></div>
       {% endif %}
       <p class="site-description animated fadeIn" itemprop="description">{{ site.description }}</p>
+      
+      {%- if site.footer_links -%}
+        <div class="masthead-social-icons animated fadeIn">
+          {%- for footer_link in site.footer_links -%}
+            {%- if footer_link.url contains "://" -%}
+              {%- assign url = footer_link.url -%}
+            {%- else -%}
+              {%- assign url = footer_link.url | relative_url -%}
+            {%- endif -%}
+            <a class="masthead-social-icon" href="{{ url }}" {% if footer_link.target %}target="{{ footer_link.target }}"{% endif %}><i class="{{ footer_link.icon | default: 'fas fa-link' }} fa-2x" title="{{ footer_link.title }}"></i></a>
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
     {% endunless %}
   </div>
 </header><!-- /.masthead -->
