@@ -13,6 +13,9 @@
   <script src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
 {%- endif -%}
 
+<!-- Language Switcher Script -->
+<script src="{{ '/assets/js/lang/language-switcher.js' | relative_url }}"></script>
+
 {%- if jekyll.environment == 'production' and site.google_analytics -%}
   <script>
   if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {

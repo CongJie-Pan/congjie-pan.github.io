@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Switcher Test</title>
+    <link rel="stylesheet" href="assets/css/language-switcher.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+            background: #f5f5f5;
+        }
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Language Switcher Test Page</h1>
+        
+        <p data-i18n="intro-para1">I am a junior at Chung Yuan Christian University majoring in Information Management, with a specialized passion for Digital Humanities and Ancient Chinese text processing. My academic journey uniquely combines traditional humanities scholarship with modern computational approaches.</p>
+
+        <p data-i18n="intro-para2">My cross-disciplinary expertise stems from earning a top alternate position in National Taiwan University's Chinese Department transfer examination and extensive experience in tutoring Chinese literature. This foundation has enabled me to bridge classical scholarship with contemporary technology through various educational and research initiatives.</p>
+
+        <p data-i18n="intro-para3">Currently, I am honored to work on a National Science and Technology Council (NSTC) funded research project focusing on constructing a knowledge query system for Ancient Chinese using advanced RA-LLMs frameworks under Professor Chin-Hui Lai's guidance. My goal is to make Ancient Chinese literature more accessible through innovative digital tools and AI-powered systems.</p>
+
+        <h2 data-i18n="education">Education</h2>
+        <p>This section would contain education information.</p>
+
+        <h2 data-i18n="experience">Experience</h2>
+        <p>This section would contain experience information.</p>
+
+        <h2 data-i18n="projects">Leading Completed Projects</h2>
+        <p>This section would contain project information.</p>
+
+        <h2 data-i18n="activities">Activities</h2>
+        <p>This section would contain activities information.</p>
+
+        <h2 data-i18n="miscellany">Miscellany</h2>
+        <p>This section would contain miscellaneous information.</p>
+    </div>
+
+    <script src="assets/js/lang/translations.js"></script>
+    <script src="assets/js/lang/language-switcher.js"></script>
+    
+    <script>
+        // Check if everything loaded
+        console.log('Test page loaded');
+        console.log('Translations available:', !!window.translations);
+        console.log('Languages:', window.translations ? Object.keys(window.translations) : 'none');
+    </script>
+</body>
+</html> 
