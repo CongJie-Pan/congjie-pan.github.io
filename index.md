@@ -5,11 +5,11 @@ entries_layout: list
 posts_limit: 0
 ---
 
-<p data-i18n="intro-para1">I am CongJie Pan (潘驄杰), a Senior at Chung Yuan Christian University majoring in Information Management, with a specialized passion for Digital Humanities and Ancient Chinese text processing. My academic journey uniquely combines traditional humanities scholarship with modern computational approaches.</p>
+<p data-i18n="intro-para1">Hello👋, I am CongJie Pan (潘驄杰), a Senior at Chung Yuan Christian University majoring in Information Management, with a specialized passion for Digital Humanities and Ancient Chinese text processing, combining traditional humanities scholarship with software development.</p>
 
-<p data-i18n="intro-para2">My cross-disciplinary expertise stems from earning a top alternate position in National Taiwan University's Chinese Department transfer examination and extensive experience in tutoring Chinese literature. This foundation has enabled me to bridge classical scholarship with contemporary technology through various educational and research initiatives.</p>
+<p data-i18n="intro-para2">My cross-disciplinary opportunity stems from my interest in Chinese classical studies and experience in Chinese literature tutoring, as well as my passion for software development. These experiences enable me to bridge classical scholarship with software technology.</p>
 
-<p data-i18n="intro-para3">Currently, I am honored to work on a National Science and Technology Council (NSTC) funded research project focusing on constructing a knowledge query system for Ancient Chinese using advanced RA-LLMs frameworks under Professor Chin-Hui Lai's guidance. My goal is to make Ancient Chinese literature more accessible through innovative digital tools and AI-powered systems.</p>
+<p data-i18n="intro-para3">My goal is to make Ancient Chinese literature more accessible to the public through innovative digital tools and AI-driven systems, helping people fall in love with Chinese classical literature.</p>
 
 ## <span data-i18n="education">Education</span>
 
@@ -59,11 +59,11 @@ posts_limit: 0
 - **<span data-i18n="act-mutahead-title">Mutahead 學習家有限公司, Completion for the "Persuasive Writing Course."</span>**
   - <span data-i18n="act-mutahead-period">NOVEMBER.2023 – DECEMBER.2024</span>
   - <span data-i18n="act-mutahead-desc1">Facilitated the development of writing skills during the training program, refining abilities through weekly assignments.</span> 
-  - <span data-i18n="act-mutahead-desc2">Authored an article titled "Challenges in Chinese Education: Perspectives from an Information Management Student" submitted to</span> [<span data-i18n="act-mutahead-link">'Opinion Of CommonWealth 天下獨立評論</span>](https://reurl.cc/E4y061){:target="_blank"}".
+  - <span data-i18n="act-mutahead-desc2">Authored an article titled "What's Wrong with Chinese Education? Insights from an Information Management Student on Chinese Teaching" submitted to</span> [<span data-i18n="act-mutahead-link">'Opinion Of CommonWealth 天下獨立評論</span>](https://reurl.cc/E4y061){:target="_blank"}".
 
 - **<span data-i18n="act-sancode-title">SanCode 善科教育基金會, Participation in the 2nd and 3rd Annual Technology Literature Award</span>**
   - <span data-i18n="act-sancode-period">DECEMBER.2024, 2023</span>
-  - <span data-i18n="act-sancode-desc">Submitted an approximately 2000-word reflection article for the competition after reading Wu Jun's "Smart Age: Big Data and Intelligent revolution redefine the future"(2024) and "The Great History of Information: How Humanity Eliminates Uncertainty about the Unknown,"(2023).</span>
+  - <span data-i18n="act-sancode-desc">Submitted an approximately 2000-word reflection article for the competition after reading Wu Jun's "Smart Age: Big Data and Intelligent revolution redefine the future"(2024) and "The Great History of Information: How Humanity Eliminates Uncertainty about the Unknown"(2023).</span>
 
 ## <span data-i18n="miscellany">Miscellany</span>
-- <span data-i18n="misc-desc">I enjoy studying history, literature, and traveling. I document my thoughts and learnings in my Medium blog blow. My motto is: "Write the answers to life through living."It means to solve the problems of life step by step through concrete and practical living.</span>
+- <span data-i18n="misc-desc">I enjoy studying history and literature, especially "Dream of the Red Chamber". I document my thoughts and learnings on my Medium blog. My motto is: "Write the answers to life through living." It means to solve the problems of life step by step through concrete and practical living.</span>

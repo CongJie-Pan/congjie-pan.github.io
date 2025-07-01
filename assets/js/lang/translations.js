@@ -9,7 +9,7 @@ window.translations = {
     'miscellany': 'Miscellany',
     
     // Introduction paragraphs
-    'intro-para1': 'I am CongJie Pan (潘驄杰), a Senior at Chung Yuan Christian University majoring in Information Management, with a specialized passion for Digital Humanities and Ancient Chinese text processing, combining traditional humanities scholarship with software development.',
+    'intro-para1': 'Hello👋, I am CongJie Pan (潘驄杰), a Senior at Chung Yuan Christian University majoring in Information Management, with a specialized passion for Digital Humanities and Ancient Chinese text processing, combining traditional humanities scholarship with software development.',
     'intro-para2': 'My cross-disciplinary opportunity stems from my interest in Chinese classical studies and experience in Chinese literature tutoring, as well as my passion for software development. These experiences enable me to bridge classical scholarship with software technology.',
     'intro-para3': 'My goal is to make Ancient Chinese literature more accessible to the public through innovative digital tools and AI-driven systems, helping people fall in love with Chinese classical literature.',
     
@@ -66,7 +66,7 @@ window.translations = {
     'act-sancode-desc': 'Submitted an approximately 2000-word reflection article for the competition after reading Wu Jun\'s "Smart Age: Big Data and Intelligent revolution redefine the future"(2024) and "The Great History of Information: How Humanity Eliminates Uncertainty about the Unknown"(2023).',
     
     // Miscellany section
-    'misc-desc': 'I enjoy studying history, literature, and traveling. I document my thoughts and learnings in my Medium blog. My motto is: "Write the answers to life through living." It means to solve the problems of life step by step through concrete and practical living.'
+    'misc-desc': 'I enjoy studying history and literature, especially "Dream of the Red Chamber". I document my thoughts and learnings on my Medium blog. My motto is: "Write the answers to life through living." It means to solve the problems of life step by step through concrete and practical living.'
   },
 
   'zh-TW': {
@@ -78,9 +78,9 @@ window.translations = {
     'miscellany': '其他',
     
     // Introduction paragraphs
-    'intro-para1': '我是潘驄杰，一位中原大學資訊管理學系四年級學生，專精於數位人文學與古漢語文本處理，結合了傳統人文學術與軟體開發。',
-    'intro-para2': '我的跨領域契機源對中文國學的興趣與國文輔導的經驗，以及對軟體開發的熱誠。這些經驗使我能在在古典學術與軟體技術之間搭建橋樑。',
-    'intro-para3': '我的目標是透過創新的數位工具和AI驅動系統，讓古漢語文獻更易於與大眾接觸，讓大眾喜歡上中國古典文學。',
+    'intro-para1': '你好👋，我是潘驄杰，一位中原大學資訊管理學系四年級學生，目前專精於數位人文學相關的研究與開發，結合了古漢語文本處理與軟體開發。',
+    'intro-para2': '我的跨領域契機源於對中文國學的興趣與國文輔導的經驗，以及對軟體開發的熱誠，這些經驗使我能於古典文獻與軟體技術之間搭建橋樑。',
+    'intro-para3': '我的目標是透過數位IT技術，讓古漢語文獻更易於與大眾接觸，讓大眾喜歡上中國古典文學。',
     
     // Education section
     'edu-cycu': '中原大學 資訊管理學系',
@@ -95,7 +95,7 @@ window.translations = {
     'exp-ape-title': '猿創力程式教育',
     'exp-ape-period': '2022年9月 – 2023年9月',
     'exp-ape-role': '講師',
-    'exp-ape-desc': '一年的時間教授國小學生Scratch、Minecraft Education和App Inventor。同時也開發Minecraft Edu的課程計畫。',
+    'exp-ape-desc': '教授國小學生Scratch、Minecraft Education和App Inventor。同時也教導Minecraft Edu的相關課程。',
     
     'exp-tutor-title': '暑期程式家教',
     'exp-tutor-period': '2022年7月 – 2022年8月',
@@ -103,11 +103,11 @@ window.translations = {
     'exp-tutor-desc': '教授基礎積木程式設計，啟發兒童的程式創意。',
     
     // Projects section
-    'proj-heartfelt-title': 'HeartfeltAI - AI婚禮邀請函系統',
-    'proj-heartfelt-desc': '「HeartfeltAI」是一個結合AI與人情味的婚禮邀請函生成系統，利用先進的AI技術為每位賓客創造獨特且個人化的邀請函內容。',
+    'proj-heartfelt-title': 'HeartFeltAI - AI婚禮邀請函系統',
+    'proj-heartfelt-desc': '「HeartFeltAI」是一個結合AI與人情味的婚禮邀請函生成系統，利用先進的AI技術為每位賓客創造獨特且個人化的邀請函內容。',
     'proj-heartfelt-code': '程式碼',
     
-    'proj-ticket-title': '超速罰單管理系統',
+    'proj-ticket-title': '台灣超速罰單管理系統',
     'proj-ticket-desc': '主導系統分析、協調任務，並確保超速罰單管理系統的成功完成。該專案與台北市儀表板整合，提升數據分析效率。',
     'proj-ticket-doc': '文件',
     'proj-ticket-code': '程式碼',
@@ -122,20 +122,20 @@ window.translations = {
     // Activities section
     'act-ntu-title': '台大升學種子計畫，「國文作文」科目教師',
     'act-ntu-period': '2023年9月 – 2024年1月',
-    'act-ntu-desc': '在此期間，指導學生的中國文學和作文作業，使他們在中文能力考試中表現優異。',
+    'act-ntu-desc': '在此期間，指導學生中國文學和作文作業，最後讓學生在學測大考試中表現優異。',
     
     'act-mutahead-title': '學習家有限公司，完成「觀點寫作課程」',
     'act-mutahead-period': '2023年11月 – 2024年12月',
     'act-mutahead-desc1': '在培訓計畫中促進寫作技能的發展，透過每週作業精進能力。',
-    'act-mutahead-desc2': '撰寫題為「國文教學怎麼了？ 一位「資管學生」對國文教學的體悟」的文章，投稿至',
-    'act-mutahead-link': '「天下獨立評論',
+    'act-mutahead-desc2': '撰寫投稿題為「國文教學怎麼了？ 一位『資管學生』對國文教學的體悟」的文章，投稿至',
+    'act-mutahead-link': '「天下獨立評論」',
     
     'act-sancode-title': '善科教育基金會，參與第二屆及第三屆科技文學獎',
     'act-sancode-period': '2024年12月、2023年',
-    'act-sancode-desc': '在閱讀吳軍的《智能時代：大數據與智能革命重新定義未來》（2024）和《資訊大歷史：人類如何消除對未知的不確定》（2023）後，提交約2000字的反思文章參賽。',
+    'act-sancode-desc': '在閱讀吳軍的《智能時代：大數據與智能革命重新定義未來》（2024）和《資訊大歷史：人類如何消除對未知的不確定》（2023）後，提交約2000字的反思文章並參賽。',
     
     // Miscellany section
-    'misc-desc': '我喜歡研讀歷史、文學和旅行。我在Medium部落格上記錄我的思考和學習。我的座右銘是：「透過生活書寫生命的答案。」意旨透過確切實際的生活，一步步解決生命的問題。'
+    'misc-desc': '我喜歡研讀歷史、文學，尤其是《紅樓夢》。我在Medium部落格上記錄我的思考和學習。我的座右銘是：「透過生活書寫生命的答案。」意旨透過確切實際的生活，一步步解決生命的問題。'
   },
   
   'zh-CN': {
@@ -147,7 +147,7 @@ window.translations = {
     'miscellany': '其他',
     
     // Introduction paragraphs
-    'intro-para1': '我是潘骢杰，一位台湾中原大学信息管理学系本科四年级学生，专精于数字人文学与古汉语文本处理，结合了传统人文学术与软件开发。',
+    'intro-para1': '你好👋，我是潘骢杰，一位台湾中原大学信息管理学系本科四年级学生，专精于数字人文学与古汉语文本处理，结合了传统人文学术与软件开发。',
     'intro-para2': '我的跨领域契机源于对中文国学的兴趣与语文辅导的经验，以及对软件开发的热诚。这些经验使我能在古典学术与软件技术之间搭建桥梁。',
     'intro-para3': '我的目标是通过创新的数字工具和AI驱动系统，让古汉语文献更易于与大众接触，让大众喜欢上中国古典文学。',
     
@@ -204,6 +204,6 @@ window.translations = {
     'act-sancode-desc': '在阅读吴军的《智能时代：大数据与智能革命重新定义未来》（2024）和《信息大历史：人类如何消除对未知的不确定》（2023）后，提交约2000字的反思文章参赛。',
     
     // Miscellany section
-    'misc-desc': '我喜欢研读历史、文学和旅行。我在Medium博客上记录我的思考和学习。我的座右铭是：「通过生活书写生命的答案。」意旨透过确切实际的生活，一步步解决生命的问题。'
+    'misc-desc': '我喜欢研读历史、文学，尤其是《红楼梦》。我在Medium博客上记录我的思考和学习。我的座右铭是：「透过生活书写生命的答案。」意指透过确切实际的生活，一步步解决生命的问题。'
   }
 };
