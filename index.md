@@ -5,7 +5,7 @@ entries_layout: list
 posts_limit: 0
 ---
 
-<p data-i18n="intro-para1">I am a Senior at Chung Yuan Christian University majoring in Information Management, with a specialized passion for Digital Humanities and Ancient Chinese text processing. My academic journey uniquely combines traditional humanities scholarship with modern computational approaches.</p>
+<p data-i18n="intro-para1">I am CongJie Pan (潘驄杰), a Senior at Chung Yuan Christian University majoring in Information Management, with a specialized passion for Digital Humanities and Ancient Chinese text processing. My academic journey uniquely combines traditional humanities scholarship with modern computational approaches.</p>
 
 <p data-i18n="intro-para2">My cross-disciplinary expertise stems from earning a top alternate position in National Taiwan University's Chinese Department transfer examination and extensive experience in tutoring Chinese literature. This foundation has enabled me to bridge classical scholarship with contemporary technology through various educational and research initiatives.</p>
 

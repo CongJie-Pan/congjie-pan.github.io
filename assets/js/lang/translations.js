@@ -9,7 +9,7 @@ window.translations = {
     'miscellany': 'Miscellany',
     
     // Introduction paragraphs
-    'intro-para1': 'I am a Senior at Chung Yuan Christian University majoring in Information Management, with a specialized passion for Digital Humanities and Ancient Chinese text processing, combining traditional humanities scholarship with software development.',
+    'intro-para1': 'I am CongJie Pan (潘驄杰), a Senior at Chung Yuan Christian University majoring in Information Management, with a specialized passion for Digital Humanities and Ancient Chinese text processing, combining traditional humanities scholarship with software development.',
     'intro-para2': 'My cross-disciplinary opportunity stems from my interest in Chinese classical studies and experience in Chinese literature tutoring, as well as my passion for software development. These experiences enable me to bridge classical scholarship with software technology.',
     'intro-para3': 'My goal is to make Ancient Chinese literature more accessible to the public through innovative digital tools and AI-driven systems, helping people fall in love with Chinese classical literature.',
     
@@ -78,7 +78,7 @@ window.translations = {
     'miscellany': '其他',
     
     // Introduction paragraphs
-    'intro-para1': '我是中原大學資訊管理學系四年級學生，專精於數位人文學與古漢語文本處理，結合了傳統人文學術與軟體開發。',
+    'intro-para1': '我是潘驄杰，一位中原大學資訊管理學系四年級學生，專精於數位人文學與古漢語文本處理，結合了傳統人文學術與軟體開發。',
     'intro-para2': '我的跨領域契機源對中文國學的興趣與國文輔導的經驗，以及對軟體開發的熱誠。這些經驗使我能在在古典學術與軟體技術之間搭建橋樑。',
     'intro-para3': '我的目標是透過創新的數位工具和AI驅動系統，讓古漢語文獻更易於與大眾接觸，讓大眾喜歡上中國古典文學。',
     
@@ -147,7 +147,7 @@ window.translations = {
     'miscellany': '其他',
     
     // Introduction paragraphs
-    'intro-para1': '我是台湾中原大学信息管理学系本科四年级学生，专精于数字人文学与古汉语文本处理，结合了传统人文学术与软件开发。',
+    'intro-para1': '我是潘骢杰，一位台湾中原大学信息管理学系本科四年级学生，专精于数字人文学与古汉语文本处理，结合了传统人文学术与软件开发。',
     'intro-para2': '我的跨领域契机源于对中文国学的兴趣与语文辅导的经验，以及对软件开发的热诚。这些经验使我能在古典学术与软件技术之间搭建桥梁。',
     'intro-para3': '我的目标是通过创新的数字工具和AI驱动系统，让古汉语文献更易于与大众接触，让大众喜欢上中国古典文学。',
     
