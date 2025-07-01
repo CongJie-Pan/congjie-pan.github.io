@@ -582,3 +582,16 @@ body.dark-theme .entry-content a:not(.project-link),
 body.dark-theme .page-content a:not(.project-link) {
   color: #e0e0e0; /* same as text */
 }
+
+/* Footer text in dark theme */
+body.dark-theme footer,
+body.dark-theme .site-footer,
+body.dark-theme .site-footer a {
+  color: #e0e0e0;
+}
+
+/* Ensure footer plain text also switches to light color */
+body.dark-theme .copyright,
+body.dark-theme .copyright p {
+  color: #e0e0e0;
+}
