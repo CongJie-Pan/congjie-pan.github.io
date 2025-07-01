@@ -435,3 +435,32 @@ img, video, iframe, embed, object {
 .masthead-social-icon i {
   font-size: 1.8rem;
 }
+
+/* Content Section Block Styling */
+.content-section {
+  background-color: #ffffff; /* Brighter white background */
+  padding: 2em; /* Add more internal spacing */
+  border-radius: 15px; /* Softer rounded corners */
+  margin-bottom: 2.5em; /* Increase space between sections */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08); /* More pronounced but soft shadow */
+  border: 1px solid #f0f0f0; /* Lighter border */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+.content-section:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1); /* Deeper shadow on hover */
+}
+
+.content-section h2 {
+  margin-top: 0;
+  border-bottom: 2px solid #e8e8e8;
+  padding-bottom: 0.5em;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.content-section h2 span {
+  /* This ensures the span inherits the parent's styles but we can override specifics if needed */
+}

@@ -11,11 +11,17 @@ posts_limit: 0
 
 <p data-i18n="intro-para3">My goal is to make Ancient Chinese literature more accessible to the public through innovative digital tools and AI-driven systems, helping people fall in love with Chinese classical literature.</p>
 
+<div class="content-section" markdown="1">
+
 ## <span data-i18n="education">Education</span>
 
 - <span data-i18n="edu-cycu">Department of Information Management, Chung Yuan Christian University</span>
   - <span data-i18n="edu-junior">Senior Year</span>
   - <span data-i18n="edu-period">SEPTEMBER.2022 – PRESENT</span>
+
+</div>
+
+<div class="content-section" markdown="1">
 
 ## <span data-i18n="experience">Experience</span>
 
@@ -32,6 +38,9 @@ posts_limit: 0
   - <span data-i18n="exp-tutor-period">JULY.2022 – AUGUST.2022</span>
   - <span data-i18n="exp-tutor-role">Remote Tutor</span>
   - <span data-i18n="exp-tutor-desc">Teaching basic block coding and inspiring children's programming creativity.</span>
+</div>
+
+<div class="content-section" markdown="1">
 
 ## <span data-i18n="projects">Leading Completed Projects</span>
 
@@ -49,6 +58,9 @@ posts_limit: 0
   - <span data-i18n="proj-foodie-desc">Led the team to develop a fronted website focused on selling Korean snacks, including ramen, drinks, and candies. The site features a warm, earthy design and user-friendly interface for an intuitive shopping experience.</span>
   
   &nbsp;&nbsp;<a href="https://github.com/CongJie-Pan/Foodie_Front-end/blob/main/%E8%AA%AA%E6%98%8E%E6%96%87%E4%BB%B6/%E5%A4%9A%E5%AA%92%E9%AB%94%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E6%9C%9F%E6%9C%AB%E8%AA%AA%E6%98%8E%E6%96%87%E4%BB%B6.pdf" class="project-link" target="_blank"><i class="fas fa-file-alt" style="margin-right: 5px;"></i><span data-i18n="proj-foodie-doc">Doc</span></a> <span class="link-divider"></span> <a href="https://github.com/CongJie-Pan/Foodie_Front-end" class="project-link" target="_blank"><i class="fab fa-github" style="margin-right: 5px;"></i><span data-i18n="proj-foodie-code">Code</span></a> <span class="link-divider"></span> <a href="https://congjie-pan.github.io/Foodie_Front-end/" class="project-link" target="_blank"><i class="fas fa-desktop" style="margin-right: 5px;"></i><span data-i18n="proj-foodie-demo">Demo Fronted Website</span></a>
+</div>
+
+<div class="content-section" markdown="1">
 
 ## <span data-i18n="activities">Activities</span>
 
@@ -64,6 +76,10 @@ posts_limit: 0
 - **<span data-i18n="act-sancode-title">SanCode 善科教育基金會, Participation in the 2nd and 3rd Annual Technology Literature Award</span>**
   - <span data-i18n="act-sancode-period">DECEMBER.2024, 2023</span>
   - <span data-i18n="act-sancode-desc">Submitted an approximately 2000-word reflection article for the competition after reading Wu Jun's "Smart Age: Big Data and Intelligent revolution redefine the future"(2024) and "The Great History of Information: How Humanity Eliminates Uncertainty about the Unknown"(2023).</span>
+</div>
+
+<div class="content-section" markdown="1">
 
 ## <span data-i18n="miscellany">Miscellany</span>
 - <span data-i18n="misc-desc">I enjoy studying history and literature, especially "Dream of the Red Chamber". I document my thoughts and learnings on my Medium blog. My motto is: "Write the answers to life through living." It means to solve the problems of life step by step through concrete and practical living.</span>
+</div>
