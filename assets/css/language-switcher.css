@@ -136,6 +136,25 @@
   }
 }
 
+/* Dark theme support when toggled via JS (body.dark-theme) */
+.dark-theme .lang-menu {
+  background: #2d3748;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark-theme .lang-option {
+  color: #e2e8f0;
+}
+
+.dark-theme .lang-option:hover {
+  background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+  color: #90cdf4;
+}
+
+.dark-theme .lang-flag {
+  background: #4a5568;
+}
+
 /* Mobile responsive */
 @media (max-width: 768px) {
   .language-switcher {
