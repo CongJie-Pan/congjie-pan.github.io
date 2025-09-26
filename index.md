@@ -29,6 +29,11 @@ posts_limit: 0
   - <a href="./PDF/The_Construction_of_an_Ancient_Chinese_Knowledge_Query_System.pdf" target="_blank"><strong><span data-i18n="exp-nstc-project">Project Title: Construction of a Knowledge Query System for Ancient Chinese Based on the RA-LLMs Framework</span></strong></a>
   - <span data-i18n="exp-nstc-under">under Professor</span> [Chin-Hui Lai](https://chlai045.github.io/){:target="_blank"}
 
+- **<span data-i18n="exp-dept-comp-title">2025 Information Management Department Senior Project Competition - First Place Winner</span>**
+  - <span data-i18n="exp-dept-comp-project">Project Title: HongLou WiseRead: Dream of the Red Chamber Reading Learning System</span>
+  - <span data-i18n="exp-nstc-under">Under Professor</span> [Chin-Hui Lai](https://chlai045.github.io/){:target="_blank"}
+  - <a href="./images/113-2-departmentInitialCompetion-1prize.jpg" target="_blank"><span data-i18n="exp-dept-comp-achievement">Won first place in the preliminary round of the department's Information Management senior project competition</span></a>
+
 - **<span data-i18n="exp-ape-title">Coding Ape School 猿創力程式教育</span>**
   - <span data-i18n="exp-ape-period">SEPTEMBER.2022 – SEPTEMBER.2023</span>
   - <span data-i18n="exp-ape-role">Instructor</span>
@@ -42,11 +47,16 @@ posts_limit: 0
 
 <div class="content-section" markdown="1">
 
-## <span data-i18n="projects">Leading Completed Projects</span>
+## <span data-i18n="projects">Completed Projects</span>
+
+- **<span data-i18n="proj-graphjudge-title">GraphJudge TextToKG Pipeline - LLM-based Efficient and Reliable Ancient Chinese Text to Knowledge Graph Generator</span>**
+  - <span data-i18n="proj-graphjudge-desc">This is a system based on large language model output and evaluation that can reliably generate high-quality knowledge graphs from ancient Chinese text input, running on the Streamlit platform.</span>
+
+  &nbsp;&nbsp;<a href="https://reurl.cc/GNRMLd" class="project-link" target="_blank"><i class="fab fa-github" style="margin-right: 5px;"></i><span data-i18n="proj-graphjudge-code">Code</span></a>
 
 - **<span data-i18n="proj-heartfelt-title">HeartfeltAI - AI Wedding Invitation System</span>**
   - <span data-i18n="proj-heartfelt-desc">"HeartfeltAI" is a wedding invitation generation system that combines AI with human touch, utilizing advanced AI technology to create unique and personalized invitation content for each guest.</span>
-  
+
   &nbsp;&nbsp;<a href="https://github.com/CongJie-Pan/HeartfeltAI_SE_MidtermPJ" class="project-link" target="_blank"><i class="fab fa-github" style="margin-right: 5px;"></i><span data-i18n="proj-heartfelt-code">Code</span></a>
 
 - **<span data-i18n="proj-ticket-title">Speeding ticket management system</span>**
@@ -68,6 +78,8 @@ posts_limit: 0
   - <span data-i18n="act-ntu-period">SEPTEMBER.2023 – JANUARY.2024</span>
   - <span data-i18n="act-ntu-desc">During this period, guided students in their Chinese literature and composition assignments, resulting in excellent performance on their Chinese proficiency exams.</span>
 
+  &nbsp;&nbsp;<a href="./images/NTUSeedChiTeacher_Certificate_IMG.jpg" class="project-link" target="_blank"><i class="fas fa-certificate" style="margin-right: 5px;"></i><span data-i18n="act-ntu-certificate">Certificate</span></a>
+
 - **<span data-i18n="act-mutahead-title">Mutahead 學習家有限公司, Completion for the "Persuasive Writing Course."</span>**
   - <span data-i18n="act-mutahead-period">NOVEMBER.2023 – DECEMBER.2024</span>
   - <span data-i18n="act-mutahead-desc1">Facilitated the development of writing skills during the training program, refining abilities through weekly assignments.</span> 
@@ -77,6 +89,16 @@ posts_limit: 0
   - <span data-i18n="act-sancode-period">DECEMBER.2024, 2023</span>
   - <span data-i18n="act-sancode-desc">Submitted an approximately 2000-word reflection article for the competition after reading Wu Jun's "Smart Age: Big Data and Intelligent revolution redefine the future"(2024) and "The Great History of Information: How Humanity Eliminates Uncertainty about the Unknown"(2023).</span>
 </div>
+
+<!-- Language Proficiency Test section - Currently hidden
+<div class="content-section" markdown="1">
+
+## <span data-i18n="language-proficiency">Language Proficiency Test</span>
+
+- <span data-i18n="lang-toefl-label">TOEFL ITP Score</span>: <span data-i18n="lang-toefl-score">503</span>
+- <span data-i18n="lang-toeic-label">TOEIC Score</span>: <span data-i18n="lang-toeic-score">735</span>
+</div>
+-->
 
 <div class="content-section" markdown="1">
 

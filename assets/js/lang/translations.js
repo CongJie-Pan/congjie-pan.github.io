@@ -3,8 +3,8 @@ window.translations = {
   'en': {
     // Navigation and headings
     'education': 'Education',
-    'experience': 'Experience', 
-    'projects': 'Leading Completed Projects',
+    'experience': 'Experience',
+    'projects': 'Completed Projects',
     'activities': 'Activities',
     'miscellany': 'Miscellany',
     
@@ -22,6 +22,10 @@ window.translations = {
     'exp-nstc-title': 'Admitted to the National Science and Technology Council (NSTC) 2025 Annual Research Project',
     'exp-nstc-project': 'Project Title: Construction of a Knowledge Query System for Ancient Chinese Based on the RA-LLMs Framework',
     'exp-nstc-under': 'under Professor',
+
+    'exp-dept-comp-title': '2025 Information Management Department Senior Project Competition - First Place Winner',
+    'exp-dept-comp-project': 'Project Title: HongLou WiseRead: Dream of the Red Chamber Reading Learning System',
+    'exp-dept-comp-achievement': 'Won first place in the preliminary round of the department\'s Information Management senior project competition',
     
     'exp-ape-title': 'Coding Ape School 猿創力程式教育',
     'exp-ape-period': 'SEPTEMBER.2022 – SEPTEMBER.2023',
@@ -34,6 +38,10 @@ window.translations = {
     'exp-tutor-desc': 'Teaching basic block coding and inspiring children\'s programming creativity.',
     
     // Projects section
+    'proj-graphjudge-title': 'GraphJudge TextToKG Pipeline - LLM-based Efficient and Reliable Ancient Chinese Text to Knowledge Graph Generator',
+    'proj-graphjudge-desc': 'This is a system based on large language model output and evaluation that can reliably generate high-quality knowledge graphs from ancient Chinese text input, running on the Streamlit platform.',
+    'proj-graphjudge-code': 'Code',
+
     'proj-heartfelt-title': 'HeartfeltAI - AI Wedding Invitation System',
     'proj-heartfelt-desc': '"HeartfeltAI" is a wedding invitation generation system that combines AI with human touch, utilizing advanced AI technology to create unique and personalized invitation content for each guest.',
     'proj-heartfelt-code': 'Code',
@@ -54,6 +62,7 @@ window.translations = {
     'act-ntu-title': 'NTU Admission Counseling Seed Program 台大升學種子計畫, Teacher for "Chinese Composition"',
     'act-ntu-period': 'SEPTEMBER.2023 – JANUARY.2024',
     'act-ntu-desc': 'During this period, guided students in their Chinese literature and composition assignments, resulting in excellent performance on their Chinese proficiency exams.',
+    'act-ntu-certificate': 'Certificate',
     
     'act-mutahead-title': 'Mutahead 學習家有限公司, Completion for the "Persuasive Writing Course."',
     'act-mutahead-period': 'NOVEMBER.2023 – DECEMBER.2024',
@@ -64,7 +73,14 @@ window.translations = {
     'act-sancode-title': 'SanCode 善科教育基金會, Participation in the 2nd and 3rd Annual Technology Literature Award',
     'act-sancode-period': 'DECEMBER.2024, 2023',
     'act-sancode-desc': 'Submitted an approximately 2000-word reflection article for the competition after reading Wu Jun\'s "Smart Age: Big Data and Intelligent revolution redefine the future"(2024) and "The Great History of Information: How Humanity Eliminates Uncertainty about the Unknown"(2023).',
-    
+
+    // Language Proficiency Test section
+    'language-proficiency': 'Language Proficiency Test',
+    'lang-toefl-label': 'TOEFL ITP Score',
+    'lang-toefl-score': '503',
+    'lang-toeic-label': 'TOEIC Score',
+    'lang-toeic-score': '735',
+
     // Miscellany section
     'misc-desc': 'I enjoy studying history and literature, especially "Dream of the Red Chamber". I document my thoughts and learnings on my Medium blog. My motto is: "Write the answers to life through living." It means to solve the problems of life step by step through concrete and practical living.'
   },
@@ -73,7 +89,7 @@ window.translations = {
     // Navigation and headings
     'education': '教育背景',
     'experience': '經驗',
-    'projects': '主導完成專案',
+    'projects': '完成專案',
     'activities': '活動經歷',
     'miscellany': '其他',
     
@@ -91,6 +107,10 @@ window.translations = {
     'exp-nstc-title': '錄取國家科學及技術委員會（NSTC）2025年度研究計畫',
     'exp-nstc-project': '計畫題目：基於RA-LLMs框架的古漢語知識查詢系統構建',
     'exp-nstc-under': '指導教授',
+
+    'exp-dept-comp-title': '2025年資訊管理學系畢業專題競賽 - 初選第一名',
+    'exp-dept-comp-project': '專案題目：紅樓慧讀：《紅樓夢》閱讀學習系統',
+    'exp-dept-comp-achievement': '於本系資訊管理學系畢業專題競賽初選獲得第一名',
     
     'exp-ape-title': '猿創力程式教育',
     'exp-ape-period': '2022年9月 – 2023年9月',
@@ -103,6 +123,10 @@ window.translations = {
     'exp-tutor-desc': '教授基礎積木程式設計，啟發兒童的程式創意。',
     
     // Projects section
+    'proj-graphjudge-title': 'GraphJudge TextToKG Pipeline - 基於LLM的高效可靠古漢語文本到知識圖譜生成器',
+    'proj-graphjudge-desc': '這是一個基於大型語言模型輸出與評估的系統，能夠可靠地從古漢語文本輸入生成高品質知識圖譜，運行於Streamlit平台。',
+    'proj-graphjudge-code': '程式碼',
+
     'proj-heartfelt-title': 'HeartFeltAI - AI婚禮邀請函系統',
     'proj-heartfelt-desc': '「HeartFeltAI」是一個結合AI與人情味的婚禮邀請函生成系統，利用先進的AI技術為每位賓客創造獨特且個人化的邀請函內容。',
     'proj-heartfelt-code': '程式碼',
@@ -123,6 +147,7 @@ window.translations = {
     'act-ntu-title': '台大升學種子計畫，「國文作文」科目教師',
     'act-ntu-period': '2023年9月 – 2024年1月',
     'act-ntu-desc': '在此期間，指導學生中國文學和作文作業，最後讓學生在學測大考試中表現優異。',
+    'act-ntu-certificate': '證書',
     
     'act-mutahead-title': '學習家有限公司，完成「觀點寫作課程」',
     'act-mutahead-period': '2023年11月 – 2024年12月',
@@ -133,7 +158,14 @@ window.translations = {
     'act-sancode-title': '善科教育基金會，參與第二屆及第三屆科技文學獎',
     'act-sancode-period': '2024年12月、2023年',
     'act-sancode-desc': '在閱讀吳軍的《智能時代：大數據與智能革命重新定義未來》（2024）和《資訊大歷史：人類如何消除對未知的不確定》（2023）後，提交約2000字的反思文章並參賽。',
-    
+
+    // Language Proficiency Test section
+    'language-proficiency': '語言能力檢定',
+    'lang-toefl-label': 'TOEFL ITP 成績',
+    'lang-toefl-score': '503',
+    'lang-toeic-label': 'TOEIC 成績',
+    'lang-toeic-score': '735',
+
     // Miscellany section
     'misc-desc': '我喜歡研讀歷史、文學，尤其是《紅樓夢》。我在Medium部落格上記錄我的思考和學習。我的座右銘是：「透過生活書寫生命的答案。」意旨透過確切實際的生活，一步步解決生命的問題。'
   },
@@ -142,7 +174,7 @@ window.translations = {
     // Navigation and headings
     'education': '教育背景',
     'experience': '经验',
-    'projects': '主导完成项目',
+    'projects': '完成项目',
     'activities': '活动经历',
     'miscellany': '其他',
     
@@ -160,6 +192,10 @@ window.translations = {
     'exp-nstc-title': '录取国家科学及技术委员会（NSTC）2025年度研究计划',
     'exp-nstc-project': '计划题目：基于RA-LLMs框架的古汉语知识查询系统构建',
     'exp-nstc-under': '指导教授',
+
+    'exp-dept-comp-title': '2025年信息管理学系毕业专题竞赛 - 初选第一名',
+    'exp-dept-comp-project': '项目题目：红楼慧读：《红楼梦》阅读学习系统',
+    'exp-dept-comp-achievement': '于本系信息管理学系毕业专题竞赛初选获得第一名',
     
     'exp-ape-title': '猿创力程式教育',
     'exp-ape-period': '2022年9月 – 2023年9月',
@@ -172,6 +208,10 @@ window.translations = {
     'exp-tutor-desc': '教授基础积木程序设计，启发儿童的程序创意。',
     
     // Projects section
+    'proj-graphjudge-title': 'GraphJudge TextToKG Pipeline - 基于LLM的高效可靠古汉语文本到知识图谱生成器',
+    'proj-graphjudge-desc': '这是一个基于大型语言模型输出与评估的系统，能够可靠地从古汉语文本输入生成高质量知识图谱，运行于Streamlit平台。',
+    'proj-graphjudge-code': '代码',
+
     'proj-heartfelt-title': 'HeartfeltAI - AI婚礼邀请函系统',
     'proj-heartfelt-desc': '"HeartfeltAI"是一个结合AI与人情味的婚礼邀请函生成系统，利用先进的AI技术为每位宾客创造独特且个人化的邀请函内容。',
     'proj-heartfelt-code': '代码',
@@ -192,6 +232,7 @@ window.translations = {
     'act-ntu-title': '台大升学种子计划，「语文作文」科目教师',
     'act-ntu-period': '2023年9月 – 2024年1月',
     'act-ntu-desc': '在此期间，指导学生的中国文学和作文作业，使他们在中文能力考试中表现优异。',
+    'act-ntu-certificate': '证书',
     
     'act-mutahead-title': '学习家有限公司，完成「观点写作课程」',
     'act-mutahead-period': '2023年11月 – 2024年12月',
@@ -202,7 +243,14 @@ window.translations = {
     'act-sancode-title': '善科教育基金会，参与第二届及第三届科技文学奖',
     'act-sancode-period': '2024年12月、2023年',
     'act-sancode-desc': '在阅读吴军的《智能时代：大数据与智能革命重新定义未来》（2024）和《信息大历史：人类如何消除对未知的不确定》（2023）后，提交约2000字的反思文章参赛。',
-    
+
+    // Language Proficiency Test section
+    'language-proficiency': '语言能力检定',
+    'lang-toefl-label': 'TOEFL ITP 成绩',
+    'lang-toefl-score': '503',
+    'lang-toeic-label': 'TOEIC 成绩',
+    'lang-toeic-score': '735',
+
     // Miscellany section
     'misc-desc': '我喜欢研读历史、文学，尤其是《红楼梦》。我在Medium博客上记录我的思考和学习。我的座右铭是：「透过生活书写生命的答案。」意指透过确切实际的生活，一步步解决生命的问题。'
   }

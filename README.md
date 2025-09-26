@@ -1,21 +1,232 @@
-# So Simple Jekyll Theme
+# CongJie Pan Personal Website
 
-[Editing Guide](EDITING_GUIDE.md) - Instructions on how to edit and publish changes to this website
+A personal portfolio website built with Jekyll and the So Simple theme, featuring multilingual support and automated deployment.
 
-# [So Simple Jekyll Theme][1]
+**🌐 Live Site:** [https://congjie-pan.github.io](https://congjie-pan.github.io)
 
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat-square)](https://raw.githubusercontent.com/mmistakes/so-simple-theme/master/LICENSE)
-[![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.6-blue.svg?style=flat-square)](https://jekyllrb.com/)
+## Quick Start Guide
 
-So Simple is a simple [Jekyll theme](https://jekyllrb.com/docs/themes/) for your words and pictures. Built to provide:
+### Prerequisites
 
-* A variety of layouts with clean and readable typography.
-* [Microformats](http://microformats.org/wiki/microformats2) markup to make post content machine-readable and discoverable.
-* Disqus Comments and Google Analytics support.
-* SEO best practices via [Jekyll SEO Tag][jekyll-seo-tag].
-* Options to customize the theme and make it your own.
+Make sure you have the following installed:
+- **Ruby** (version 2.7 or higher)
+- **Bundler**: `gem install bundler`
+- **Git** for version control
 
-:sparkles: **See what's new in the [CHANGELOG](CHANGELOG.md).** :blue_book: **[v2 documentation](README-OLD.md)**.
+### 1. 🔧 Initial Setup
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/CongJie-Pan/congjie-pan.github.io.git
+cd congjie-pan.github.io
+bundle install
+```
+
+### 2. 👀 Preview the Website Locally
+
+To preview the website on your local machine:
+
+```bash
+bundle exec jekyll serve
+```
+
+The website will be available at: **http://localhost:4000**
+
+- The site will automatically reload when you make changes
+- Press `Ctrl+C` to stop the server
+- For production preview: `JEKYLL_ENV=production bundle exec jekyll serve`
+
+### 3. 🚀 Publishing to GitHub Pages
+
+This website uses a custom deployment script for easy publishing:
+
+#### Option A: Deploy to Personal GitHub Pages (Recommended)
+```bash
+bin/deploy --user
+```
+
+#### Option B: Deploy to Project GitHub Pages
+```bash
+bin/deploy
+```
+
+**⚠️ Important Notes:**
+- Commit all changes before deploying
+- The script will automatically build and push to the appropriate branch
+- Personal GitHub Pages: deploys to `master` branch
+- Project GitHub Pages: deploys to `gh-pages` branch
+
+### 4. ✏️ Making Changes
+
+1. **Edit Content:** Modify `index.md` or other markdown files
+2. **Update Translations:** Edit `assets/js/lang/translations.js` for multilingual content
+3. **Preview Changes:** Run `bundle exec jekyll serve` to test locally
+4. **Publish:** Use `bin/deploy --user` to publish your changes
+
+For detailed editing instructions, see: [EDITING_GUIDE.md](EDITING_GUIDE.md)
+
+## 🌟 Features
+
+- **Multilingual Support**: English, Traditional Chinese (繁體中文), Simplified Chinese (简体中文)
+- **Responsive Design**: Mobile-friendly layout with So Simple theme
+- **Automated Deployment**: Custom deployment script for GitHub Pages
+- **SEO Optimized**: Built-in SEO tags and meta information
+- **Social Media Integration**: Links to various professional platforms
+
+## 🛠️ Technical Stack
+
+- **Static Site Generator**: Jekyll
+- **Theme**: [So Simple Theme](https://github.com/mmistakes/so-simple-theme) (Remote Theme)
+- **Hosting**: GitHub Pages
+- **Languages**: HTML, CSS (Sass), JavaScript, Markdown
+- **Dependencies**: Ruby gems (see `Gemfile`)
+
+## 📂 Project Structure
+
+```
+├── _config.yml              # Jekyll configuration
+├── index.md                 # Homepage content
+├── assets/
+│   ├── js/lang/
+│   │   ├── translations.js  # Multilingual translations
+│   │   └── language-switcher.js # Language switching functionality
+│   └── css/                 # Custom styles
+├── _includes/               # Custom Jekyll includes
+├── images/                  # Site images and media
+├── bin/deploy              # Custom deployment script
+├── Gemfile                 # Ruby dependencies
+└── README.md               # This file
+```
+
+## 🌐 Multilingual System
+
+The website supports three languages with dynamic switching:
+- **English** (`en`): Default language
+- **Traditional Chinese** (`zh-TW`): 繁體中文
+- **Simplified Chinese** (`zh-CN`): 简体中文
+
+Language preferences are stored in localStorage and persist across sessions.
+
+## 🚀 Deployment Options
+
+### Automatic Deployment (Recommended)
+Use the custom deployment script that handles building and publishing:
+
+```bash
+# Deploy to personal GitHub Pages (master branch)
+bin/deploy --user
+
+# Deploy to project GitHub Pages (gh-pages branch)
+bin/deploy
+```
+
+### Manual Deployment
+If you prefer manual control:
+
+```bash
+# Build the site
+bundle exec jekyll build
+
+# Commit and push changes
+git add .
+git commit -m "Update website content"
+git push origin master
+```
+
+## 📝 Content Management
+
+### Adding New Content
+1. **Homepage Updates**: Edit `index.md`
+2. **Blog Posts**: Add files to `_posts/` directory
+3. **Images**: Place in `images/` directory
+4. **Translations**: Update `assets/js/lang/translations.js`
+
+### Multilingual Content
+When adding new text content:
+1. Add `data-i18n="key-name"` attribute to HTML elements
+2. Add corresponding translations in `translations.js` for all three languages
+3. Test with language switcher to ensure proper display
+
+## 🔧 Development Commands
+
+### Essential Commands
+```bash
+# Install dependencies
+bundle install
+
+# Start development server
+bundle exec jekyll serve
+
+# Build site for production
+bundle exec jekyll build
+
+# Update gems
+bundle update
+
+# Clean build artifacts
+bundle exec jekyll clean
+```
+
+### JavaScript Development (Optional)
+If customizing theme assets:
+```bash
+# Install Node.js dependencies
+npm install
+
+# Build minified JavaScript
+npm run build:js
+
+# Watch for JavaScript changes
+npm run watch:js
+```
+
+## 🐛 Troubleshooting
+
+### Common Issues
+
+**Issue: `bundle: command not found`**
+```bash
+gem install bundler
+```
+
+**Issue: Jekyll server won't start**
+```bash
+bundle exec jekyll clean
+bundle install
+bundle exec jekyll serve
+```
+
+**Issue: Changes not showing on live site**
+1. Ensure all changes are committed: `git status`
+2. Redeploy: `bin/deploy --user`
+3. Check GitHub Pages settings in repository settings
+
+**Issue: Language switcher not working**
+- Check that `translations.js` is loaded correctly
+- Verify `data-i18n` attributes match translation keys
+- Clear browser cache and localStorage
+
+**Issue: Deployment script permission denied**
+```bash
+chmod +x bin/deploy
+```
+
+### Development Tips
+- Always preview locally before deploying
+- Use meaningful commit messages for easier tracking
+- Keep translations synchronized across all languages
+- Test the website on different screen sizes and browsers
+
+## 📞 Support
+
+- **Jekyll Documentation**: [https://jekyllrb.com/docs/](https://jekyllrb.com/docs/)
+- **So Simple Theme**: [https://github.com/mmistakes/so-simple-theme](https://github.com/mmistakes/so-simple-theme)
+- **GitHub Pages**: [https://docs.github.com/en/pages](https://docs.github.com/en/pages)
+
+## 📄 License
+
+This website is built using the So Simple Jekyll Theme. See [LICENSE](LICENSE) for details.
 
 [![So Simple live preview][2]][1]
 
