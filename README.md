@@ -41,7 +41,7 @@ The website will be available at: **http://localhost:4000**
 
 This website uses a custom deployment script for easy publishing:
 
-#### Option A: Deploy to Personal GitHub Pages (Recommended)
+#### Option A: Use Git Bash to Deploying Personal GitHub Pages (Recommended)
 ```bash
 bin/deploy --user
 ```
