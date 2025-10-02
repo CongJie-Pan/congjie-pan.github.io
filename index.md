@@ -30,7 +30,7 @@ posts_limit: 0
   - <span data-i18n="exp-nstc-under">under Professor</span> [Chin-Hui Lai](https://chlai045.github.io/){:target="_blank"}
 
 - **<span data-i18n="exp-dept-comp-title">2025 Information Management Department Senior Project Competition - First Place Winner</span>**
-  - <span data-i18n="exp-dept-comp-project">Project Title: HongLou WiseRead: Dream of the Red Chamber Reading Learning System</span>
+  - <a href="./PDF/HongLou_WiseRead_proposal.pdf" target="_blank"><strong><span data-i18n="exp-dept-comp-project">Project Title: HongLou WiseRead: Dream of the Red Chamber Reading Learning System</span>
   - <span data-i18n="exp-nstc-under">Under Professor</span> [Chin-Hui Lai](https://chlai045.github.io/){:target="_blank"}
   - <a href="./images/113-2-departmentInitialCompetion-1prize.jpg" target="_blank"><span data-i18n="exp-dept-comp-achievement">Won first place in the preliminary round of the department's Information Management senior project competition</span></a>
 
