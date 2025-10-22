@@ -1,7 +1,7 @@
 <header class="masthead">
   <div class="wrap">
     {% if site.logo %}
-      <a href="{{ '/' | relative_url }}" class="site-logo" rel="home" title="{{ site.title }}">
+      <a href="{{ site.logo | relative_url }}" class="site-logo" data-lity rel="home" title="{{ site.title }}">
         <img src="{{ site.logo | relative_url }}" class="site-logo-img animated fadeInDown" alt="{{ site.title }}">
       </a>
     {% endif %}
