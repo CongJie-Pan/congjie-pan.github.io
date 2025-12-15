@@ -1,6 +1,11 @@
 // Multilingual content for the website
 window.translations = {
   'en': {
+    // Hashtag badges
+    'badge-chinese-edtech': 'Chinese Education Tech',
+    'badge-ai-education': 'AI Education Applications',
+    'badge-interdisciplinary': 'Interdisciplinary Integration',
+
     // Navigation and headings
     'education': 'Education',
     'experience': 'Experience',
@@ -9,9 +14,9 @@ window.translations = {
     'miscellany': 'Miscellany',
     
     // Introduction paragraphs
-    'intro-para1': 'Hello👋, I am CongJie Pan (潘驄杰), a senior undergraduate student from Taiwan majoring in Information Management, currently specializing in Digital Humanities research related to Ancient Chinese text processing and related software development.',
-    'intro-para2': 'My cross-disciplinary opportunity stems from my interest in Chinese classical studies and experience in Chinese literature tutoring, as well as my passion for software development and AI technology. These experiences enable me to bridge the gap between Ancient Chinese texts and information technology.',
-    'intro-para3': 'My goal is to contribute to Ancient Chinese literature research through innovative digital tools and AI-driven systems, and to lower the threshold for reading Ancient Chinese literature, making it more accessible to the public and helping more people fall in love with Chinese classical literature.',
+    'intro-para1': 'Hello👋, I am CongJie Pan (潘驄杰), a senior at Chung Yuan Christian University majoring in Information Management, focusing on the cross-domain integration of "Chinese Education × Technology".',
+    'intro-para2': 'My core concern is: How can AI and IT technologies reignite students\' interest in classical literature? This question arose from my experience as a Chinese composition teacher in the NTU Admission Counseling Seed Program—I witnessed students being blocked by complex characters, unfamiliar classical Chinese, and background knowledge before they even started, wanting to give up before they began.',
+    'intro-para3': 'To address this, I developed the "HongLou WiseRead" learning system (first place in department preliminary competition) and received NSTC undergraduate research project support for "Construction of an Ancient Chinese Knowledge Q&A System Based on the RA-LLMs Framework". My goal is to become a product researcher in the field of digital learning for Chinese education, making technology a tool for inspiring learning.',
     
     // Education section
     'edu-cycu': 'Department of Information Management, Chung Yuan Christian University',
@@ -25,8 +30,10 @@ window.translations = {
 
     'exp-dept-comp-title': '2025 Information Management Department Senior Project Competition - First Place Winner',
     'exp-dept-comp-project': 'Project Title: HongLou WiseRead: Dream of the Red Chamber Reading Learning System',
-    'exp-dept-comp-achievement': 'Won first place in the preliminary round of the department\'s Information Management senior project competition',
-    
+
+    'exp-toefl-scholarship-title': '2025 TOEFL ITP Higher Education Academic Research Scholarship',
+    'exp-toefl-scholarship-period': 'NOVEMBER.2025',
+
     'exp-ape-title': 'Coding Ape School 猿創力程式教育',
     'exp-ape-period': 'SEPTEMBER.2022 – SEPTEMBER.2023',
     'exp-ape-role': 'Instructor',
@@ -38,6 +45,11 @@ window.translations = {
     'exp-tutor-desc': 'Teaching basic block coding and inspiring children\'s programming creativity.',
     
     // Projects section
+    'proj-honglou-title': 'HongLou WiseRead: Dream of the Red Chamber Reading Learning System',
+    'proj-honglou-desc': 'Led the design and development of an AI-integrated classical literature learning platform, addressing three major pain points for modern readers of "Dream of the Red Chamber": classical Chinese barriers, complex character relationships, and difficulty maintaining reading motivation.',
+    'proj-honglou-features': 'Core features include: LLM-based automatic knowledge graph generation and visualization, AI intelligent Q&A system, gamified reading mechanics (identity progression, achievement badges). The system is deployed and operational.',
+    'proj-honglou-code': 'Code',
+
     'proj-graphjudge-title': 'GraphJudge TextToKG Pipeline - LLM-based Efficient and Reliable Ancient Chinese Text to Knowledge Graph Generator',
     'proj-graphjudge-desc': 'This is a system based on large language model output and evaluation that can reliably generate high-quality knowledge graphs from ancient Chinese text input, running on the Streamlit platform.',
     'proj-graphjudge-code': 'Code',
@@ -86,6 +98,11 @@ window.translations = {
   },
 
   'zh-TW': {
+    // Hashtag badges
+    'badge-chinese-edtech': '國文教育科技',
+    'badge-ai-education': 'AI教育應用',
+    'badge-interdisciplinary': '跨域整合',
+
     // Navigation and headings
     'education': '教育背景',
     'experience': '經驗',
@@ -94,9 +111,9 @@ window.translations = {
     'miscellany': '其他',
     
     // Introduction paragraphs
-    'intro-para1': '你好👋，我是潘驄杰，一位來自台灣的資訊管理學系本科四年級學生，目前專精於數位人文學相關的研究，有關於古漢語文本處理與相關軟體開發。',
-    'intro-para2': '我的跨領域契機源於對中文國學的興趣與語文輔導的經驗，以及對軟體開發與AI技術的熱誠。這些經驗使我能在古漢語文本與資訊技術之間搭建橋樑。',
-    'intro-para3': '我的目標是透過創新的數位工具和AI驅動系統，為古漢語文獻的研究添磚加瓦，並讓古漢語文獻的閱讀門檻可以降低，更易於與大眾接觸，讓更多人喜歡上中國古典文學。',
+    'intro-para1': '你好👋，我是潘驄杰，中原大學資訊管理學系大四生，專注於「國文教育 × 科技」的跨域整合。',
+    'intro-para2': '我的核心關懷是：如何用 AI 與 IT 技術重新點燃學生對古典文學的興趣？這份問題意識源自擔任台大種子計畫國文作文教師的經驗——我看見學生面對古典文本，被繁複的人物、陌生的文言與背景知識擋在門外，還沒開始就想放棄了。',
+    'intro-para3': '為此，我開發了《紅樓慧讀》學習系統（系上專題初審第一名），並以《建構基於 RA-LLMs 框架之古漢語知識問答系統》獲國科會大專生研究計畫支持。我的目標是成為國文數位學習領域的產品研究者，讓科技成為啟發學習的工具。',
     
     // Education section
     'edu-cycu': '中原大學 資訊管理學系',
@@ -110,8 +127,10 @@ window.translations = {
 
     'exp-dept-comp-title': '2025年資訊管理學系畢業專題競賽 - 初選第一名',
     'exp-dept-comp-project': '專案題目：紅樓慧讀：《紅樓夢》閱讀學習系統',
-    'exp-dept-comp-achievement': '於本系資訊管理學系畢業專題競賽初選獲得第一名',
-    
+
+    'exp-toefl-scholarship-title': '得獎 2025 TOEFL ITP 高等教育學術研究獎學金',
+    'exp-toefl-scholarship-period': '2025年11月',
+
     'exp-ape-title': '猿創力程式教育',
     'exp-ape-period': '2022年9月 – 2023年9月',
     'exp-ape-role': '講師',
@@ -123,6 +142,11 @@ window.translations = {
     'exp-tutor-desc': '教授基礎積木程式設計，啟發兒童的程式創意。',
     
     // Projects section
+    'proj-honglou-title': '紅樓慧讀：紅樓夢閱讀學習系統',
+    'proj-honglou-desc': '主導設計並開發一套整合 AI 技術的古典文學學習平台，解決現代讀者閱讀《紅樓夢》的三大痛點：古漢語障礙、人物關係複雜、閱讀動機難維持。',
+    'proj-honglou-features': '核心功能包括：基於 LLM 的知識圖譜自動生成與視覺化、AI 智慧問答系統、遊戲化閱讀機制（身份進階、成就徽章），系統已部署上線運營。',
+    'proj-honglou-code': '程式碼',
+
     'proj-graphjudge-title': 'GraphJudge TextToKG Pipeline - 基於LLM的高效可靠古漢語文本到知識圖譜生成器',
     'proj-graphjudge-desc': '這是一個基於大型語言模型輸出與評估的系統，能夠可靠地從古漢語文本輸入生成高品質知識圖譜，運行於Streamlit平台。',
     'proj-graphjudge-code': '程式碼',
@@ -171,6 +195,11 @@ window.translations = {
   },
   
   'zh-CN': {
+    // Hashtag badges
+    'badge-chinese-edtech': '语文教育科技',
+    'badge-ai-education': 'AI教育应用',
+    'badge-interdisciplinary': '跨域整合',
+
     // Navigation and headings
     'education': '教育背景',
     'experience': '经验',
@@ -179,9 +208,9 @@ window.translations = {
     'miscellany': '其他',
     
     // Introduction paragraphs
-    'intro-para1': '你好👋，我是潘骢杰，一位来自台湾的信息管理学系本科四年级学生，目前专精于数字人文学相关的研究，有关于古汉语文本处理与相关软件开发。',
-    'intro-para2': '我的跨领域契机源于对中文国学的兴趣与语文辅导的经验，以及对软件开发与AI技术的热诚。这些经验使我能在古汉语文本与信息技术之间搭建桥梁。',
-    'intro-para3': '我的目标是通过创新的数字工具和AI驱动系统，为古汉语文献的研究添加砖瓦，并让古汉语文献的阅读门槛可以降低，更易于与大众接触，让更多人喜欢上中国古典文学。',
+    'intro-para1': '你好👋，我是潘骢杰，中原大学信息管理学系大四生，专注于「国文教育 × 科技」的跨域整合。',
+    'intro-para2': '我的核心关怀是：如何用 AI 与 IT 技术重新点燃学生对古典文学的兴趣？这份问题意识源自担任台大种子计划国文作文教师的经验——我看见学生面对古典文本，被繁复的人物、陌生的文言与背景知识挡在门外，还没开始就想放弃了。',
+    'intro-para3': '为此，我开发了《红楼慧读》学习系统（系上专题初审第一名），并以《建构基于 RA-LLMs 框架之古汉语知识问答系统》获国科会大专生研究计划支持。我的目标是成为国文数字学习领域的产品研究者，让科技成为启发学习的工具。',
     
     // Education section
     'edu-cycu': '台湾中原大学 信息管理学系',
@@ -195,8 +224,10 @@ window.translations = {
 
     'exp-dept-comp-title': '2025年信息管理学系毕业专题竞赛 - 初选第一名',
     'exp-dept-comp-project': '项目题目：红楼慧读：《红楼梦》阅读学习系统',
-    'exp-dept-comp-achievement': '于本系信息管理学系毕业专题竞赛初选获得第一名',
-    
+
+    'exp-toefl-scholarship-title': '获奖 2025 TOEFL ITP 高等教育学术研究奖学金',
+    'exp-toefl-scholarship-period': '2025年11月',
+
     'exp-ape-title': '猿创力程式教育',
     'exp-ape-period': '2022年9月 – 2023年9月',
     'exp-ape-role': '讲师',
@@ -208,6 +239,11 @@ window.translations = {
     'exp-tutor-desc': '教授基础积木程序设计，启发儿童的程序创意。',
     
     // Projects section
+    'proj-honglou-title': '红楼慧读：红楼梦阅读学习系统',
+    'proj-honglou-desc': '主导设计并开发一套整合 AI 技术的古典文学学习平台，解决现代读者阅读《红楼梦》的三大痛点：古汉语障碍、人物关系复杂、阅读动机难维持。',
+    'proj-honglou-features': '核心功能包括：基于 LLM 的知识图谱自动生成与视觉化、AI 智能问答系统、游戏化阅读机制（身份进阶、成就徽章），系统已部署上线运营。',
+    'proj-honglou-code': '代码',
+
     'proj-graphjudge-title': 'GraphJudge TextToKG Pipeline - 基于LLM的高效可靠古汉语文本到知识图谱生成器',
     'proj-graphjudge-desc': '这是一个基于大型语言模型输出与评估的系统，能够可靠地从古汉语文本输入生成高质量知识图谱，运行于Streamlit平台。',
     'proj-graphjudge-code': '代码',

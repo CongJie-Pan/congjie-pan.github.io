@@ -5,11 +5,17 @@ entries_layout: list
 posts_limit: 0
 ---
 
-<p data-i18n="intro-para1">Hello👋, I am CongJie Pan (潘驄杰), a Senior at Chung Yuan Christian University majoring in Information Management, with a specialized passion for Digital Humanities and Ancient Chinese text processing, combining traditional humanities scholarship with software development.</p>
+<div class="hashtag-badges">
+  <span class="hashtag-badge" data-i18n="badge-chinese-edtech">Chinese Education Tech</span>
+  <span class="hashtag-badge" data-i18n="badge-ai-education">AI Education Applications</span>
+  <span class="hashtag-badge" data-i18n="badge-interdisciplinary">Interdisciplinary Integration</span>
+</div>
 
-<p data-i18n="intro-para2">My cross-disciplinary opportunity stems from my interest in Chinese classical studies and experience in Chinese literature tutoring, as well as my passion for software development. These experiences enable me to bridge classical scholarship with software technology.</p>
+<p data-i18n="intro-para1">Hello👋, I am CongJie Pan (潘驄杰), a senior at Chung Yuan Christian University majoring in Information Management, focusing on the cross-domain integration of "Chinese Education × Technology".</p>
 
-<p data-i18n="intro-para3">My goal is to make Ancient Chinese literature more accessible to the public through innovative digital tools and AI-driven systems, helping people fall in love with Chinese classical literature.</p>
+<p data-i18n="intro-para2">My core concern is: How can AI and IT technologies reignite students' interest in classical literature? This question arose from my experience as a Chinese composition teacher in the NTU Admission Counseling Seed Program—I witnessed students being blocked by complex characters, unfamiliar classical Chinese, and background knowledge before they even started, wanting to give up before they began.</p>
+
+<p data-i18n="intro-para3">To address this, I developed the "HongLou WiseRead" learning system (first place in department preliminary competition) and received NSTC undergraduate research project support for "Construction of an Ancient Chinese Knowledge Q&A System Based on the RA-LLMs Framework". My goal is to become a product researcher in the field of digital learning for Chinese education, making technology a tool for inspiring learning.</p>
 
 <div class="content-section" markdown="1">
 
@@ -26,13 +32,15 @@ posts_limit: 0
 ## <span data-i18n="experience">Experience</span>
 
 - **<span data-i18n="exp-nstc-title">Admitted to the National Science and Technology Council (NSTC) 2025 Annual Research Project</span>**
-  - <a href="./PDF/The_Construction_of_an_Ancient_Chinese_Knowledge_Query_System.pdf" target="_blank"><strong><span data-i18n="exp-nstc-project">Project Title: Construction of a Knowledge Query System for Ancient Chinese Based on the RA-LLMs Framework</span></strong></a>
+  - <span data-i18n="exp-nstc-project">Project Title: Construction of a Knowledge Query System for Ancient Chinese Based on the RA-LLMs Framework</span>
   - <span data-i18n="exp-nstc-under">under Professor</span> [Chin-Hui Lai](https://chlai045.github.io/){:target="_blank"}
 
 - **<span data-i18n="exp-dept-comp-title">2025 Information Management Department Senior Project Competition - First Place Winner</span>**
-  - <a href="./PDF/HongLou_WiseRead_proposal.pdf" target="_blank"><strong><span data-i18n="exp-dept-comp-project">Project Title: HongLou WiseRead: Dream of the Red Chamber Reading Learning System</span>
+  - <span data-i18n="exp-dept-comp-project">Project Title: HongLou WiseRead: Dream of the Red Chamber Reading Learning System</span>
   - <span data-i18n="exp-nstc-under">Under Professor</span> [Chin-Hui Lai](https://chlai045.github.io/){:target="_blank"}
-  - <a href="./images/113-2-departmentInitialCompetion-1prize.jpg" target="_blank"><span data-i18n="exp-dept-comp-achievement">Won first place in the preliminary round of the department's Information Management senior project competition</span></a>
+
+- **<span data-i18n="exp-toefl-scholarship-title">2025 TOEFL ITP Higher Education Academic Research Scholarship</span>**
+  - <span data-i18n="exp-toefl-scholarship-period">NOVEMBER.2025</span>
 
 - **<span data-i18n="exp-ape-title">Coding Ape School 猿創力程式教育</span>**
   - <span data-i18n="exp-ape-period">SEPTEMBER.2022 – SEPTEMBER.2023</span>
@@ -48,6 +56,12 @@ posts_limit: 0
 <div class="content-section" markdown="1">
 
 ## <span data-i18n="projects">Completed Projects</span>
+
+- **<span data-i18n="proj-honglou-title">HongLou WiseRead: Dream of the Red Chamber Reading Learning System</span>**
+  - <span data-i18n="proj-honglou-desc">Led the design and development of an AI-integrated classical literature learning platform, addressing three major pain points for modern readers of "Dream of the Red Chamber": classical Chinese barriers, complex character relationships, and difficulty maintaining reading motivation.</span>
+  - <span data-i18n="proj-honglou-features">Core features include: LLM-based automatic knowledge graph generation and visualization, AI intelligent Q&A system, gamified reading mechanics (identity progression, achievement badges). The system is deployed and operational.</span>
+
+  &nbsp;&nbsp;<a href="https://reurl.cc/eVzbbW" class="project-link" target="_blank"><i class="fab fa-github" style="margin-right: 5px;"></i><span data-i18n="proj-honglou-code">Code</span></a>
 
 - **<span data-i18n="proj-graphjudge-title">GraphJudge TextToKG Pipeline - LLM-based Efficient and Reliable Ancient Chinese Text to Knowledge Graph Generator</span>**
   - <span data-i18n="proj-graphjudge-desc">This is a system based on large language model output and evaluation that can reliably generate high-quality knowledge graphs from ancient Chinese text input, running on the Streamlit platform.</span>
@@ -90,7 +104,6 @@ posts_limit: 0
   - <span data-i18n="act-sancode-desc">Submitted an approximately 2000-word reflection article for the competition after reading Wu Jun's "Smart Age: Big Data and Intelligent revolution redefine the future"(2024) and "The Great History of Information: How Humanity Eliminates Uncertainty about the Unknown"(2023).</span>
 </div>
 
-<!-- Language Proficiency Test section - Currently hidden
 <div class="content-section" markdown="1">
 
 ## <span data-i18n="language-proficiency">Language Proficiency Test</span>
@@ -98,7 +111,6 @@ posts_limit: 0
 - <span data-i18n="lang-toefl-label">TOEFL ITP Score</span>: <span data-i18n="lang-toefl-score">503</span>
 - <span data-i18n="lang-toeic-label">TOEIC Score</span>: <span data-i18n="lang-toeic-score">735</span>
 </div>
--->
 
 <div class="content-section" markdown="1">
 

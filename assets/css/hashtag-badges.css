@@ -1,0 +1,65 @@
+/* Reduce gap below masthead (social icons area) */
+header.masthead {
+  margin-bottom: 15px !important;
+}
+
+/* Hashtag Badges Styling */
+.hashtag-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 0.5rem 0 1.5rem 0;
+  padding: 0;
+}
+
+.hashtag-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  background-color: #494e52;
+  color: #ffffff;
+}
+
+/* Hover effects */
+.hashtag-badge:hover {
+  transform: translateY(-2px);
+  background-color: #5a6068;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Hash symbol styling */
+.hashtag-badge::before {
+  content: "#";
+  margin-right: 2px;
+  opacity: 0.85;
+}
+
+/* Dark mode support */
+[data-theme="dark"] .hashtag-badge {
+  background-color: #6c757d;
+  color: #ffffff;
+}
+
+[data-theme="dark"] .hashtag-badge:hover {
+  background-color: #7d868f;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .hashtag-badges {
+    gap: 8px;
+    margin: 0 0 1rem 0;
+  }
+
+  .hashtag-badge {
+    padding: 5px 12px;
+    font-size: 0.8rem;
+  }
+}
