@@ -15,9 +15,10 @@ window.translations = {
     
     // Introduction paragraphs
     'intro-para1': 'Hello👋, I am CongJie Pan (潘驄杰), a senior at Chung Yuan Christian University majoring in Information Management, focusing on the cross-domain integration of "Chinese Education × Technology".',
-    'intro-para2': 'My core concern is: How can AI and IT technologies reignite students\' interest in classical literature? This question arose from my experience as a Chinese composition teacher in the NTU Admission Counseling Seed Program—I witnessed students being blocked by complex characters, unfamiliar classical Chinese, and background knowledge before they even started, wanting to give up before they began.',
-    'intro-para3': 'To address this, I developed the "HongLou WiseRead" learning system (first place in department preliminary competition) and received NSTC undergraduate research project support for "Construction of an Ancient Chinese Knowledge Q&A System Based on the RA-LLMs Framework". My goal is to become a product researcher in the field of digital learning for Chinese education, making technology a tool for inspiring learning.',
-    
+    'intro-para2': 'My core concern is: How can classical texts transform from materials students passively memorize into living waters they actively explore? This question arose from the teaching field—I witnessed students facing classical texts, blocked by complex characters, unfamiliar classical Chinese, and background knowledge, wanting to give up before they even started.',
+    'intro-para3': 'To address this, I developed the "HongLou WiseRead" learning system (first place in department preliminary competition) and received NSTC undergraduate research project support for "Construction of an Ancient Chinese Knowledge Q&A System Based on the RA-LLMs Framework". The core design philosophy is: not just helping students understand the text, but teaching them to explore—decomposing character relationships, discovering naming patterns, and constructing knowledge graphs on their own. Instead of giving answers directly, the system provides hints and feedback when students get stuck.',
+    'intro-para4': 'My goal is to become a product researcher in the field of digital learning for Chinese education, making technology a tool for inspiring thinking, not a shortcut that replaces it.',
+
     // Education section
     'edu-cycu': 'Department of Information Management, Chung Yuan Christian University',
     'edu-junior': 'Senior Year',
@@ -112,9 +113,10 @@ window.translations = {
     
     // Introduction paragraphs
     'intro-para1': '你好👋，我是潘驄杰，中原大學資訊管理學系大四生，專注於「國文教育 × 科技」的跨域整合。',
-    'intro-para2': '我的核心關懷是：如何用 AI 與 IT 技術重新點燃學生對古典文學的興趣？這份問題意識源自擔任台大種子計畫國文作文教師的經驗——我看見學生面對古典文本，被繁複的人物、陌生的文言與背景知識擋在門外，還沒開始就想放棄了。',
-    'intro-para3': '為此，我開發了《紅樓慧讀》學習系統（系上專題初審第一名），並以《建構基於 RA-LLMs 框架之古漢語知識問答系統》獲國科會大專生研究計畫支持。我的目標是成為國文數位學習領域的產品研究者，讓科技成為啟發學習的工具。',
-    
+    'intro-para2': '我的核心關懷是：如何讓古典文本從學生被動背誦的材料，變成他們主動探索的活水？這份問題意識源自教學現場——我看見學生面對古典文本，被繁複的人物、陌生的文言與背景知識擋在門外，還沒開始就想放棄。',
+    'intro-para3': '為此，我開發了《紅樓慧讀》學習系統（系上專題初審第一名），並以《建構基於 RA-LLMs 框架之古漢語知識問答系統》獲國科會大專生研究計畫支持。核心設計理念是：不只讓學生讀懂文本，更讓他們學會探索——自己拆解人物關係、發現命名規律、建構知識圖譜。不直接給答案，而是在學生卡住時系統給線索、給回饋。',
+    'intro-para4': '我的目標是成為國文數位學習領域的產品研究者，讓科技成為啟發思考的工具，而不是取代思考的捷徑。',
+
     // Education section
     'edu-cycu': '中原大學 資訊管理學系',
     'edu-junior': '四年級',
@@ -208,10 +210,11 @@ window.translations = {
     'miscellany': '其他',
     
     // Introduction paragraphs
-    'intro-para1': '你好👋，我是潘骢杰，中原大学信息管理学系大四生，专注于「国文教育 × 科技」的跨域整合。',
-    'intro-para2': '我的核心关怀是：如何用 AI 与 IT 技术重新点燃学生对古典文学的兴趣？这份问题意识源自担任台大种子计划国文作文教师的经验——我看见学生面对古典文本，被繁复的人物、陌生的文言与背景知识挡在门外，还没开始就想放弃了。',
-    'intro-para3': '为此，我开发了《红楼慧读》学习系统（系上专题初审第一名），并以《建构基于 RA-LLMs 框架之古汉语知识问答系统》获国科会大专生研究计划支持。我的目标是成为国文数字学习领域的产品研究者，让科技成为启发学习的工具。',
-    
+    'intro-para1': '你好👋，我是潘骢杰，中原大学信息管理学系大四生，专注于「语文教育 × 科技」的跨域整合。',
+    'intro-para2': '我的核心关怀是：如何让古典文本从学生被动背诵的材料，变成他们主动探索的活水？这份问题意识源自教学现场——我看见学生面对古典文本，被繁复的人物、陌生的文言与背景知识挡在门外，还没开始就想放弃。',
+    'intro-para3': '为此，我开发了《红楼慧读》学习系统（系上专题初审第一名），并以《建构基于 RA-LLMs 框架之古汉语知识问答系统》获国科会大专生研究计划支持。核心设计理念是：不只让学生读懂文本，更让他们学会探索——自己拆解人物关系、发现命名规律、建构知识图谱。不直接给答案，而是在学生卡住时系统给线索、给回馈。',
+    'intro-para4': '我的目标是成为语文数字学习领域的产品研究者，让科技成为启发思考的工具，而不是取代思考的捷径。',
+
     // Education section
     'edu-cycu': '台湾中原大学 信息管理学系',
     'edu-junior': '四年级',
@@ -273,7 +276,7 @@ window.translations = {
     'act-mutahead-title': '学习家有限公司，完成「观点写作课程」',
     'act-mutahead-period': '2023年11月 – 2024年12月',
     'act-mutahead-desc1': '在培训计划中促进写作技能的发展，通过每周作业精进能力。',
-    'act-mutahead-desc2': '撰写题为「国文教学怎么了？一位"资管学生"对国文教学的体悟」的文章，投稿至',
+    'act-mutahead-desc2': '撰写题为「语文教学怎么了？一位"资管学生"对语文教学的体悟」的文章，投稿至',
     'act-mutahead-link': '「天下独立评论」',
     
     'act-sancode-title': '善科教育基金会，参与第二届及第三届科技文学奖',

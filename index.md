@@ -13,9 +13,11 @@ posts_limit: 0
 
 <p data-i18n="intro-para1">Hello👋, I am CongJie Pan (潘驄杰), a senior at Chung Yuan Christian University majoring in Information Management, focusing on the cross-domain integration of "Chinese Education × Technology".</p>
 
-<p data-i18n="intro-para2">My core concern is: How can AI and IT technologies reignite students' interest in classical literature? This question arose from my experience as a Chinese composition teacher in the NTU Admission Counseling Seed Program—I witnessed students being blocked by complex characters, unfamiliar classical Chinese, and background knowledge before they even started, wanting to give up before they began.</p>
+<p data-i18n="intro-para2">My core concern is: How can classical texts transform from materials students passively memorize into living waters they actively explore? This question arose from the teaching field—I witnessed students facing classical texts, blocked by complex characters, unfamiliar classical Chinese, and background knowledge, wanting to give up before they even started.</p>
 
-<p data-i18n="intro-para3">To address this, I developed the "HongLou WiseRead" learning system (first place in department preliminary competition) and received NSTC undergraduate research project support for "Construction of an Ancient Chinese Knowledge Q&A System Based on the RA-LLMs Framework". My goal is to become a product researcher in the field of digital learning for Chinese education, making technology a tool for inspiring learning.</p>
+<p data-i18n="intro-para3">To address this, I developed the "HongLou WiseRead" learning system (first place in department preliminary competition) and received NSTC undergraduate research project support for "Construction of an Ancient Chinese Knowledge Q&A System Based on the RA-LLMs Framework". The core design philosophy is: not just helping students understand the text, but teaching them to explore—decomposing character relationships, discovering naming patterns, and constructing knowledge graphs on their own. Instead of giving answers directly, the system provides hints and feedback when students get stuck.</p>
+
+<p data-i18n="intro-para4">My goal is to become a product researcher in the field of digital learning for Chinese education, making technology a tool for inspiring thinking, not a shortcut that replaces it.</p>
 
 <div class="content-section" markdown="1">
 
