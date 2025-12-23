@@ -11,13 +11,13 @@ posts_limit: 0
   <span class="hashtag-badge" data-i18n="badge-interdisciplinary">Interdisciplinary Integration</span>
 </div>
 
-<p data-i18n="intro-para1">Hello👋, I am CongJie Pan (潘驄杰), a senior at Chung Yuan Christian University majoring in Information Management, focusing on the cross-domain integration of "Chinese Education × Technology".</p>
+<p data-i18n="intro-para1">Hi, I’m CongJie Pan (潘驄杰), a senior in Information Management at Chung Yuan Christian University. I work at the intersection of Chinese education and technology.</p>
 
-<p data-i18n="intro-para2">My core concern is: How can classical texts transform from materials students passively memorize into living waters they actively explore? This question arose from the teaching field—I witnessed students facing classical texts, blocked by complex characters, unfamiliar classical Chinese, and background knowledge, wanting to give up before they even started.</p>
+<p data-i18n="intro-para2">I build tools that help students engage with classical texts—especially when characters, classical Chinese, and context make reading feel inaccessible.</p>
 
-<p data-i18n="intro-para3">To address this, I developed the "HongLou WiseRead" learning system (first place in department preliminary competition) and received NSTC undergraduate research project support for "Construction of an Ancient Chinese Knowledge Q&A System Based on the RA-LLMs Framework". The core design philosophy is: not just helping students understand the text, but teaching them to explore—decomposing character relationships, discovering naming patterns, and constructing knowledge graphs on their own. Instead of giving answers directly, the system provides hints and feedback when students get stuck.</p>
+<p data-i18n="intro-para3">I created HongLou WiseRead (1st place in my department’s project competition) and am supported by an NSTC undergraduate project on an RA-LLMs-based ancient Chinese knowledge Q&A system. My focus: guide exploration with hints and feedback, not just answers.</p>
 
-<p data-i18n="intro-para4">My goal is to become a product researcher in the field of digital learning for Chinese education, making technology a tool for inspiring thinking, not a shortcut that replaces it.</p>
+<p data-i18n="intro-para4">My goal is to research and build digital learning products for Chinese education—technology that sparks thinking rather than replacing it.</p>
 
 <div class="content-section" markdown="1">
 
@@ -36,6 +36,10 @@ posts_limit: 0
 - **<span data-i18n="exp-nstc-title">Admitted to the National Science and Technology Council (NSTC) 2025 Annual Research Project</span>**
   - <span data-i18n="exp-nstc-project">Project Title: Construction of a Knowledge Query System for Ancient Chinese Based on the RA-LLMs Framework</span>
   - <span data-i18n="exp-nstc-under">under Professor</span> [Chin-Hui Lai](https://chlai045.github.io/){:target="_blank"}
+
+- **<span data-i18n="exp-innoserve-title">2025 Innoserve 30th University Information Application Service Innovation Contest - National Finals Finalist</span>**
+  - <span data-i18n="exp-innoserve-period">NOVEMBER.2025</span>
+  - <span data-i18n="exp-innoserve-project">Finalist with project: HongLou WiseRead: Dream of the Red Chamber Reading Learning System</span>
 
 - **<span data-i18n="exp-dept-comp-title">2025 Information Management Department Senior Project Competition - First Place Winner</span>**
   - <span data-i18n="exp-dept-comp-project">Project Title: HongLou WiseRead: Dream of the Red Chamber Reading Learning System</span>

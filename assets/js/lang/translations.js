@@ -14,10 +14,10 @@ window.translations = {
     'miscellany': 'Miscellany',
     
     // Introduction paragraphs
-    'intro-para1': 'Hello👋, I am CongJie Pan (潘驄杰), a senior at Chung Yuan Christian University majoring in Information Management, focusing on the cross-domain integration of "Chinese Education × Technology".',
-    'intro-para2': 'My core concern is: How can classical texts transform from materials students passively memorize into living waters they actively explore? This question arose from the teaching field—I witnessed students facing classical texts, blocked by complex characters, unfamiliar classical Chinese, and background knowledge, wanting to give up before they even started.',
-    'intro-para3': 'To address this, I developed the "HongLou WiseRead" learning system (first place in department preliminary competition) and received NSTC undergraduate research project support for "Construction of an Ancient Chinese Knowledge Q&A System Based on the RA-LLMs Framework". The core design philosophy is: not just helping students understand the text, but teaching them to explore—decomposing character relationships, discovering naming patterns, and constructing knowledge graphs on their own. Instead of giving answers directly, the system provides hints and feedback when students get stuck.',
-    'intro-para4': 'My goal is to become a product researcher in the field of digital learning for Chinese education, making technology a tool for inspiring thinking, not a shortcut that replaces it.',
+    'intro-para1': 'Hi, I’m CongJie Pan (潘驄杰), a senior in Information Management at Chung Yuan Christian University. I work at the intersection of Chinese education and technology.',
+    'intro-para2': 'I build tools that help students engage with classical texts—especially when characters, classical Chinese, and context make reading feel inaccessible.',
+    'intro-para3': 'I created HongLou WiseRead (1st place in my department’s project competition) and am supported by an NSTC undergraduate project on an RA-LLMs-based ancient Chinese knowledge Q&A system. My focus: guide exploration with hints and feedback, not just answers.',
+    'intro-para4': 'My goal is to research and build digital learning products for Chinese education—technology that sparks thinking rather than replacing it.',
 
     // Education section
     'edu-cycu': 'Department of Information Management, Chung Yuan Christian University',
@@ -28,6 +28,10 @@ window.translations = {
     'exp-nstc-title': 'Admitted to the National Science and Technology Council (NSTC) 2025 Annual Research Project',
     'exp-nstc-project': 'Project Title: Construction of a Knowledge Query System for Ancient Chinese Based on the RA-LLMs Framework',
     'exp-nstc-under': 'under Professor',
+
+    'exp-innoserve-title': 'International ICT Innovative Services Awards 2025 - National Finals Finalist',
+    'exp-innoserve-period': 'NOVEMBER.2025',
+    'exp-innoserve-project': 'Finalist with project: HongLou WiseRead: Dream of the Red Chamber Reading Learning System',
 
     'exp-dept-comp-title': '2025 Information Management Department Senior Project Competition - First Place Winner',
     'exp-dept-comp-project': 'Project Title: HongLou WiseRead: Dream of the Red Chamber Reading Learning System',
@@ -127,6 +131,10 @@ window.translations = {
     'exp-nstc-project': '計畫題目：基於RA-LLMs框架的古漢語知識查詢系統構建',
     'exp-nstc-under': '指導教授',
 
+    'exp-innoserve-title': '2025年Innoserve第30屆大專校院資訊應用服務創新競賽 - 入圍全國決賽',
+    'exp-innoserve-period': '2025年11月',
+    'exp-innoserve-project': '以《紅樓慧讀：紅樓夢閱讀學習系統》專案入圍全國決賽',
+
     'exp-dept-comp-title': '2025年資訊管理學系畢業專題競賽 - 初選第一名',
     'exp-dept-comp-project': '專案題目：紅樓慧讀：《紅樓夢》閱讀學習系統',
 
@@ -224,6 +232,10 @@ window.translations = {
     'exp-nstc-title': '录取国家科学及技术委员会（NSTC）2025年度研究计划',
     'exp-nstc-project': '计划题目：基于RA-LLMs框架的古汉语知识查询系统构建',
     'exp-nstc-under': '指导教授',
+
+    'exp-innoserve-title': '2025年 Innoserve 第30届大专校院资讯应用服务创新竞赛 - 入围全国决赛',
+    'exp-innoserve-period': '2025年11月',
+    'exp-innoserve-project': '以「红楼慧读：《红楼梦》阅读学习系统」专案入围全国决赛',
 
     'exp-dept-comp-title': '2025年信息管理学系毕业专题竞赛 - 初选第一名',
     'exp-dept-comp-project': '项目题目：红楼慧读：《红楼梦》阅读学习系统',
