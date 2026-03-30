@@ -2,9 +2,9 @@
 window.translations = {
   'en': {
     // Hashtag badges
-    'badge-chinese-edtech': 'Chinese Education Tech',
-    'badge-ai-education': 'AI Education Applications',
-    'badge-interdisciplinary': 'Interdisciplinary Integration',
+    'badge-chinese-edtech': 'Chinese EdTech',
+    'badge-ai-education': 'AI in Education',
+    'badge-interdisciplinary': 'Cross-disciplinary Research',
 
     // Navigation and headings
     'education': 'Education',
@@ -14,15 +14,17 @@ window.translations = {
     'miscellany': 'Miscellany',
     
     // Introduction paragraphs
-    'intro-para1': 'Hi, I’m CongJie Pan (潘驄杰), a senior in Information Management at Chung Yuan Christian University. I work at the intersection of Chinese education and technology.',
-    'intro-para2': 'I build tools that help students engage with classical texts—especially when characters, classical Chinese, and context make reading feel inaccessible.',
-    'intro-para3': 'I created HongLou WiseRead (1st place in my department’s project competition) and am supported by an NSTC undergraduate project on an RA-LLMs-based ancient Chinese knowledge Q&A system. My focus: guide exploration with hints and feedback, not just answers.',
-    'intro-para4': 'My goal is to research and build digital learning products for Chinese education—technology that sparks thinking rather than replacing it.',
+    'intro-para1': 'Hi 👋, I\'m CongJie Pan. I\'m a senior in Information Management at Chung Yuan Christian University, and an incoming Master\'s student at National Taiwan Normal University\'s (NTNU) Graduate Institute of Information and Computer Education.',
+    'intro-para2': 'Bridging Chinese literature and IT, my research focuses on NLP and EdTech. I aim to create digital learning tools that inspire critical thinking and guide students through Chinese ancient classical texts, serving as a scaffold rather than a shortcut. My core interests include: (1) Ancient Chinese Knowledge QA systems, (2) Text visualization and Knowledge Graphs, and (3) AI-driven learning system.',
+    'intro-para3': 'I developed the "HongLou WiseRead" learning system that is for "The Dream of Red Chamber" learning. And received National Science and Technology Council\'s (NSTC) grant for my undergraduate research on an "RA-LLM-based Ancient Chinese QA system." I aspire to be an EdTech product researcher, using technology to truly empower Chinese education.',
 
     // Education section
-    'edu-cycu': 'Department of Information Management, Chung Yuan Christian University',
-    'edu-junior': 'Senior Year',
-    'edu-period': 'SEPTEMBER.2022 – PRESENT',
+    'edu-ntnu': 'Graduate Institute of Information and Computer Education, National Taiwan Normal University - Master\'s Program',
+    'edu-ntnu-status': 'Incoming Master\'s Student',
+    'edu-ntnu-period': 'SEPTEMBER.2026 – JUNE.2028',
+    'edu-cycu': 'Department of Information Management, Chung Yuan Christian University - Bachelor\'s Program',
+    'edu-cycu-status': 'Senior Year',
+    'edu-cycu-period': 'SEPTEMBER.2022 – PRESENT',
     
     // Experience section
     'exp-nstc-title': 'Admitted to the National Science and Technology Council (NSTC) 2025 Annual Research Project',
@@ -122,9 +124,12 @@ window.translations = {
     'intro-para4': '我的目標是成為國文數位學習領域的產品研究者，讓科技成為啟發思考的工具，而不是取代思考的捷徑。',
 
     // Education section
-    'edu-cycu': '中原大學 資訊管理學系',
-    'edu-junior': '四年級',
-    'edu-period': '2022年9月 – 至今',
+    'edu-ntnu': '國立臺灣師範大學 資訊教育研究所 - 碩士班',
+    'edu-ntnu-status': '準碩士生',
+    'edu-ntnu-period': '2026年9月 – 2028年6月',
+    'edu-cycu': '中原大學 資訊管理學系 - 學士班',
+    'edu-cycu-status': '四年級',
+    'edu-cycu-period': '2022年9月 – 至今',
     
     // Experience section
     'exp-nstc-title': '錄取國家科學及技術委員會（NSTC）2025年度研究計畫',
@@ -224,9 +229,12 @@ window.translations = {
     'intro-para4': '我的目标是成为语文数字学习领域的产品研究者，让科技成为启发思考的工具，而不是取代思考的捷径。',
 
     // Education section
-    'edu-cycu': '台湾中原大学 信息管理学系',
-    'edu-junior': '四年级',
-    'edu-period': '2022年9月 – 至今',
+    'edu-ntnu': '国立台湾师范大学 信息教育研究所 - 硕士班',
+    'edu-ntnu-status': '准硕士生',
+    'edu-ntnu-period': '2026年9月 – 2028年6月',
+    'edu-cycu': '台湾中原大学 信息管理学系 - 学士班',
+    'edu-cycu-status': '四年级',
+    'edu-cycu-period': '2022年9月 – 至今',
     
     // Experience section
     'exp-nstc-title': '录取国家科学及技术委员会（NSTC）2025年度研究计划',

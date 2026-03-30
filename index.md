@@ -6,26 +6,29 @@ posts_limit: 0
 ---
 
 <div class="hashtag-badges">
-  <span class="hashtag-badge" data-i18n="badge-chinese-edtech">Chinese Education Tech</span>
-  <span class="hashtag-badge" data-i18n="badge-ai-education">AI Education Applications</span>
-  <span class="hashtag-badge" data-i18n="badge-interdisciplinary">Interdisciplinary Integration</span>
+  <span class="hashtag-badge" data-i18n="badge-chinese-edtech">Chinese EdTech</span>
+  <span class="hashtag-badge" data-i18n="badge-ai-education">AI in Education</span>
+  <span class="hashtag-badge" data-i18n="badge-interdisciplinary">Cross-disciplinary Research</span>
 </div>
 
-<p data-i18n="intro-para1">Hi, I’m CongJie Pan (潘驄杰), a senior in Information Management at Chung Yuan Christian University. I work at the intersection of Chinese education and technology.</p>
 
-<p data-i18n="intro-para2">I build tools that help students engage with classical texts—especially when characters, classical Chinese, and context make reading feel inaccessible.</p>
 
-<p data-i18n="intro-para3">I created HongLou WiseRead (1st place in my department’s project competition) and am supported by an NSTC undergraduate project on an RA-LLMs-based ancient Chinese knowledge Q&A system. My focus: guide exploration with hints and feedback, not just answers.</p>
+<p data-i18n="intro-para1">Hi 👋, I'm CongJie Pan. I'm a senior in Information Management at Chung Yuan Christian University, and an incoming Master's student at National Taiwan Normal University's (NTNU) Graduate Institute of Information and Computer Education.</p>
 
-<p data-i18n="intro-para4">My goal is to research and build digital learning products for Chinese education—technology that sparks thinking rather than replacing it.</p>
+<p data-i18n="intro-para2">Bridging Chinese literature and IT, my research focuses on NLP and EdTech. I aim to create digital learning tools that inspire critical thinking and guide students through Chinese ancient classical texts, serving as a scaffold rather than a shortcut. My core interests include: (1) Ancient Chinese Knowledge QA systems, (2) Text visualization and Knowledge Graphs, and (3) AI-driven learning system.</p>
+
+<p data-i18n="intro-para3">I developed the "HongLou WiseRead" learning system that is for "The Dream of Red Chamber" learning. And received National Science and Technology Council's (NSTC) grant for my undergraduate research on an "RA-LLM-based Ancient Chinese QA system." I aspire to be an EdTech product researcher, using technology to truly empower Chinese education.</p>
 
 <div class="content-section" markdown="1">
 
 ## <span data-i18n="education">Education</span>
 
-- <span data-i18n="edu-cycu">Department of Information Management, Chung Yuan Christian University</span>
-  - <span data-i18n="edu-junior">Senior Year</span>
-  - <span data-i18n="edu-period">SEPTEMBER.2022 – PRESENT</span>
+- <span data-i18n="edu-ntnu">Graduate Institute of Information and Computer Education, National Taiwan Normal University - Master's Program</span>
+  - <span data-i18n="edu-ntnu-status">Incoming Master's Student</span>
+  - <span data-i18n="edu-ntnu-period">SEPTEMBER.2026 – JUNE.2028</span>
+- <span data-i18n="edu-cycu">Department of Information Management, Chung Yuan Christian University - Bachelor's Program</span>
+  - <span data-i18n="edu-cycu-status">Senior Year</span>
+  - <span data-i18n="edu-cycu-period">SEPTEMBER.2022 – PRESENT</span>
 
 </div>
 
