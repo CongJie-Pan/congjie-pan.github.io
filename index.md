@@ -11,13 +11,13 @@ posts_limit: 0
   <span class="hashtag-badge" data-i18n="badge-interdisciplinary">Cross-disciplinary Research</span>
 </div>
 
+<div class="intro-paragraphs">
+  <p data-i18n="intro-para1">Hi 👋! I'm CongJie Pan. I'm a senior in Information Management at Chung Yuan Christian University, and an incoming Master's student at National Taiwan Normal University's (NTNU) Graduate Institute of Information and Computer Education.</p>
 
+  <p data-i18n="intro-para2">Combining IT with Chinese teaching experience, I focus on NLP and EdTech. My goal is to build digital tools that scaffold students in exploring classical texts without replacing critical thinking. My core interests: (1) Ancient Chinese QA systems, (2) Knowledge Graphs, and (3) AI smart learning.</p>
 
-<p data-i18n="intro-para1">Hi 👋, I'm CongJie Pan. I'm a senior in Information Management at Chung Yuan Christian University, and an incoming Master's student at National Taiwan Normal University's (NTNU) Graduate Institute of Information and Computer Education.</p>
-
-<p data-i18n="intro-para2">Bridging Chinese literature and IT, my research focuses on NLP and EdTech. I aim to create digital learning tools that inspire critical thinking and guide students through Chinese ancient classical texts, serving as a scaffold rather than a shortcut. My core interests include: (1) Ancient Chinese Knowledge QA systems, (2) Text visualization and Knowledge Graphs, and (3) AI-driven learning system.</p>
-
-<p data-i18n="intro-para3">I developed the "HongLou WiseRead" learning system that is for "The Dream of Red Chamber" learning. And received National Science and Technology Council's (NSTC) grant for my undergraduate research on an "RA-LLM-based Ancient Chinese QA system." I aspire to be an EdTech product researcher, using technology to truly empower Chinese education.</p>
+  <p data-i18n="intro-para3">I developed the "HongLou WiseRead" system and received an NSTC grant for researching an "RA-LLM-based Ancient Chinese QA system". I aspire to be an EdTech product researcher, leveraging technology to empower Chinese education.</p>
+</div>
 
 <div class="content-section" markdown="1">
 

@@ -14,9 +14,9 @@ window.translations = {
     'miscellany': 'Miscellany',
     
     // Introduction paragraphs
-    'intro-para1': 'Hi 👋, I\'m CongJie Pan. I\'m a senior in Information Management at Chung Yuan Christian University, and an incoming Master\'s student at National Taiwan Normal University\'s (NTNU) Graduate Institute of Information and Computer Education.',
-    'intro-para2': 'Bridging Chinese literature and IT, my research focuses on NLP and EdTech. I aim to create digital learning tools that inspire critical thinking and guide students through Chinese ancient classical texts, serving as a scaffold rather than a shortcut. My core interests include: (1) Ancient Chinese Knowledge QA systems, (2) Text visualization and Knowledge Graphs, and (3) AI-driven learning system.',
-    'intro-para3': 'I developed the "HongLou WiseRead" learning system that is for "The Dream of Red Chamber" learning. And received National Science and Technology Council\'s (NSTC) grant for my undergraduate research on an "RA-LLM-based Ancient Chinese QA system." I aspire to be an EdTech product researcher, using technology to truly empower Chinese education.',
+    'intro-para1': 'Hi 👋! I\'m CongJie Pan. I\'m a senior in Information Management at Chung Yuan Christian University, and an incoming Master\'s student at National Taiwan Normal University\'s (NTNU) Graduate Institute of Information and Computer Education.',
+    'intro-para2': 'Combining IT with Chinese teaching experience, I focus on NLP and EdTech. My goal is to build digital tools that scaffold students in exploring classical texts without replacing critical thinking. My core interests: (1) Ancient Chinese QA systems, (2) Knowledge Graphs, and (3) AI smart learning.',
+    'intro-para3': 'I developed the "HongLou WiseRead" system and received an NSTC grant for researching an "RA-LLM-based Ancient Chinese QA system". I aspire to be an EdTech product researcher, leveraging technology to empower Chinese education.',
 
     // Education section
     'edu-ntnu': 'Graduate Institute of Information and Computer Education, National Taiwan Normal University - Master\'s Program',
@@ -27,17 +27,17 @@ window.translations = {
     'edu-cycu-period': 'SEPTEMBER.2022 – PRESENT',
     
     // Experience section
-    'exp-nstc-title': 'Admitted to the National Science and Technology Council (NSTC) 2025 Annual Research Project',
-    'exp-nstc-project': 'Project Title: Construction of a Knowledge Q&A System for Ancient Chinese Under the RA-LLMs Architecture',
+    'exp-nstc-title': 'NSTC 2025 Annual Research Project Grant',
+    'exp-nstc-project': 'Project: Building an Ancient Chinese Knowledge QA System using RA-LLMs',
     'exp-nstc-under': 'under Professor',
     'exp-nstc-report': 'Research Report',
     'exp-nstc-code': 'Source Code',
 
-    'exp-innoserve-title': 'International ICT Innovative Services Awards 2025 - National Finals Finalist',
+    'exp-innoserve-title': '2025 Innoserve Awards - National Finalist',
     'exp-innoserve-period': 'NOVEMBER.2025',
     'exp-innoserve-project': 'Finalist with project: HongLou WiseRead: Dream of the Red Chamber Reading Learning System',
 
-    'exp-dept-comp-title': '2025 Information Management Department Senior Project Competition - First Place Winner',
+    'exp-dept-comp-title': '2025 IM Dept. Senior Project Competition - 1st Place',
     'exp-dept-comp-project': 'Project Title: HongLou WiseRead: Dream of the Red Chamber Reading Learning System',
 
     'exp-toefl-scholarship-title': '2025 TOEFL ITP Higher Education Academic Research Scholarship',
@@ -46,7 +46,7 @@ window.translations = {
     'exp-ape-title': 'Coding Ape School 猿創力程式教育',
     'exp-ape-period': 'SEPTEMBER.2022 – SEPTEMBER.2023',
     'exp-ape-role': 'Instructor',
-    'exp-ape-desc': 'One year of teaching Scratch, Minecraft Education, and App Inventor to elementary school students. Also, developing in Minecraft Edu lesson plans.',
+    'exp-ape-desc': 'Instructed elementary students in Scratch, Minecraft Edu, and App Inventor. Designed curriculum.',
     
     'exp-tutor-title': 'Summer Programming Tutor',
     'exp-tutor-period': 'JULY.2022 – AUGUST.2022',
@@ -55,45 +55,45 @@ window.translations = {
     
     // Projects section
     'proj-honglou-title': 'HongLou WiseRead: Dream of the Red Chamber Reading Learning System',
-    'proj-honglou-desc': 'Led the design and development of an AI-integrated classical literature learning platform, addressing three major pain points for modern readers of "Dream of the Red Chamber": classical Chinese barriers, complex character relationships, and difficulty maintaining reading motivation.',
-    'proj-honglou-features': 'Core features include: LLM-based automatic knowledge graph generation and visualization, AI intelligent Q&A system, gamified reading mechanics (identity progression, achievement badges). The system is deployed and operational.',
+    'proj-honglou-desc': 'Built an AI-driven learning platform for "Dream of the Red Chamber" to solve reading barriers, map character relations, and sustain motivation.',
+    'proj-honglou-features': 'Features: LLM-generated Knowledge Graphs, AI QA system, and gamified reading mechanics. Currently deployed.',
     'proj-honglou-website': 'System Website',
 
     'proj-graphjudge-title': 'GraphJudge TextToKG Pipeline - LLM-based Efficient and Reliable Ancient Chinese Text to Knowledge Graph Generator',
-    'proj-graphjudge-desc': 'This is a system based on large language model output and evaluation that can reliably generate high-quality knowledge graphs from ancient Chinese text input, running on the Streamlit platform.',
+    'proj-graphjudge-desc': 'An LLM-based Streamlit system generating reliable, high-quality Knowledge Graphs from ancient Chinese texts.',
     'proj-graphjudge-code': 'Code',
 
     'proj-heartfelt-title': 'HeartfeltAI - AI Wedding Invitation System',
-    'proj-heartfelt-desc': '"HeartfeltAI" is a wedding invitation generation system that combines AI with human touch, utilizing advanced AI technology to create unique and personalized invitation content for each guest.',
+    'proj-heartfelt-desc': 'An AI wedding invitation generator blending technology with personalization to craft unique content for each guest.',
     'proj-heartfelt-code': 'Code',
     
     'proj-ticket-title': 'Speeding ticket management system',
-    'proj-ticket-desc': 'Led system analysis, coordinated tasks, and ensured the successful completion of the speeding ticket management system. The project integrated with the Taipei City Dashboard, enhancing data analysis efficiency.',
+    'proj-ticket-desc': 'Managed system analysis and team coordination to build a speeding ticket management system, integrating with the Taipei City Dashboard.',
     'proj-ticket-doc': 'Doc',
     'proj-ticket-code': 'Code',
     'proj-ticket-demo': 'Demo Video',
     
     'proj-foodie-title': 'Snack Vendor Website：Foodie',
-    'proj-foodie-desc': 'Led the team to develop a fronted website focused on selling Korean snacks, including ramen, drinks, and candies. The site features a warm, earthy design and user-friendly interface for an intuitive shopping experience.',
+    'proj-foodie-desc': 'Led frontend development for an e-commerce site selling Korean snacks, featuring a warm aesthetic and intuitive UI.',
     'proj-foodie-doc': 'Doc',
     'proj-foodie-code': 'Code',
     'proj-foodie-demo': 'Demo Fronted Website',
     
     // Activities section
-    'act-ntu-title': 'NTU Admission Counseling Seed Program 台大升學種子計畫, Teacher for "Chinese Composition"',
+    'act-ntu-title': 'NTU Admission Counseling Seed Program, Teacher (Chinese Composition)',
     'act-ntu-period': 'SEPTEMBER.2023 – JANUARY.2024',
-    'act-ntu-desc': 'During this period, guided students in their Chinese literature and composition assignments, resulting in excellent performance on their Chinese proficiency exams.',
+    'act-ntu-desc': 'Guided high school students in Chinese literature and composition, leading to excellent exam performance.',
     'act-ntu-certificate': 'Certificate',
     
     'act-mutahead-title': 'Mutahead 學習家有限公司, Completion for the "Persuasive Writing Course."',
     'act-mutahead-period': 'NOVEMBER.2023 – DECEMBER.2024',
-    'act-mutahead-desc1': 'Facilitated the development of writing skills during the training program, refining abilities through weekly assignments.',
-    'act-mutahead-desc2': 'Authored an article titled "What\'s Wrong with Chinese Education? Insights from an Information Management Student on Chinese Teaching" submitted to',
+    'act-mutahead-desc1': 'Refined writing skills through rigorous weekly assignments and training.',
+    'act-mutahead-desc2': 'Authored an op-ed piece on Chinese education, published in ',
     'act-mutahead-link': '\'Opinion Of CommonWealth 天下獨立評論',
     
     'act-sancode-title': 'SanCode 善科教育基金會, Participation in the 2nd and 3rd Annual Technology Literature Award',
     'act-sancode-period': 'DECEMBER.2024, 2023',
-    'act-sancode-desc': 'Submitted an approximately 2000-word reflection article for the competition after reading Wu Jun\'s "Smart Age: Big Data and Intelligent revolution redefine the future"(2024) and "The Great History of Information: How Humanity Eliminates Uncertainty about the Unknown"(2023).',
+    'act-sancode-desc': 'Wrote a 2000-word reflection on Wu Jun\'s works regarding AI, Big Data, and Information History.',
 
     // Language Proficiency Test section
     'language-proficiency': 'Language Proficiency Test',
@@ -103,7 +103,7 @@ window.translations = {
     'lang-toeic-score': '735',
 
     // Miscellany section
-    'misc-desc': 'I enjoy studying history and literature, especially "Dream of the Red Chamber". I document my thoughts and learnings on my Medium blog. My motto is: "Write the answers to life through living." It means to solve the problems of life step by step through concrete and practical living.'
+    'misc-desc': 'I enjoy history, literature (esp. "Dream of the Red Chamber"), and blogging on Medium. Motto: "Write the answers to life through living" — meaning to solve life\'s problems through practical, engaged action.'
   },
 
   'zh-TW': {
@@ -120,9 +120,9 @@ window.translations = {
     'miscellany': '其他',
     
     // Introduction paragraphs
-    'intro-para1': '你好! 我是潘驄杰。目前是中原大學資訊管理學系大四學生，並即將進入國立台灣師範大學資訊教育研究所攻讀碩士。',
-    'intro-para2': '因為同時具備國文教學經驗與資訊背景，我致力於「自然語言處理（NLP）與教育科技（EdTech）」的跨域研究。我的目標是開發以「啟發思考」為核心的數位學習工具，讓科技成為引導學生探索古典文本的鷹架，而非取代思考的捷徑。我的研究與實作專注於以下三個維度：(1) 古漢語知識檢索與問答、(2) 文本視覺化與知識圖譜建構，以及 (3) 鷹架式的 AI 學習回饋。',
-    'intro-para3': '在這些領域的探索中，我獨立開發了《紅樓慧讀》閱讀學習系統（獲系上專題初審第一名）；在研究上，以《建構基於 RA-LLMs 框架之古漢語知識問答系統》為題，獲得國科會大專生研究計畫的獎助支持。我的目標是成為教育科技領域的產品研究者，讓科技真正成為賦能國文教育的工具。',
+    'intro-para1': '你好! 我是潘驄杰。目前是中原大學資訊管理學系大四學生，並即將進入國立台灣師範大學資訊教育研究所就讀碩士。',
+    'intro-para2': '因為同時具備國文教學經驗與資訊背景，我致力於「自然語言處理（NLP）與教育科技（EdTech）」的跨域研究。我的目標是開發以「啟發思考」為核心的數位學習工具，讓科技成為引導學生探索古典文本的鷹架，而非取代思考的捷徑。我的研究與實作專注於以下三個維度：(1) 古漢語知識檢索與問答、(2) 文本視覺化與知識圖譜建構、(3) AI 智慧學習。',
+    'intro-para3': '在這些領域探索中，我獨立開發了《紅樓慧讀》閱讀學習系統；在研究上，以《建構基於 RA-LLMs 框架之古漢語知識問答系統》為題，獲得國科會大專生研究計畫的獎助支持。我的目標是成為教育科技領域的產品研究者，讓科技真正成為賦能國文教育的工具。',
 
     // Education section
     'edu-ntnu': '國立臺灣師範大學 資訊教育研究所 - 碩士班',
@@ -226,9 +226,9 @@ window.translations = {
     'miscellany': '其他',
     
     // Introduction paragraphs
-    'intro-para1': '你好! 我是潘骢杰。目前是中原大学信息管理学系大四学生，并即将进入国立台湾师范大学信息教育研究所攻读硕士。',
-    'intro-para2': '因为同时具备语文教学经验与信息背景，我致力于「自然语言处理（NLP）与教育科技（EdTech）」的跨域研究。我的目标是开发以「启发思考」为核心的数字学习工具，让科技成为引导学生探索古典文本的鹰架，而非取代思考的捷径。我的研究与实作专注于以下三个维度：(1) 古汉语知识检索与问答、(2) 文本可视化与知识图谱建构，以及 (3) 鹰架式的 AI 学习回馈。',
-    'intro-para3': '在这些领域的探索中，我独立开发了《红楼慧读》阅读学习系统（获系上专题初审第一名）；在研究上，以《建构基于 RA-LLMs 框架之古汉语知识问答系统》为题，获得国科会大专生研究计划的奖助支持。我的目标是成为教育科技领域的产品研究者，让科技真正成为赋能语文教育的工具。',
+    'intro-para1': '你好! 我是潘骢杰。目前是中原大学信息管理学系大四学生，并即将进入国立台湾师范大学信息教育研究所就读硕士。',
+    'intro-para2': '因为同时具备语文教学经验与信息背景，我致力于「自然语言处理（NLP）与教育科技（EdTech）」的跨域研究。我的目标是开发以「启发思考」为核心的数字学习工具，让科技成为引导学生探索古典文本的鹰架，而非取代思考的捷径。我的研究与实作专注于以下三个维度：(1) 古汉语知识检索与问答、(2) 文本可视化与知识图谱建构、(3) AI 智能学习。',
+    'intro-para3': '在这些领域探索中，我独立开发了《红楼慧读》阅读学习系统；在研究上，以《建构基于 RA-LLMs 框架之古汉语知识问答系统》为题，获得国科会大专生研究计划的奖助支持。我的目标是成为教育科技领域的产品研究者，让科技真正成为赋能语文教育的工具。',
 
     // Education section
     'edu-ntnu': '国立台湾师范大学 信息教育研究所 - 硕士班',

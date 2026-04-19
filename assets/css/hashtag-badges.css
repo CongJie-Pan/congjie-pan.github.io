@@ -62,4 +62,11 @@ header.masthead {
     padding: 5px 12px;
     font-size: 0.8rem;
   }
+  
+  /* Give the intro paragraphs slightly more breathing room on mobile */
+  .intro-paragraphs {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
+
