@@ -28,8 +28,10 @@ window.translations = {
     
     // Experience section
     'exp-nstc-title': 'Admitted to the National Science and Technology Council (NSTC) 2025 Annual Research Project',
-    'exp-nstc-project': 'Project Title: Construction of a Knowledge Query System for Ancient Chinese Based on the RA-LLMs Framework',
+    'exp-nstc-project': 'Project Title: Construction of a Knowledge Q&A System for Ancient Chinese Under the RA-LLMs Architecture',
     'exp-nstc-under': 'under Professor',
+    'exp-nstc-report': 'Research Report',
+    'exp-nstc-code': 'Source Code',
 
     'exp-innoserve-title': 'International ICT Innovative Services Awards 2025 - National Finals Finalist',
     'exp-innoserve-period': 'NOVEMBER.2025',
@@ -55,7 +57,7 @@ window.translations = {
     'proj-honglou-title': 'HongLou WiseRead: Dream of the Red Chamber Reading Learning System',
     'proj-honglou-desc': 'Led the design and development of an AI-integrated classical literature learning platform, addressing three major pain points for modern readers of "Dream of the Red Chamber": classical Chinese barriers, complex character relationships, and difficulty maintaining reading motivation.',
     'proj-honglou-features': 'Core features include: LLM-based automatic knowledge graph generation and visualization, AI intelligent Q&A system, gamified reading mechanics (identity progression, achievement badges). The system is deployed and operational.',
-    'proj-honglou-code': 'Code',
+    'proj-honglou-website': 'System Website',
 
     'proj-graphjudge-title': 'GraphJudge TextToKG Pipeline - LLM-based Efficient and Reliable Ancient Chinese Text to Knowledge Graph Generator',
     'proj-graphjudge-desc': 'This is a system based on large language model output and evaluation that can reliably generate high-quality knowledge graphs from ancient Chinese text input, running on the Streamlit platform.',
@@ -132,8 +134,10 @@ window.translations = {
     
     // Experience section
     'exp-nstc-title': '錄取國家科學及技術委員會（NSTC）2025年度研究計畫',
-    'exp-nstc-project': '計畫題目：基於RA-LLMs框架的古漢語知識查詢系統構建',
+    'exp-nstc-project': '計畫題目：基於 RA-LLMs 架構下的古漢語知識問答系統之構建',
     'exp-nstc-under': '指導教授',
+    'exp-nstc-report': '研究報告書',
+    'exp-nstc-code': '原始碼',
 
     'exp-innoserve-title': '2025年Innoserve第30屆大專校院資訊應用服務創新競賽 - 入圍全國決賽',
     'exp-innoserve-period': '2025年11月',
@@ -159,7 +163,7 @@ window.translations = {
     'proj-honglou-title': '紅樓慧讀：紅樓夢閱讀學習系統',
     'proj-honglou-desc': '主導設計並開發一套整合 AI 技術的古典文學學習平台，解決現代讀者閱讀《紅樓夢》的三大痛點：古漢語障礙、人物關係複雜、閱讀動機難維持。',
     'proj-honglou-features': '核心功能包括：基於 LLM 的知識圖譜自動生成與視覺化、AI 智慧問答系統、遊戲化閱讀機制（身份進階、成就徽章），系統已部署上線運營。',
-    'proj-honglou-code': '程式碼',
+    'proj-honglou-website': '系統網站',
 
     'proj-graphjudge-title': 'GraphJudge TextToKG Pipeline - 基於LLM的高效可靠古漢語文本到知識圖譜生成器',
     'proj-graphjudge-desc': '這是一個基於大型語言模型輸出與評估的系統，能夠可靠地從古漢語文本輸入生成高品質知識圖譜，運行於Streamlit平台。',
@@ -236,8 +240,10 @@ window.translations = {
     
     // Experience section
     'exp-nstc-title': '录取国家科学及技术委员会（NSTC）2025年度研究计划',
-    'exp-nstc-project': '计划题目：基于RA-LLMs框架的古汉语知识查询系统构建',
+    'exp-nstc-project': '计划题目：基于 RA-LLMs 架构下的古汉语知识问答系统之构建',
     'exp-nstc-under': '指导教授',
+    'exp-nstc-report': '研究报告书',
+    'exp-nstc-code': '源代码',
 
     'exp-innoserve-title': '2025年 Innoserve 第30届大专校院资讯应用服务创新竞赛 - 入围全国决赛',
     'exp-innoserve-period': '2025年11月',
@@ -263,7 +269,7 @@ window.translations = {
     'proj-honglou-title': '红楼慧读：红楼梦阅读学习系统',
     'proj-honglou-desc': '主导设计并开发一套整合 AI 技术的古典文学学习平台，解决现代读者阅读《红楼梦》的三大痛点：古汉语障碍、人物关系复杂、阅读动机难维持。',
     'proj-honglou-features': '核心功能包括：基于 LLM 的知识图谱自动生成与视觉化、AI 智能问答系统、游戏化阅读机制（身份进阶、成就徽章），系统已部署上线运营。',
-    'proj-honglou-code': '代码',
+    'proj-honglou-website': '系统网站',
 
     'proj-graphjudge-title': 'GraphJudge TextToKG Pipeline - 基于LLM的高效可靠古汉语文本到知识图谱生成器',
     'proj-graphjudge-desc': '这是一个基于大型语言模型输出与评估的系统，能够可靠地从古汉语文本输入生成高质量知识图谱，运行于Streamlit平台。',

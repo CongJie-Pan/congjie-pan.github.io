@@ -37,8 +37,11 @@ posts_limit: 0
 ## <span data-i18n="experience">Experience</span>
 
 - **<span data-i18n="exp-nstc-title">Admitted to the National Science and Technology Council (NSTC) 2025 Annual Research Project</span>**
-  - <span data-i18n="exp-nstc-project">Project Title: Construction of a Knowledge Query System for Ancient Chinese Based on the RA-LLMs Framework</span>
+  - <span data-i18n="exp-nstc-project">Project Title: Construction of a Knowledge Q&A System for Ancient Chinese Under the RA-LLMs Architecture</span>
   - <span data-i18n="exp-nstc-under">under Professor</span> [Chin-Hui Lai](https://chlai045.github.io/){:target="_blank"}
+
+  &nbsp;&nbsp;<a href="{{ '/PDF/1142813C033035E_merge.pdf' | relative_url }}" class="project-link" target="_blank"><i class="fas fa-file-alt" style="margin-right: 5px;"></i><span data-i18n="exp-nstc-report">Research Report</span></a>
+  &nbsp;&nbsp;<a href="https://github.com/CongJie-Pan/XiaoHong_RedChamber_QA_System" class="project-link" target="_blank"><i class="fab fa-github" style="margin-right: 5px;"></i><span data-i18n="exp-nstc-code">Source Code</span></a>
 
 - **<span data-i18n="exp-innoserve-title">2025 Innoserve 30th University Information Application Service Innovation Contest - National Finals Finalist</span>**
   - <span data-i18n="exp-innoserve-period">NOVEMBER.2025</span>
@@ -70,7 +73,7 @@ posts_limit: 0
   - <span data-i18n="proj-honglou-desc">Led the design and development of an AI-integrated classical literature learning platform, addressing three major pain points for modern readers of "Dream of the Red Chamber": classical Chinese barriers, complex character relationships, and difficulty maintaining reading motivation.</span>
   - <span data-i18n="proj-honglou-features">Core features include: LLM-based automatic knowledge graph generation and visualization, AI intelligent Q&A system, gamified reading mechanics (identity progression, achievement badges). The system is deployed and operational.</span>
 
-  &nbsp;&nbsp;<a href="https://reurl.cc/eVzbbW" class="project-link" target="_blank"><i class="fab fa-github" style="margin-right: 5px;"></i><span data-i18n="proj-honglou-code">Code</span></a>
+  &nbsp;&nbsp;<a href="https://the-chamber-of-red-mansion-fire-base-studio-ffxyu2qpg.vercel.app/" class="project-link" target="_blank"><i class="fas fa-globe" style="margin-right: 5px;"></i><span data-i18n="proj-honglou-website">System Website</span></a>
 
 - **<span data-i18n="proj-graphjudge-title">GraphJudge TextToKG Pipeline - LLM-based Efficient and Reliable Ancient Chinese Text to Knowledge Graph Generator</span>**
   - <span data-i18n="proj-graphjudge-desc">This is a system based on large language model output and evaluation that can reliably generate high-quality knowledge graphs from ancient Chinese text input, running on the Streamlit platform.</span>
