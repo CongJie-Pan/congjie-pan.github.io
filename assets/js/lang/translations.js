@@ -33,6 +33,11 @@ window.translations = {
     'exp-nstc-report': 'Research Report',
     'exp-nstc-code': 'Source Code',
 
+    'exp-iceet-2026-title': '2026 ICEET (International Conference on E-learning and Educational Technology) - Paper Accepted (Oral Presentation)',
+    'exp-iceet-2026-period': 'MAY.2026',
+    'exp-iceet-2026-desc': 'Accepted for oral presentation with the paper titled "A Classical Chinese Knowledge QA System for Dream of the Red Chamber Using Retrieval-Augmented Dual Instruction Tuning"',
+    'exp-iceet-2026-note': 'Note: Official conference proceedings are scheduled to be published in July 2026',
+
     'exp-innoserve-title': '2025 Innoserve Awards - National Finalist',
     'exp-innoserve-period': 'NOVEMBER.2025',
     'exp-innoserve-project': 'Finalist with project: HongLou WiseRead: Dream of the Red Chamber Reading Learning System',
@@ -139,6 +144,11 @@ window.translations = {
     'exp-nstc-report': '研究報告書',
     'exp-nstc-code': '原始碼',
 
+    'exp-iceet-2026-title': '2026年 ICEET 數位學習與教育科技國際研討會 - 論文錄取（口頭發表）',
+    'exp-iceet-2026-period': '2026年5月',
+    'exp-iceet-2026-desc': '以「基於檢索增強雙重指令微調之《紅樓夢》古漢語知識問答系統建構」論文獲選口頭發表',
+    'exp-iceet-2026-note': '備註：大會正式電子論文集預計於 2026 年 7 月歸檔出版',
+
     'exp-innoserve-title': '2025年Innoserve第30屆大專校院資訊應用服務創新競賽 - 入圍全國決賽',
     'exp-innoserve-period': '2025年11月',
     'exp-innoserve-project': '以《紅樓慧讀：紅樓夢閱讀學習系統》專案入圍全國決賽',
@@ -244,6 +254,11 @@ window.translations = {
     'exp-nstc-under': '指导教授',
     'exp-nstc-report': '研究报告书',
     'exp-nstc-code': '源代码',
+
+    'exp-iceet-2026-title': '2026年 ICEET 数字化学习与教育科技国际研讨会 - 论文录取（口头发表）',
+    'exp-iceet-2026-period': '2026年5月',
+    'exp-iceet-2026-desc': '以「基于检索增强双重指令微调之《红楼梦》古汉语知识问答系统建构」论文获选口头发表',
+    'exp-iceet-2026-note': '备注：大会正式电子论文集预计于 2026 年 7 月归档出版',
 
     'exp-innoserve-title': '2025年 Innoserve 第30届大专校院资讯应用服务创新竞赛 - 入围全国决赛',
     'exp-innoserve-period': '2025年11月',
