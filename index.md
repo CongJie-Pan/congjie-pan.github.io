@@ -36,17 +36,17 @@ posts_limit: 0
 
 ## <span data-i18n="experience">Experience</span>
 
+- **<span data-i18n="exp-iceet-2026-title">2026 ICEET (International Conference on E-learning and Educational Technology) - Paper Accepted (Oral Presentation)</span>**
+  - <span data-i18n="exp-iceet-2026-period">MAY.2026</span>
+  - <span data-i18n="exp-iceet-2026-desc">Accepted for oral presentation with the paper titled "A Classical Chinese Knowledge QA System for Dream of the Red Chamber Using Retrieval-Augmented Dual Instruction Tuning"</span>
+  - <span data-i18n="exp-iceet-2026-note">Note: Official conference proceedings are scheduled to be published in July 2026</span>
+
 - **<span data-i18n="exp-nstc-title">Admitted to the National Science and Technology Council (NSTC) 2025 Annual Research Project</span>**
   - <span data-i18n="exp-nstc-project">Project Title: Construction of a Knowledge Q&A System for Ancient Chinese Under the RA-LLMs Architecture</span>
   - <span data-i18n="exp-nstc-under">under Professor</span> [Chin-Hui Lai](https://chlai045.github.io/){:target="_blank"}
 
   &nbsp;&nbsp;<a href="{{ '/PDF/1142813C033035E_merge.pdf' | relative_url }}" class="project-link" target="_blank"><i class="fas fa-file-alt" style="margin-right: 5px;"></i><span data-i18n="exp-nstc-report">Research Report</span></a>
   &nbsp;&nbsp;<a href="https://github.com/CongJie-Pan/XiaoHong_RedChamber_QA_System" class="project-link" target="_blank"><i class="fab fa-github" style="margin-right: 5px;"></i><span data-i18n="exp-nstc-code">Source Code</span></a>
-
-- **<span data-i18n="exp-iceet-2026-title">2026 ICEET (International Conference on E-learning and Educational Technology) - Paper Accepted (Oral Presentation)</span>**
-  - <span data-i18n="exp-iceet-2026-period">MAY.2026</span>
-  - <span data-i18n="exp-iceet-2026-desc">Accepted for oral presentation with the paper titled "A Classical Chinese Knowledge QA System for Dream of the Red Chamber Using Retrieval-Augmented Dual Instruction Tuning"</span>
-  - <span data-i18n="exp-iceet-2026-note">Note: Official conference proceedings are scheduled to be published in July 2026</span>
 
 - **<span data-i18n="exp-innoserve-title">2025 Innoserve 30th University Information Application Service Innovation Contest - National Finals Finalist</span>**
   - <span data-i18n="exp-innoserve-period">NOVEMBER.2025</span>
