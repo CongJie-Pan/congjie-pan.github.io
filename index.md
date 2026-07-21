@@ -38,8 +38,9 @@ posts_limit: 0
 
 - **<span data-i18n="exp-iceet-2026-title">A Classical Chinese Knowledge QA System for Dream of the Red Chamber Using Retrieval-Augmented Dual Instruction Tuning - 2026 ICEET (International Conference on E-learning and Educational Technology)</span>**
   - <span data-i18n="exp-iceet-2026-period">MAY.2026</span>
-  - <span data-i18n="exp-iceet-2026-note">Note: Official conference proceedings are scheduled to be published in July 2026</span>
+  - <span data-i18n="exp-iceet-2026-note">Note: Official conference proceedings have been published in July 2026</span>
 
+  &nbsp;&nbsp;<a href="{{ '/PDF/ICEET-Y26O10_基於檢索增強雙重指令微調之《紅樓夢》古漢語知識問答系統建構.pdf' | relative_url }}" class="project-link" target="_blank"><i class="fas fa-file-alt" style="margin-right: 5px;"></i><span data-i18n="exp-iceet-2026-paper">Paper</span></a>
   &nbsp;&nbsp;<a href="https://youtu.be/UZ_x9oTKhGA?si=_LIu1_d18VqLJulE" class="project-link" target="_blank"><i class="fas fa-video" style="margin-right: 5px;"></i><span data-i18n="exp-iceet-2026-video">Video</span></a>
   &nbsp;&nbsp;<a href="https://github.com/CongJie-Pan/XiaoHong_RedChamber_QA_System" class="project-link" target="_blank"><i class="fab fa-github" style="margin-right: 5px;"></i><span data-i18n="exp-nstc-code">Source Code</span></a>
 
