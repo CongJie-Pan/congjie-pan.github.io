@@ -2,21 +2,22 @@
 window.translations = {
   'en': {
     // Hashtag badges
-    'badge-chinese-edtech': 'Chinese EdTech',
-    'badge-ai-education': 'AI in Education',
-    'badge-interdisciplinary': 'Cross-disciplinary Research',
+    'badge-chinese-edtech': 'AI EdTech',
+    'badge-ai-education': 'LLM QA Systems',
+    'badge-interdisciplinary': 'Smart Learning Systems',
 
     // Navigation and headings
     'education': 'Education',
+    'publications': 'Publications & Research',
+    'awards': 'Awards & Honors',
+    'work-experience': 'Work Experience',
     'experience': 'Experience',
     'projects': 'Completed Projects',
     'activities': 'Activities',
     'miscellany': 'Miscellany',
     
     // Introduction paragraphs
-    'intro-para1': 'Hi 👋! I\'m CongJie Pan. I\'m a senior in Information Management at Chung Yuan Christian University, and an incoming Master\'s student at National Taiwan Normal University\'s (NTNU) Graduate Institute of Information and Computer Education.',
-    'intro-para2': 'Combining IT with Chinese teaching experience, I focus on NLP and EdTech. My goal is to build digital tools that scaffold students in exploring classical texts without replacing critical thinking. My core interests: (1) Ancient Chinese QA systems, (2) Knowledge Graphs, and (3) AI smart learning.',
-    'intro-para3': 'I developed the "HongLou WiseRead" system and received an NSTC grant for researching an "RA-LLM-based Ancient Chinese QA system". I aspire to be an EdTech product researcher, leveraging technology to empower Chinese education.',
+    'intro-para1': 'I specialize in the intersection of AI and Education, dedicated to building human-centric AI education systems. I firmly believe that technology should not be a shortcut that replaces critical thinking, but rather a scaffold that guides learners in deep knowledge exploration. My technical practices primarily involve building learning systems and LLM knowledge QA systems: 1) HongLou WiseRead: Dream of the Red Chamber Reading Learning System; 2) Dream of the Red Chamber Knowledge QA System.',
 
     // Education section
     'edu-ntnu': 'Graduate Institute of Information and Computer Education, National Taiwan Normal University - Master\'s Program',
@@ -27,7 +28,7 @@ window.translations = {
     'edu-cycu-period': 'SEPTEMBER.2022 – PRESENT',
     
     // Experience section
-    'exp-nstc-title': 'NSTC 2025 Annual Research Project Grant',
+    'exp-nstc-title': 'NSTC 2025 Undergraduate Research Project Grant',
     'exp-nstc-project': 'Project: Building an Ancient Chinese Knowledge QA System using RA-LLMs',
     'exp-nstc-under': 'under Professor',
     'exp-nstc-report': 'Research Report',
@@ -43,7 +44,7 @@ window.translations = {
     'exp-innoserve-period': 'NOVEMBER.2025',
     'exp-innoserve-project': 'Finalist with project: HongLou WiseRead: Dream of the Red Chamber Reading Learning System',
 
-    'exp-dept-comp-title': '2025 IM Dept. Senior Project Competition - 1st Place',
+    'exp-dept-comp-title': '2025 IM Dept. Senior Project Competition - 1st Place (Written Review)',
     'exp-dept-comp-project': 'Project Title: HongLou WiseRead: Dream of the Red Chamber Reading Learning System',
 
     'exp-toefl-scholarship-title': '2025 TOEFL ITP Higher Education Academic Research Scholarship',
@@ -90,45 +91,31 @@ window.translations = {
     'act-ntu-period': 'SEPTEMBER.2023 – JANUARY.2024',
     'act-ntu-desc': 'Guided high school students in Chinese literature and composition, leading to excellent exam performance.',
     'act-ntu-certificate': 'Certificate',
-    
-    'act-mutahead-title': 'Mutahead 學習家有限公司, Completion for the "Persuasive Writing Course."',
-    'act-mutahead-period': 'NOVEMBER.2023 – DECEMBER.2024',
-    'act-mutahead-desc1': 'Refined writing skills through rigorous weekly assignments and training.',
-    'act-mutahead-desc2': 'Authored an op-ed piece on Chinese education, published in ',
-    'act-mutahead-link': '\'Opinion Of CommonWealth 天下獨立評論',
-    
-    'act-sancode-title': 'SanCode 善科教育基金會, Participation in the 2nd and 3rd Annual Technology Literature Award',
-    'act-sancode-period': 'DECEMBER.2024, 2023',
-    'act-sancode-desc': 'Wrote a 2000-word reflection on Wu Jun\'s works regarding AI, Big Data, and Information History.',
-
-    // Language Proficiency Test section
-    'language-proficiency': 'Language Proficiency Test',
-    'lang-toefl-label': 'TOEFL ITP Score',
-    'lang-toefl-score': '503',
-    'lang-toeic-label': 'TOEIC Score',
-    'lang-toeic-score': '735',
 
     // Miscellany section
-    'misc-desc': 'I enjoy history, literature (esp. "Dream of the Red Chamber"), and blogging on Medium. Motto: "Write the answers to life through living" — meaning to solve life\'s problems through practical, engaged action.'
+    'misc-desc': 'I enjoy history, literature (esp. "Dream of the Red Chamber"), and blogging on Medium. Motto: "Write the answers to life through living" — meaning to solve life\'s problems through practical, engaged action.',
+    'literary-creations-btn': 'New Poetry',
+    'written-articles-btn': 'Published Articles',
   },
 
   'zh-TW': {
     // Hashtag badges
-    'badge-chinese-edtech': '國文教育科技',
-    'badge-ai-education': 'AI教育應用',
-    'badge-interdisciplinary': '跨域整合',
+    'badge-chinese-edtech': 'AI 教育科技',
+    'badge-ai-education': 'LLM 知識問答',
+    'badge-interdisciplinary': '智慧學習系統',
 
     // Navigation and headings
     'education': '教育背景',
+    'publications': '發表與研究',
+    'awards': '獲獎與榮譽',
+    'work-experience': '工作經歷',
     'experience': '經驗',
     'projects': '完成專案',
     'activities': '活動經歷',
     'miscellany': '其他',
     
     // Introduction paragraphs
-    'intro-para1': '你好! 我是潘驄杰。目前是中原大學資訊管理學系大四學生，並即將進入國立台灣師範大學資訊教育研究所就讀碩士。',
-    'intro-para2': '因為同時具備國文教學經驗與資訊背景，我致力於「自然語言處理（NLP）與教育科技（EdTech）」的跨域研究。我的目標是開發以「啟發思考」為核心的數位學習工具，讓科技成為引導學生探索古典文本的鷹架，而非取代思考的捷徑。我的研究與實作專注於以下三個維度：(1) 古漢語知識檢索與問答、(2) 文本視覺化與知識圖譜建構、(3) AI 智慧學習。',
-    'intro-para3': '在這些領域探索中，我獨立開發了《紅樓慧讀》閱讀學習系統；在研究上，以《建構基於 RA-LLMs 框架之古漢語知識問答系統》為題，獲得國科會大專生研究計畫的獎助支持。我的目標是成為教育科技領域的產品研究者，讓科技真正成為賦能國文教育的工具。',
+    'intro-para1': '我專注於「AI 與教育」的跨域結合，致力於建構以人為本的 AI 教育系統。我深信科技不應是取代思考的捷徑，而是搭建引導學習者深度探索知識的鷹架。我的技術實踐主要為建構學習系統、LLM 知識問答系統：1) 《紅樓慧讀》：紅樓夢閱讀學習系統；2)《紅樓夢》古漢語知識問答系統。',
 
     // Education section
     'edu-ntnu': '國立臺灣師範大學 資訊教育研究所 - 碩士班',
@@ -139,7 +126,7 @@ window.translations = {
     'edu-cycu-period': '2022年9月 – 至今',
     
     // Experience section
-    'exp-nstc-title': '錄取國家科學及技術委員會（NSTC）2025年度研究計畫',
+    'exp-nstc-title': '國家科學及技術委員會（NSTC）2025年度大專生研究計畫',
     'exp-nstc-project': '計畫題目：基於 RA-LLMs 架構下的古漢語知識問答系統之構建',
     'exp-nstc-under': '指導教授',
     'exp-nstc-report': '研究報告書',
@@ -155,7 +142,7 @@ window.translations = {
     'exp-innoserve-period': '2025年11月',
     'exp-innoserve-project': '以《紅樓慧讀：紅樓夢閱讀學習系統》專案入圍全國決賽',
 
-    'exp-dept-comp-title': '2025年資訊管理學系畢業專題競賽 - 初選第一名',
+    'exp-dept-comp-title': '2025年資訊管理學系畢業專題競賽 - 書審第一名',
     'exp-dept-comp-project': '專案題目：紅樓慧讀：《紅樓夢》閱讀學習系統',
 
     'exp-toefl-scholarship-title': '得獎 2025 TOEFL ITP 高等教育學術研究獎學金',
@@ -202,45 +189,31 @@ window.translations = {
     'act-ntu-period': '2023年9月 – 2024年1月',
     'act-ntu-desc': '在此期間，指導學生中國文學和作文作業，最後讓學生在學測大考試中表現優異。',
     'act-ntu-certificate': '證書',
-    
-    'act-mutahead-title': '學習家有限公司，完成「觀點寫作課程」',
-    'act-mutahead-period': '2023年11月 – 2024年12月',
-    'act-mutahead-desc1': '在培訓計畫中促進寫作技能的發展，透過每週作業精進能力。',
-    'act-mutahead-desc2': '撰寫投稿題為「國文教學怎麼了？ 一位『資管學生』對國文教學的體悟」的文章，投稿至',
-    'act-mutahead-link': '「天下獨立評論」',
-    
-    'act-sancode-title': '善科教育基金會，參與第二屆及第三屆科技文學獎',
-    'act-sancode-period': '2024年12月、2023年',
-    'act-sancode-desc': '在閱讀吳軍的《智能時代：大數據與智能革命重新定義未來》（2024）和《資訊大歷史：人類如何消除對未知的不確定》（2023）後，提交約2000字的反思文章並參賽。',
-
-    // Language Proficiency Test section
-    'language-proficiency': '語言能力檢定',
-    'lang-toefl-label': 'TOEFL ITP 成績',
-    'lang-toefl-score': '503',
-    'lang-toeic-label': 'TOEIC 成績',
-    'lang-toeic-score': '735',
 
     // Miscellany section
-    'misc-desc': '我喜歡研讀歷史、文學，尤其是《紅樓夢》。我在Medium部落格上記錄我的思考和學習。我的座右銘是：「透過生活書寫生命的答案。」意旨透過確切實際的生活，一步步解決生命的問題。'
+    'misc-desc': '我喜歡研讀歷史、文學，尤其是《紅樓夢》。我在Medium部落格上記錄我的思考和學習。我的座右銘是：「透過生活書寫生命的答案。」意旨透過確切實際的生活，一步步解決生命的問題。',
+    'literary-creations-btn': '新詩創作',
+    'written-articles-btn': '投稿文章',
   },
   
   'zh-CN': {
     // Hashtag badges
-    'badge-chinese-edtech': '语文教育科技',
-    'badge-ai-education': 'AI教育应用',
-    'badge-interdisciplinary': '跨域整合',
+    'badge-chinese-edtech': 'AI 教育科技',
+    'badge-ai-education': 'LLM 知识问答',
+    'badge-interdisciplinary': '智能学习系统',
 
     // Navigation and headings
     'education': '教育背景',
+    'publications': '发表与研究',
+    'awards': '获奖与荣誉',
+    'work-experience': '工作经历',
     'experience': '经验',
     'projects': '完成项目',
     'activities': '活动经历',
     'miscellany': '其他',
     
     // Introduction paragraphs
-    'intro-para1': '你好! 我是潘骢杰。目前是中原大学信息管理学系大四学生，并即将进入国立台湾师范大学信息教育研究所就读硕士。',
-    'intro-para2': '因为同时具备语文教学经验与信息背景，我致力于「自然语言处理（NLP）与教育科技（EdTech）」的跨域研究。我的目标是开发以「启发思考」为核心的数字学习工具，让科技成为引导学生探索古典文本的鹰架，而非取代思考的捷径。我的研究与实作专注于以下三个维度：(1) 古汉语知识检索与问答、(2) 文本可视化与知识图谱建构、(3) AI 智能学习。',
-    'intro-para3': '在这些领域探索中，我独立开发了《红楼慧读》阅读学习系统；在研究上，以《建构基于 RA-LLMs 框架之古汉语知识问答系统》为题，获得国科会大专生研究计划的奖助支持。我的目标是成为教育科技领域的产品研究者，让科技真正成为赋能语文教育的工具。',
+    'intro-para1': '我专注于「AI 与教育」的跨域结合，致力于建构以人为本的 AI 教育系统。我深信科技不应是取代思考的捷径，而是搭建引导学习者深度探索知识的鹰架。我的技术实践主要为建构学习系统、LLM 知识问答系统：1) 《红楼慧读》：红楼梦阅读学习系统；2)《红楼梦》古汉语知识问答系统。',
 
     // Education section
     'edu-ntnu': '国立台湾师范大学 信息教育研究所 - 硕士班',
@@ -251,7 +224,7 @@ window.translations = {
     'edu-cycu-period': '2022年9月 – 至今',
     
     // Experience section
-    'exp-nstc-title': '录取国家科学及技术委员会（NSTC）2025年度研究计划',
+    'exp-nstc-title': '国家科学及技术委员会（NSTC）2025年度大专生研究计划',
     'exp-nstc-project': '计划题目：基于 RA-LLMs 架构下的古汉语知识问答系统之构建',
     'exp-nstc-under': '指导教授',
     'exp-nstc-report': '研究报告书',
@@ -267,7 +240,7 @@ window.translations = {
     'exp-innoserve-period': '2025年11月',
     'exp-innoserve-project': '以「红楼慧读：《红楼梦》阅读学习系统」专案入围全国决赛',
 
-    'exp-dept-comp-title': '2025年信息管理学系毕业专题竞赛 - 初选第一名',
+    'exp-dept-comp-title': '2025年信息管理学系毕业专题竞赛 - 书审第一名',
     'exp-dept-comp-project': '项目题目：红楼慧读：《红楼梦》阅读学习系统',
 
     'exp-toefl-scholarship-title': '获奖 2025 TOEFL ITP 高等教育学术研究奖学金',
@@ -314,25 +287,10 @@ window.translations = {
     'act-ntu-period': '2023年9月 – 2024年1月',
     'act-ntu-desc': '在此期间，指导学生的中国文学和作文作业，使他们在中文能力考试中表现优异。',
     'act-ntu-certificate': '证书',
-    
-    'act-mutahead-title': '学习家有限公司，完成「观点写作课程」',
-    'act-mutahead-period': '2023年11月 – 2024年12月',
-    'act-mutahead-desc1': '在培训计划中促进写作技能的发展，通过每周作业精进能力。',
-    'act-mutahead-desc2': '撰写题为「语文教学怎么了？一位"资管学生"对语文教学的体悟」的文章，投稿至',
-    'act-mutahead-link': '「天下独立评论」',
-    
-    'act-sancode-title': '善科教育基金会，参与第二届及第三届科技文学奖',
-    'act-sancode-period': '2024年12月、2023年',
-    'act-sancode-desc': '在阅读吴军的《智能时代：大数据与智能革命重新定义未来》（2024）和《信息大历史：人类如何消除对未知的不确定》（2023）后，提交约2000字的反思文章参赛。',
-
-    // Language Proficiency Test section
-    'language-proficiency': '语言能力检定',
-    'lang-toefl-label': 'TOEFL ITP 成绩',
-    'lang-toefl-score': '503',
-    'lang-toeic-label': 'TOEIC 成绩',
-    'lang-toeic-score': '735',
 
     // Miscellany section
-    'misc-desc': '我喜欢研读历史、文学，尤其是《红楼梦》。我在Medium博客上记录我的思考和学习。我的座右铭是：「透过生活书写生命的答案。」意指透过确切实际的生活，一步步解决生命的问题。'
+    'misc-desc': '我喜欢研读历史、文学，尤其是《红楼梦》。我在Medium博客上记录我的思考和学习。我的座右铭是：「透过生活书写生命的答案。」意指透过确切实际的生活，一步步解决生命的问题。',
+    'literary-creations-btn': '新诗创作',
+    'written-articles-btn': '投稿文章'
   }
 };

@@ -13,10 +13,43 @@ posts_limit: 0
 
 <div class="intro-paragraphs">
   <p data-i18n="intro-para1">Hi 👋! I'm CongJie Pan. I'm a senior in Information Management at Chung Yuan Christian University, and an incoming Master's student at National Taiwan Normal University's (NTNU) Graduate Institute of Information and Computer Education.</p>
+</div>
 
-  <p data-i18n="intro-para2">Combining IT with Chinese teaching experience, I focus on NLP and EdTech. My goal is to build digital tools that scaffold students in exploring classical texts without replacing critical thinking. My core interests: (1) Ancient Chinese QA systems, (2) Knowledge Graphs, and (3) AI smart learning.</p>
+<div class="content-section" markdown="1">
 
-  <p data-i18n="intro-para3">I developed the "HongLou WiseRead" system and received an NSTC grant for researching an "RA-LLM-based Ancient Chinese QA system". I aspire to be an EdTech product researcher, leveraging technology to empower Chinese education.</p>
+## <span data-i18n="publications">Publications & Research</span>
+
+- **<span data-i18n="exp-iceet-2026-title">A Classical Chinese Knowledge QA System for Dream of the Red Chamber Using Retrieval-Augmented Dual Instruction Tuning - 2026 ICEET (International Conference on E-learning and Educational Technology)</span>**
+  - <span data-i18n="exp-iceet-2026-period">MAY.2026</span>
+
+  &nbsp;&nbsp;<a href="{{ '/PDF/ICEET-Y26O10_基於檢索增強雙重指令微調之《紅樓夢》古漢語知識問答系統建構.pdf' | relative_url }}" class="project-link" target="_blank"><i class="fas fa-file-alt" style="margin-right: 5px;"></i><span data-i18n="exp-iceet-2026-paper">Paper</span></a>
+  &nbsp;&nbsp;<a href="https://youtu.be/UZ_x9oTKhGA?si=_LIu1_d18VqLJulE" class="project-link" target="_blank"><i class="fas fa-video" style="margin-right: 5px;"></i><span data-i18n="exp-iceet-2026-video">Video</span></a>
+  &nbsp;&nbsp;<a href="https://github.com/CongJie-Pan/XiaoHong_RedChamber_QA_System" class="project-link" target="_blank"><i class="fab fa-github" style="margin-right: 5px;"></i><span data-i18n="exp-nstc-code">Source Code</span></a>
+
+- **<span data-i18n="exp-nstc-title">Admitted to the National Science and Technology Council (NSTC) 2025 Annual Research Project</span>**
+  - <span data-i18n="exp-nstc-project">Project Title: Construction of a Knowledge Q&A System for Ancient Chinese Under the RA-LLMs Architecture</span>
+  - <span data-i18n="exp-nstc-under">under Professor</span> [Chin-Hui Lai](https://chlai045.github.io/){:target="_blank"}
+
+  &nbsp;&nbsp;<a href="{{ '/PDF/1142813C033035E_merge.pdf' | relative_url }}" class="project-link" target="_blank"><i class="fas fa-file-alt" style="margin-right: 5px;"></i><span data-i18n="exp-nstc-report">Research Report</span></a>
+  &nbsp;&nbsp;<a href="https://github.com/CongJie-Pan/XiaoHong_RedChamber_QA_System" class="project-link" target="_blank"><i class="fab fa-github" style="margin-right: 5px;"></i><span data-i18n="exp-nstc-code">Source Code</span></a>
+
+</div>
+
+<div class="content-section" markdown="1">
+
+## <span data-i18n="awards">Awards & Honors</span>
+
+- **<span data-i18n="exp-innoserve-title">2025 Innoserve 30th University Information Application Service Innovation Contest - National Finals Finalist</span>**
+  - <span data-i18n="exp-innoserve-period">NOVEMBER.2025</span>
+  - <span data-i18n="exp-innoserve-project">Finalist with project: HongLou WiseRead: Dream of the Red Chamber Reading Learning System</span>
+
+- **<span data-i18n="exp-dept-comp-title">2025 Information Management Department Senior Project Competition - First Place Winner</span>**
+  - <span data-i18n="exp-dept-comp-project">Project Title: HongLou WiseRead: Dream of the Red Chamber Reading Learning System</span>
+  - <span data-i18n="exp-nstc-under">Under Professor</span> [Chin-Hui Lai](https://chlai045.github.io/){:target="_blank"}
+
+- **<span data-i18n="exp-toefl-scholarship-title">2025 TOEFL ITP Higher Education Academic Research Scholarship</span>**
+  - <span data-i18n="exp-toefl-scholarship-period">NOVEMBER.2025</span>
+
 </div>
 
 <div class="content-section" markdown="1">
@@ -34,53 +67,13 @@ posts_limit: 0
 
 <div class="content-section" markdown="1">
 
-## <span data-i18n="experience">Experience</span>
-
-- **<span data-i18n="exp-iceet-2026-title">A Classical Chinese Knowledge QA System for Dream of the Red Chamber Using Retrieval-Augmented Dual Instruction Tuning - 2026 ICEET (International Conference on E-learning and Educational Technology)</span>**
-  - <span data-i18n="exp-iceet-2026-period">MAY.2026</span>
-
-  &nbsp;&nbsp;<a href="{{ '/PDF/ICEET-Y26O10_基於檢索增強雙重指令微調之《紅樓夢》古漢語知識問答系統建構.pdf' | relative_url }}" class="project-link" target="_blank"><i class="fas fa-file-alt" style="margin-right: 5px;"></i><span data-i18n="exp-iceet-2026-paper">Paper</span></a>
-  &nbsp;&nbsp;<a href="https://youtu.be/UZ_x9oTKhGA?si=_LIu1_d18VqLJulE" class="project-link" target="_blank"><i class="fas fa-video" style="margin-right: 5px;"></i><span data-i18n="exp-iceet-2026-video">Video</span></a>
-  &nbsp;&nbsp;<a href="https://github.com/CongJie-Pan/XiaoHong_RedChamber_QA_System" class="project-link" target="_blank"><i class="fab fa-github" style="margin-right: 5px;"></i><span data-i18n="exp-nstc-code">Source Code</span></a>
-
-- **<span data-i18n="exp-nstc-title">Admitted to the National Science and Technology Council (NSTC) 2025 Annual Research Project</span>**
-  - <span data-i18n="exp-nstc-project">Project Title: Construction of a Knowledge Q&A System for Ancient Chinese Under the RA-LLMs Architecture</span>
-  - <span data-i18n="exp-nstc-under">under Professor</span> [Chin-Hui Lai](https://chlai045.github.io/){:target="_blank"}
-
-  &nbsp;&nbsp;<a href="{{ '/PDF/1142813C033035E_merge.pdf' | relative_url }}" class="project-link" target="_blank"><i class="fas fa-file-alt" style="margin-right: 5px;"></i><span data-i18n="exp-nstc-report">Research Report</span></a>
-  &nbsp;&nbsp;<a href="https://github.com/CongJie-Pan/XiaoHong_RedChamber_QA_System" class="project-link" target="_blank"><i class="fab fa-github" style="margin-right: 5px;"></i><span data-i18n="exp-nstc-code">Source Code</span></a>
-
-- **<span data-i18n="exp-innoserve-title">2025 Innoserve 30th University Information Application Service Innovation Contest - National Finals Finalist</span>**
-  - <span data-i18n="exp-innoserve-period">NOVEMBER.2025</span>
-  - <span data-i18n="exp-innoserve-project">Finalist with project: HongLou WiseRead: Dream of the Red Chamber Reading Learning System</span>
-
-- **<span data-i18n="exp-dept-comp-title">2025 Information Management Department Senior Project Competition - First Place Winner</span>**
-  - <span data-i18n="exp-dept-comp-project">Project Title: HongLou WiseRead: Dream of the Red Chamber Reading Learning System</span>
-  - <span data-i18n="exp-nstc-under">Under Professor</span> [Chin-Hui Lai](https://chlai045.github.io/){:target="_blank"}
-
-- **<span data-i18n="exp-toefl-scholarship-title">2025 TOEFL ITP Higher Education Academic Research Scholarship</span>**
-  - <span data-i18n="exp-toefl-scholarship-period">NOVEMBER.2025</span>
-
-- **<span data-i18n="exp-ape-title">Coding Ape School 猿創力程式教育</span>**
-  - <span data-i18n="exp-ape-period">SEPTEMBER.2022 – SEPTEMBER.2023</span>
-  - <span data-i18n="exp-ape-role">Instructor</span>
-  - <span data-i18n="exp-ape-desc">One year of teaching Scratch, Minecraft Education, and App Inventor to elementary school students. Also, developing in Minecraft Edu lesson plans.</span>
-
-- **<span data-i18n="exp-tutor-title">Summer Programming Tutor</span>**
-  - <span data-i18n="exp-tutor-period">JULY.2022 – AUGUST.2022</span>
-  - <span data-i18n="exp-tutor-role">Remote Tutor</span>
-  - <span data-i18n="exp-tutor-desc">Teaching basic block coding and inspiring children's programming creativity.</span>
-</div>
-
-<div class="content-section" markdown="1">
-
 ## <span data-i18n="projects">Completed Projects</span>
 
 - **<span data-i18n="proj-honglou-title">HongLou WiseRead: Dream of the Red Chamber Reading Learning System</span>**
   - <span data-i18n="proj-honglou-desc">Led the design and development of an AI-integrated classical literature learning platform, addressing three major pain points for modern readers of "Dream of the Red Chamber": classical Chinese barriers, complex character relationships, and difficulty maintaining reading motivation.</span>
   - <span data-i18n="proj-honglou-features">Core features include: LLM-based automatic knowledge graph generation and visualization, AI intelligent Q&A system, gamified reading mechanics (identity progression, achievement badges). The system is deployed and operational.</span>
 
-  &nbsp;&nbsp;<a href="https://the-chamber-of-red-mansion-fire-base-studio-ffxyu2qpg.vercel.app/" class="project-link" target="_blank"><i class="fas fa-globe" style="margin-right: 5px;"></i><span data-i18n="proj-honglou-website">System Website</span></a>
+  &nbsp;&nbsp;<a href="https://the-chamber-of-red-mansion-fire-bas.vercel.app/" class="project-link" target="_blank"><i class="fas fa-globe" style="margin-right: 5px;"></i><span data-i18n="proj-honglou-website">System Website</span></a>
 
 - **<span data-i18n="proj-graphjudge-title">GraphJudge TextToKG Pipeline - LLM-based Efficient and Reliable Ancient Chinese Text to Knowledge Graph Generator</span>**
   - <span data-i18n="proj-graphjudge-desc">This is a system based on large language model output and evaluation that can reliably generate high-quality knowledge graphs from ancient Chinese text input, running on the Streamlit platform.</span>
@@ -105,6 +98,21 @@ posts_limit: 0
 
 <div class="content-section" markdown="1">
 
+## <span data-i18n="work-experience">Work Experience</span>
+
+- **<span data-i18n="exp-ape-title">Coding Ape School 猿創力程式教育</span>**
+  - <span data-i18n="exp-ape-period">SEPTEMBER.2022 – SEPTEMBER.2023</span>
+  - <span data-i18n="exp-ape-role">Instructor</span>
+  - <span data-i18n="exp-ape-desc">One year of teaching Scratch, Minecraft Education, and App Inventor to elementary school students. Also, developing in Minecraft Edu lesson plans.</span>
+
+- **<span data-i18n="exp-tutor-title">Summer Programming Tutor</span>**
+  - <span data-i18n="exp-tutor-period">JULY.2022 – AUGUST.2022</span>
+  - <span data-i18n="exp-tutor-role">Remote Tutor</span>
+  - <span data-i18n="exp-tutor-desc">Teaching basic block coding and inspiring children's programming creativity.</span>
+</div>
+
+<div class="content-section" markdown="1">
+
 ## <span data-i18n="activities">Activities</span>
 
 - **<span data-i18n="act-ntu-title">NTU Admission Counseling Seed Program 台大升學種子計畫, Teacher for "Chinese Composition"</span>**
@@ -112,27 +120,13 @@ posts_limit: 0
   - <span data-i18n="act-ntu-desc">During this period, guided students in their Chinese literature and composition assignments, resulting in excellent performance on their Chinese proficiency exams.</span>
 
   &nbsp;&nbsp;<a href="./images/NTUSeedChiTeacher_Certificate_IMG.jpg" class="project-link" target="_blank"><i class="fas fa-certificate" style="margin-right: 5px;"></i><span data-i18n="act-ntu-certificate">Certificate</span></a>
-
-- **<span data-i18n="act-mutahead-title">Mutahead 學習家有限公司, Completion for the "Persuasive Writing Course."</span>**
-  - <span data-i18n="act-mutahead-period">NOVEMBER.2023 – DECEMBER.2024</span>
-  - <span data-i18n="act-mutahead-desc1">Facilitated the development of writing skills during the training program, refining abilities through weekly assignments.</span> 
-  - <span data-i18n="act-mutahead-desc2">Authored an article titled "What's Wrong with Chinese Education? Insights from an Information Management Student on Chinese Teaching" submitted to</span> [<span data-i18n="act-mutahead-link">'Opinion Of CommonWealth 天下獨立評論</span>](https://reurl.cc/E4y061){:target="_blank"}".
-
-- **<span data-i18n="act-sancode-title">SanCode 善科教育基金會, Participation in the 2nd and 3rd Annual Technology Literature Award</span>**
-  - <span data-i18n="act-sancode-period">DECEMBER.2024, 2023</span>
-  - <span data-i18n="act-sancode-desc">Submitted an approximately 2000-word reflection article for the competition after reading Wu Jun's "Smart Age: Big Data and Intelligent revolution redefine the future"(2024) and "The Great History of Information: How Humanity Eliminates Uncertainty about the Unknown"(2023).</span>
-</div>
-
-<div class="content-section" markdown="1">
-
-## <span data-i18n="language-proficiency">Language Proficiency Test</span>
-
-- <span data-i18n="lang-toefl-label">TOEFL ITP Score</span>: <span data-i18n="lang-toefl-score">503</span>
-- <span data-i18n="lang-toeic-label">TOEIC Score</span>: <span data-i18n="lang-toeic-score">735</span>
 </div>
 
 <div class="content-section" markdown="1">
 
 ## <span data-i18n="miscellany">Miscellany</span>
-- <span data-i18n="misc-desc">I enjoy studying history and literature, especially "Dream of the Red Chamber". I document my thoughts and learnings on my Medium blog. My motto is: "Write the answers to life through living." It means to solve the problems of life step by step through concrete and practical living.</span>
+
+  &nbsp;&nbsp;<a href="{{ '/my_creations/' | relative_url }}" class="project-link"><i class="fas fa-book" style="margin-right: 5px;"></i><span data-i18n="literary-creations-btn">新詩創作</span></a>
+  &nbsp;&nbsp;<a href="{{ '/written_articles/' | relative_url }}" class="project-link"><i class="fas fa-newspaper" style="margin-right: 5px;"></i><span data-i18n="written-articles-btn">投稿文章</span></a>
+
 </div>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'zh-TW' }}" class="no-js">
+  {% include head.html %}
+
+  <body class="layout--poem">
+    {% include skip-links.html %}
+    {% include navigation.html %}
+    {% include theme-toggle.html %}
+
+    {% assign back_url = page.back_url | default: '/my_creations/' | relative_url %}
+
+    <!-- Back link: full-width bar, anchored to viewport left -->
+    <div class="poem-nav-bar">
+      <a href="{{ back_url }}" class="poem-back-link" aria-label="返回">
+        <i class="fas fa-arrow-left" style="margin-right:5px;"></i>返回
+      </a>
+    </div>
+
+    <main id="main" class="poem-page-main" aria-label="Content">
+
+      <!-- Poem / hub content -->
+      <div class="poem-page-wrap">
+        <article class="poem-article">
+          {{ content }}
+        </article>
+      </div>
+
+    </main>
+
+    {% include footer.html %}
+    {% include scripts.html %}
+
+    <style>
+      /* ===== Poem / minimal page layout ===== */
+
+      /* Back nav bar: full-width, left-anchored to viewport */
+      .poem-nav-bar {
+        width: 100%;
+        padding: 1.25rem 0 0 1.5rem;
+      }
+      .poem-back-link {
+        display: inline-flex;
+        align-items: center;
+        font-size: 0.88rem;
+        font-weight: 600;
+        text-decoration: none;
+        color: #5b6ee1;
+        letter-spacing: 0.02em;
+        transition: opacity 0.2s ease;
+      }
+      .poem-back-link:hover { opacity: 0.6; text-decoration: none; }
+
+      /* Content column: centered */
+      .poem-page-main {
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 1.25rem 1.5rem 6rem;
+      }
+      .poem-page-wrap { }
+      .poem-article { padding: 0; }
+
+      /* ===== Poem text (<pre class="poem-body">) ===== */
+      pre.poem-body {
+        font-family: 'Lora', 'Noto Serif TC', 'Source Han Serif TC', Georgia, serif;
+        font-size: 1.08rem;
+        line-height: 2.1;
+        white-space: pre-wrap;
+        word-break: break-word;
+        background: none !important;
+        border: none !important;
+        border-radius: 0 !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+        margin: 0;
+        color: inherit;
+        overflow: visible;
+      }
+    </style>
+  </body>
+</html>

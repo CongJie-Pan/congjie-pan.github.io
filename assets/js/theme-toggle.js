@@ -19,9 +19,9 @@
     toggleBtn.innerHTML = `<i class="fas ${isDark ? 'fa-sun' : 'fa-moon'}"></i>`;
   }
 
-  // Load saved preference or system preference
+  // Load saved preference; default to light theme if no preference saved
   const savedPref = localStorage.getItem(STORAGE_KEY);
-  const prefersDark = savedPref !== null ? savedPref === 'true' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const prefersDark = savedPref !== null ? savedPref === 'true' : false;
   applyTheme(prefersDark);
 
   // Toggle on click

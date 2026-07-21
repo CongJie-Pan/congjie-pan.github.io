@@ -101,6 +101,12 @@ defaults:
     values:
       layout: post
       share: true
+  - scope:
+      path: "my_creations"
+      type: my_creations
+    values:
+      layout: post
+      share: false
 
 # Site Author
 author:
@@ -126,10 +132,6 @@ footer_links:
   - title: LinkedIn
     url: https://www.linkedin.com/in/congjie-pan-%E6%BD%98%E9%A9%84%E6%9D%B0-363a7823a/
     icon: fab fa-linkedin
-    target: "_blank"
-  - title: Facebook
-    url: https://www.facebook.com/profile.php?id=100010854546067
-    icon: fab fa-facebook
     target: "_blank"
   - title: Instagram
     url: https://www.instagram.com/congjie_pan1206/
