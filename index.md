@@ -69,6 +69,11 @@ posts_limit: 0
 
 ## <span data-i18n="projects">Completed Projects</span>
 
+- **<span data-i18n="proj-areqa-title">AREQA: Personalized AI Educational Learning Q&A System</span>**
+  - <span data-i18n="proj-areqa-desc">AREQA addresses common issues students encounter when learning with AI: AI often gives too many standard answers at once, does not understand the learner's level, and does not proactively guide students when they get stuck. AREQA remembers each student's learning state and preferences, adjusts explanations based on proficiency, guides thinking through scaffolded questioning, and proactively provides care and learning support when needed.</span>
+
+  &nbsp;&nbsp;<a href="https://areqa-intropage.onrender.com/" class="project-link" target="_blank"><i class="fas fa-globe" style="margin-right: 5px;"></i><span data-i18n="proj-areqa-website">System Website</span></a>
+
 - **<span data-i18n="proj-honglou-title">HongLou WiseRead: Dream of the Red Chamber Reading Learning System</span>**
   - <span data-i18n="proj-honglou-desc">Led the design and development of an AI-integrated classical literature learning platform, addressing three major pain points for modern readers of "Dream of the Red Chamber": classical Chinese barriers, complex character relationships, and difficulty maintaining reading motivation.</span>
   - <span data-i18n="proj-honglou-features">Core features include: LLM-based automatic knowledge graph generation and visualization, AI intelligent Q&A system, gamified reading mechanics (identity progression, achievement badges). The system is deployed and operational.</span>
@@ -114,6 +119,10 @@ posts_limit: 0
 <div class="content-section" markdown="1">
 
 ## <span data-i18n="activities">Activities</span>
+
+- **<a href="https://www.youtube.com/@Augmented-Mind" target="_blank" rel="noopener">The Augmented Mind Podcast</a> <span data-i18n="act-augmented-mind-role">subtitle production, Chinese translation, and video content translation</span>**
+  - <span data-i18n="act-augmented-mind-period">MAY.1.2026 – MAY.30.2026</span>
+  - <span data-i18n="act-augmented-mind-desc">Produced subtitles and translations for EP00–EP04.</span>
 
 - **<span data-i18n="act-ntu-title">NTU Admission Counseling Seed Program 台大升學種子計畫, Teacher for "Chinese Composition"</span>**
   - <span data-i18n="act-ntu-period">SEPTEMBER.2023 – JANUARY.2024</span>

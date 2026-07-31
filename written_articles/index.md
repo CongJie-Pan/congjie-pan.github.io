@@ -8,6 +8,19 @@ back_url: /
 <div class="article-hub">
   <div class="article-list">
     <!-- Replace the img src with your actual thumbnail image later -->
+    <a href="https://augmented-mind.github.io/forum?discussion=46" class="article-card" target="_blank" rel="noopener">
+      <div class="article-card-image-wrapper">
+        <img src="https://pbs.twimg.com/profile_images/2013987640949837824/YMR5g2nJ_400x400.jpg" alt="The Augmented Mind" class="article-card-image">
+      </div>
+      <div class="article-card-content">
+        <div class="article-card-info">
+          <span class="article-card-source">The Augmented Mind</span>
+          <span class="article-card-title">The Human Measure: AI Needs Personalization Beyond "One-Size-Fits-All"</span>
+        </div>
+        <i class="fas fa-external-link-alt article-card-arrow"></i>
+      </div>
+    </a>
+
     <a href="https://opinion.cw.com.tw/blog/profile/52/article/14369" class="article-card" target="_blank" rel="noopener">
       <div class="article-card-image-wrapper">
         <img src="https://cw-image-resizer.cwg.tw/resize/uri/https%3A%2F%2Fcdn-opinion.cw.com.tw%2Farticle%2F202312%2Farticle-657fca4b9cd00.jpg/?w=900&format=webp" alt="國文教學怎麼了" class="article-card-image">

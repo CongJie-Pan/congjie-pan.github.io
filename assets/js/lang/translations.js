@@ -61,6 +61,10 @@ window.translations = {
     'exp-tutor-desc': 'Teaching basic block coding and inspiring children\'s programming creativity.',
     
     // Projects section
+    'proj-areqa-title': 'AREQA: Personalized AI Educational Learning QA System',
+    'proj-areqa-desc': 'AREQA addresses common issues students encounter when learning with AI: AI often gives too many standard answers at once, does not understand the learner\'s level, and does not proactively guide students when they get stuck. AREQA remembers each student\'s learning state and preferences, adjusts explanations based on proficiency, guides thinking through scaffolded questioning, and proactively provides care and learning support when needed.',
+    'proj-areqa-website': 'System Website',
+
     'proj-honglou-title': 'HongLou WiseRead: Dream of the Red Chamber Reading Learning System',
     'proj-honglou-desc': 'Built an AI-driven learning platform for "Dream of the Red Chamber" to solve reading barriers, map character relations, and sustain motivation.',
     'proj-honglou-features': 'Features: LLM-generated Knowledge Graphs, AI QA system, and gamified reading mechanics. Currently deployed.',
@@ -87,6 +91,11 @@ window.translations = {
     'proj-foodie-demo': 'Demo Fronted Website',
     
     // Activities section
+    'act-augmented-mind-title': 'subtitle production, Chinese translation, and video content translation',
+    'act-augmented-mind-role': 'subtitle production, Chinese translation, and video content translation',
+    'act-augmented-mind-period': 'MAY.1.2026 – MAY.30.2026',
+    'act-augmented-mind-desc': 'Produced subtitles and translations for EP00–EP04.',
+
     'act-ntu-title': 'NTU Admission Counseling Seed Program, Teacher (Chinese Composition)',
     'act-ntu-period': 'SEPTEMBER.2023 – JANUARY.2024',
     'act-ntu-desc': 'Guided high school students in Chinese literature and composition, leading to excellent exam performance.',
@@ -159,6 +168,10 @@ window.translations = {
     'exp-tutor-desc': '教授基礎積木程式設計，啟發兒童的程式創意。',
     
     // Projects section
+    'proj-areqa-title': 'AREQA：個性化教育學習 AI 問答系統',
+    'proj-areqa-desc': 'AREQA 旨在解決許多學生使用 AI 學習時，常遇到「AI 一次給太多標準答案、不了解自己的程度，也不會在卡關時主動引導」的問題，因此 AREQA 會記住學生的學習狀態與偏好，依照程度調整說明、用鷹架式提問引導思考，並在需要時主動提供關懷與學習支持。',
+    'proj-areqa-website': '系統網站',
+
     'proj-honglou-title': '紅樓慧讀：紅樓夢閱讀學習系統',
     'proj-honglou-desc': '主導設計並開發一套整合 AI 技術的古典文學學習平台，解決現代讀者閱讀《紅樓夢》的三大痛點：古漢語障礙、人物關係複雜、閱讀動機難維持。',
     'proj-honglou-features': '核心功能包括：基於 LLM 的知識圖譜自動生成與視覺化、AI 智慧問答系統、遊戲化閱讀機制（身份進階、成就徽章），系統已部署上線運營。',
@@ -185,6 +198,11 @@ window.translations = {
     'proj-foodie-demo': '前端網站示範',
     
     // Activities section
+    'act-augmented-mind-title': '五集字幕製作、中文翻譯、影片內文翻譯',
+    'act-augmented-mind-role': '五集字幕製作、中文翻譯、影片內文翻譯',
+    'act-augmented-mind-period': '2026年5月1日 – 2026年5月30日',
+    'act-augmented-mind-desc': 'EP00–EP04 字幕與翻譯製作',
+
     'act-ntu-title': '台大升學種子計畫，「國文作文」科目教師',
     'act-ntu-period': '2023年9月 – 2024年1月',
     'act-ntu-desc': '在此期間，指導學生中國文學和作文作業，最後讓學生在學測大考試中表現優異。',
@@ -257,6 +275,10 @@ window.translations = {
     'exp-tutor-desc': '教授基础积木程序设计，启发儿童的程序创意。',
     
     // Projects section
+    'proj-areqa-title': 'AREQA：个性化教育学习 AI 问答系统',
+    'proj-areqa-desc': 'AREQA 旨在解决许多学生使用 AI 学习时常遇到的问题：AI 一次给太多标准答案、不了解自己的程度，也不会在卡关时主动引导。因此 AREQA 会记住学生的学习状态与偏好，依照程度调整说明，用脚手架式提问引导思考，并在需要时主动提供关怀与学习支持。',
+    'proj-areqa-website': '系统网站',
+
     'proj-honglou-title': '红楼慧读：红楼梦阅读学习系统',
     'proj-honglou-desc': '主导设计并开发一套整合 AI 技术的古典文学学习平台，解决现代读者阅读《红楼梦》的三大痛点：古汉语障碍、人物关系复杂、阅读动机难维持。',
     'proj-honglou-features': '核心功能包括：基于 LLM 的知识图谱自动生成与视觉化、AI 智能问答系统、游戏化阅读机制（身份进阶、成就徽章），系统已部署上线运营。',
@@ -283,6 +305,11 @@ window.translations = {
     'proj-foodie-demo': '前端网站演示',
     
     // Activities section
+    'act-augmented-mind-title': '五集字幕制作、中文翻译、影片内文翻译',
+    'act-augmented-mind-role': '五集字幕制作、中文翻译、影片内文翻译',
+    'act-augmented-mind-period': '2026年5月1日 – 2026年5月30日',
+    'act-augmented-mind-desc': 'EP00–EP04 字幕与翻译制作',
+
     'act-ntu-title': '台大升学种子计划，「语文作文」科目教师',
     'act-ntu-period': '2023年9月 – 2024年1月',
     'act-ntu-desc': '在此期间，指导学生的中国文学和作文作业，使他们在中文能力考试中表现优异。',
