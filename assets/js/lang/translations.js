@@ -21,11 +21,11 @@ window.translations = {
 
     // Education section
     'edu-ntnu': 'Graduate Institute of Information and Computer Education, National Taiwan Normal University - Master\'s Program',
-    'edu-ntnu-status': 'Incoming Master\'s Student',
+    'edu-ntnu-status': 'Master\'s Student',
     'edu-ntnu-period': 'SEPTEMBER.2026 – JUNE.2028',
     'edu-cycu': 'Department of Information Management, Chung Yuan Christian University - Bachelor\'s Program',
-    'edu-cycu-status': 'Senior Year',
-    'edu-cycu-period': 'SEPTEMBER.2022 – PRESENT',
+    'edu-cycu-status': 'Graduated',
+    'edu-cycu-period': 'SEPTEMBER.2022 – JUNE.2026',
     
     // Experience section
     'exp-nstc-title': 'NSTC 2025 Undergraduate Research Project Grant',
@@ -128,11 +128,11 @@ window.translations = {
 
     // Education section
     'edu-ntnu': '國立臺灣師範大學 資訊教育研究所 - 碩士班',
-    'edu-ntnu-status': '準碩士生',
+    'edu-ntnu-status': '碩士生',
     'edu-ntnu-period': '2026年9月 – 2028年6月',
     'edu-cycu': '中原大學 資訊管理學系 - 學士班',
-    'edu-cycu-status': '四年級',
-    'edu-cycu-period': '2022年9月 – 至今',
+    'edu-cycu-status': '已畢業',
+    'edu-cycu-period': '2022年9月 – 2026年6月',
     
     // Experience section
     'exp-nstc-title': '國家科學及技術委員會（NSTC）2025年度大專生研究計畫',
@@ -235,11 +235,11 @@ window.translations = {
 
     // Education section
     'edu-ntnu': '国立台湾师范大学 信息教育研究所 - 硕士班',
-    'edu-ntnu-status': '准硕士生',
+    'edu-ntnu-status': '硕士生',
     'edu-ntnu-period': '2026年9月 – 2028年6月',
     'edu-cycu': '台湾中原大学 信息管理学系 - 学士班',
-    'edu-cycu-status': '四年级',
-    'edu-cycu-period': '2022年9月 – 至今',
+    'edu-cycu-status': '已毕业',
+    'edu-cycu-period': '2022年9月 – 2026年6月',
     
     // Experience section
     'exp-nstc-title': '国家科学及技术委员会（NSTC）2025年度大专生研究计划',

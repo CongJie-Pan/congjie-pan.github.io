@@ -12,7 +12,7 @@ posts_limit: 0
 </div>
 
 <div class="intro-paragraphs">
-  <p data-i18n="intro-para1">Hi 👋! I'm CongJie Pan. I'm a senior in Information Management at Chung Yuan Christian University, and an incoming Master's student at National Taiwan Normal University's (NTNU) Graduate Institute of Information and Computer Education.</p>
+  <p data-i18n="intro-para1">Hi 👋! I'm CongJie Pan. I'm a Master's student at National Taiwan Normal University's (NTNU) Graduate Institute of Information and Computer Education. I graduated from the Department of Information Management at Chung Yuan Christian University in June 2026.</p>
 </div>
 
 <div class="content-section" markdown="1">
@@ -57,11 +57,11 @@ posts_limit: 0
 ## <span data-i18n="education">Education</span>
 
 - <span data-i18n="edu-ntnu">Graduate Institute of Information and Computer Education, National Taiwan Normal University - Master's Program</span>
-  - <span data-i18n="edu-ntnu-status">Incoming Master's Student</span>
+  - <span data-i18n="edu-ntnu-status">Master's Student</span>
   - <span data-i18n="edu-ntnu-period">SEPTEMBER.2026 – JUNE.2028</span>
 - <span data-i18n="edu-cycu">Department of Information Management, Chung Yuan Christian University - Bachelor's Program</span>
-  - <span data-i18n="edu-cycu-status">Senior Year</span>
-  - <span data-i18n="edu-cycu-period">SEPTEMBER.2022 – PRESENT</span>
+  - <span data-i18n="edu-cycu-status">Graduated</span>
+  - <span data-i18n="edu-cycu-period">SEPTEMBER.2022 – JUNE.2026</span>
 
 </div>
 
