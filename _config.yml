@@ -133,9 +133,8 @@ footer_links:
     url: https://www.linkedin.com/in/congjie-pan-%E6%BD%98%E9%A9%84%E6%9D%B0-363a7823a/
     icon: fab fa-linkedin
     target: "_blank"
-  - title: Instagram
-    url: https://www.instagram.com/congjie_pan1206/
-    icon: fab fa-instagram
+  - title: CV
+    url: /PDF/CongJie_Pan_CV.pdf
     target: "_blank"
   - title: Medium
     url: https://medium.com/@smartjay1206

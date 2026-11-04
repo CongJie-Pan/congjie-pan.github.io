@@ -22,7 +22,11 @@
             {%- else -%}
               {%- assign url = footer_link.url | relative_url -%}
             {%- endif -%}
-            <a class="masthead-social-icon" href="{{ url }}" {% if footer_link.target %}target="{{ footer_link.target }}"{% endif %}><i class="{{ footer_link.icon | default: 'fas fa-link' }} fa-2x" title="{{ footer_link.title }}"></i></a>
+            {%- if footer_link.title == 'CV' -%}
+              <a class="masthead-social-icon masthead-cv" href="{{ url }}" target="_blank" rel="noopener noreferrer" aria-label="CV (PDF, opens in a new tab)">CV</a>
+            {%- else -%}
+              <a class="masthead-social-icon" href="{{ url }}" {% if footer_link.target %}target="{{ footer_link.target }}"{% endif %}><i class="{{ footer_link.icon | default: 'fas fa-link' }} fa-2x" title="{{ footer_link.title }}"></i></a>
+            {%- endif -%}
           {%- endfor -%}
         </div>
       {%- endif -%}
